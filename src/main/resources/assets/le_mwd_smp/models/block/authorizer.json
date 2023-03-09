@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/authtop",
+    "up": "le_mwd_smp:blocks/authtop",
+    "north": "le_mwd_smp:blocks/authfront",
+    "east": "le_mwd_smp:blocks/authfront",
+    "south": "le_mwd_smp:blocks/authlock",
+    "west": "le_mwd_smp:blocks/authfront",
+    "particle": "le_mwd_smp:blocks/authtop"
+  }
+}

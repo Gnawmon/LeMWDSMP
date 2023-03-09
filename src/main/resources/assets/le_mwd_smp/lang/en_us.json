@@ -1,8 +1,16 @@
 {
-  "item.le_mwd_smp.noise": "Noise Gem",
+  "itemGroup.tabalphaver": "Alphaver",
+  "block.le_mwd_smp.chain": "ChainBlock",
   "block.le_mwd_smp.brightness_block": "Brightness Block",
   "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
+  "block.le_mwd_smp.fake_dirt": "Fake Dirt",
   "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
   "item.le_mwd_smp.dismantler": "Dismantler",
+  "block.le_mwd_smp.tiles": "Tile",
+  "block.le_mwd_smp.authorizer": "Authorizer",
+  "item.le_mwd_smp.noise": "Noise Gem",
+  "block.le_mwd_smp.fake_grass": "Fake Grass",
+  "block.le_mwd_smp.safe": "Safe",
+  "itemGroup.tabjohn": "John",
   "block.le_mwd_smp.noise_ore": "Noise Ore"
 }

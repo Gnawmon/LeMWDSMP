@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "John",
+    "icon": {
+      "value": "CUSTOM:Authorizer"
+    },
+    "showSearch": false
+  }
+}

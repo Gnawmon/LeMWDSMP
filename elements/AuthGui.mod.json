@@ -1,0 +1,58 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bogulied.png",
+          "use1Xscale": false,
+          "name": "bogulied.png",
+          "x": 125,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Code Input",
+          "color": {
+            "value": -10855846,
+            "falpha": 0.0
+          },
+          "name": "Code Input",
+          "x": 186,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "We Trust You.",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "We Trust You.",
+          "x": 182,
+          "y": 192
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

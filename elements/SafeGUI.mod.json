@@ -1,0 +1,57 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Code",
+          "width": 120,
+          "height": 20,
+          "name": "Code",
+          "x": 150,
+          "y": 107
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Input",
+          "width": 51,
+          "height": 20,
+          "name": "Input",
+          "x": 148,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Input 1",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Input 1",
+          "x": 150,
+          "y": 89
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 2,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

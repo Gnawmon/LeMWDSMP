@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/brightness_block",
+    "up": "le_mwd_smp:blocks/terrain-1.png22",
+    "north": "le_mwd_smp:blocks/terrain-2.png4",
+    "east": "le_mwd_smp:blocks/terrain-2.png4",
+    "south": "le_mwd_smp:blocks/terrain-2.png4",
+    "west": "le_mwd_smp:blocks/terrain-2.png4",
+    "particle": "le_mwd_smp:blocks/brightness_block"
+  }
+}
