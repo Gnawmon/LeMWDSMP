@@ -16,8 +16,8 @@
           "image": "bogulied.png",
           "use1Xscale": false,
           "name": "bogulied.png",
-          "x": 125,
-          "y": 37
+          "x": 126,
+          "y": 36
         }
       },
       {
@@ -44,6 +44,16 @@
           "name": "We Trust You.",
           "x": 182,
           "y": 192
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "johnmoe_jang.png",
+          "use1Xscale": false,
+          "name": "johnmoe_jang.png",
+          "x": 182,
+          "y": 92
         }
       }
     ],
