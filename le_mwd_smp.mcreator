@@ -85,7 +85,7 @@
       "name": "Chain",
       "type": "block",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chain",
       "path": "~/Alphaver"
@@ -112,7 +112,7 @@
       "name": "Authorizer",
       "type": "block",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "authorizer",
       "path": "~/John"
@@ -175,7 +175,7 @@
       "name": "CatCubeNoOne",
       "type": "block",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cat_cube_no_one",
       "path": "~/Cat Cube"
@@ -193,7 +193,7 @@
       "name": "CatCubeMe",
       "type": "block",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cat_cube_me",
       "path": "~/Cat Cube"
@@ -227,7 +227,7 @@
       "name": "CatCubeWe",
       "type": "block",
       "sortid": 16,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cat_cube_we",
       "path": "~/Cat Cube"
@@ -236,7 +236,7 @@
       "name": "CatCubeOriginal",
       "type": "block",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cat_cube_original",
       "path": "~/Cat Cube"
@@ -245,7 +245,7 @@
       "name": "CatCubeYou",
       "type": "block",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cat_cube_you",
       "path": "~/Cat Cube"
@@ -255,11 +255,11 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.le_mwd_smp.noise": "Noise Gem",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
-      "item.le_mwd_smp.noise": "Noise Gem",
       "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
   },
