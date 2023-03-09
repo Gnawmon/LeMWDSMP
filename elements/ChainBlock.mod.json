@@ -5,7 +5,7 @@
     "texture": "terrain-1.png20",
     "textureTop": "",
     "textureLeft": "",
-    "textureFront": "",
+    "textureFront": "terrain-1.png20",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "ChainBlock",
+    "name": "Chain Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

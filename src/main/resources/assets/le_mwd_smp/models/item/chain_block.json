@@ -1,5 +1,5 @@
 {
-  "parent": "le_mwd_smp:block/chain",
+  "parent": "le_mwd_smp:block/chain_block",
   "display": {
     "thirdperson": {
       "rotation": [

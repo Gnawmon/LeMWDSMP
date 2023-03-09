@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "le_mwd_smp:block/chain"
-    }
-  }
-}

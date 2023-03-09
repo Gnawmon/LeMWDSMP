@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import le.mwd.smp.block.ChainBlockBlock;
+import le.mwd.smp.item.DiscNegative7Item;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
-public class AlphaverItemGroup extends LeMwdSmpModElements.ModElement {
-	public AlphaverItemGroup(LeMwdSmpModElements instance) {
-		super(instance, 12);
+public class SnapshotNullItemGroup extends LeMwdSmpModElements.ModElement {
+	public SnapshotNullItemGroup(LeMwdSmpModElements instance) {
+		super(instance, 23);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabalphaver") {
+		tab = new ItemGroup("tabsnapshot_null") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ChainBlockBlock.block);
+				return new ItemStack(DiscNegative7Item.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

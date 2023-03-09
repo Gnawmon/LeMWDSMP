@@ -1,36 +1,53 @@
 
 package le.mwd.smp.gui;
 
-import le.mwd.smp.LeMwdSmpMod;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.network.NetworkEvent;
+import net.minecraftforge.fml.network.IContainerFactory;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.fml.DeferredWorkQueue;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.network.PacketBuffer;
+import net.minecraft.inventory.container.Slot;
+import net.minecraft.inventory.container.ContainerType;
+import net.minecraft.inventory.container.Container;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.gui.ScreenManager;
+
+import le.mwd.smp.LeMwdSmpModElements;
+
+import java.util.function.Supplier;
+import java.util.Map;
+import java.util.HashMap;
 
 @LeMwdSmpModElements.ModElement.Tag
 public class SafeGUIGui extends LeMwdSmpModElements.ModElement {
-
 	public static HashMap guistate = new HashMap();
-
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public SafeGUIGui(LeMwdSmpModElements instance) {
 		super(instance, 14);
-
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
 				GUISlotChangedMessage::handler);
-
 		containerType = new ContainerType<>(new GuiContainerModFactory());
-
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ContainerRegisterHandler());
-
 	}
 
 	private static class ContainerRegisterHandler {
-
 		@SubscribeEvent
 		public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
 			event.getRegistry().register(containerType.setRegistryName("safe_gui"));
 		}
-
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -39,33 +56,24 @@ public class SafeGUIGui extends LeMwdSmpModElements.ModElement {
 	}
 
 	public static class GuiContainerModFactory implements IContainerFactory {
-
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
 			return new GuiContainerMod(id, inv, extraData);
 		}
-
 	}
 
 	public static class GuiContainerMod extends Container implements Supplier<Map<Integer, Slot>> {
-
 		World world;
 		PlayerEntity entity;
 		int x, y, z;
-
 		private IItemHandler internal;
-
 		private Map<Integer, Slot> customSlots = new HashMap<>();
-
 		private boolean bound = false;
 
 		public GuiContainerMod(int id, PlayerInventory inv, PacketBuffer extraData) {
 			super(containerType, id);
-
 			this.entity = inv.player;
 			this.world = inv.player.world;
-
 			this.internal = new ItemStackHandler(0);
-
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -73,7 +81,6 @@ public class SafeGUIGui extends LeMwdSmpModElements.ModElement {
 				this.y = pos.getY();
 				this.z = pos.getZ();
 			}
-
 		}
 
 		public Map<Integer, Slot> get() {
@@ -84,11 +91,9 @@ public class SafeGUIGui extends LeMwdSmpModElements.ModElement {
 		public boolean canInteractWith(PlayerEntity player) {
 			return true;
 		}
-
 	}
 
 	public static class ButtonPressedMessage {
-
 		int buttonID, x, y, z;
 
 		public ButtonPressedMessage(PacketBuffer buffer) {
@@ -120,16 +125,13 @@ public class SafeGUIGui extends LeMwdSmpModElements.ModElement {
 				int x = message.x;
 				int y = message.y;
 				int z = message.z;
-
 				handleButtonAction(entity, buttonID, x, y, z);
 			});
 			context.setPacketHandled(true);
 		}
-
 	}
 
 	public static class GUISlotChangedMessage {
-
 		int slotID, x, y, z, changeType, meta;
 
 		public GUISlotChangedMessage(int slotID, int x, int y, int z, int changeType, int meta) {
@@ -169,30 +171,23 @@ public class SafeGUIGui extends LeMwdSmpModElements.ModElement {
 				int x = message.x;
 				int y = message.y;
 				int z = message.z;
-
 				handleSlotAction(entity, slotID, changeType, meta, x, y, z);
 			});
 			context.setPacketHandled(true);
 		}
-
 	}
 
 	static void handleButtonAction(PlayerEntity entity, int buttonID, int x, int y, int z) {
 		World world = entity.world;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
 		World world = entity.world;
-
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-
 	}
-
 }

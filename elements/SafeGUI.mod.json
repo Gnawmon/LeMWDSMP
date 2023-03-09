@@ -13,12 +13,25 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Code",
+          "placeholder": "",
           "width": 120,
           "height": 20,
-          "name": "Code",
-          "x": 150,
+          "name": "Input",
+          "x": 140,
           "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Code",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Code",
+          "x": 140,
+          "y": 89
         }
       },
       {
@@ -28,21 +41,8 @@
           "width": 51,
           "height": 20,
           "name": "Input",
-          "x": 148,
+          "x": 137,
           "y": 134
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Input 1",
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "name": "Input 1",
-          "x": 150,
-          "y": 89
         }
       }
     ],

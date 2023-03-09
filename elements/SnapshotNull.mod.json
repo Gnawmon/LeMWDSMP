@@ -2,9 +2,9 @@
   "_fv": 33,
   "_type": "tab",
   "definition": {
-    "name": "Alphaver",
+    "name": "Snapshot Null",
     "icon": {
-      "value": "CUSTOM:ChainBlock"
+      "value": "CUSTOM:DiscNegative7"
     },
     "showSearch": false
   }

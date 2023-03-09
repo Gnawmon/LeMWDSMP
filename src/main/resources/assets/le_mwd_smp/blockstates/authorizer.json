@@ -1,27 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "le_mwd_smp:block/authorizer"
-    },
-    "facing=east": {
-      "model": "le_mwd_smp:block/authorizer",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "le_mwd_smp:block/authorizer",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "le_mwd_smp:block/authorizer",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "le_mwd_smp:block/authorizer",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "le_mwd_smp:block/authorizer",
-      "x": 90
     }
   }
 }

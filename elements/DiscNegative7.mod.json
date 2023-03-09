@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc",
+    "name": "Disc Negative 7",
+    "description": "SNull",
+    "creativeTab": {
+      "value": "CUSTOM:John"
+    },
+    "music": {
+      "value": "ambient.crimson_forest.additions"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
