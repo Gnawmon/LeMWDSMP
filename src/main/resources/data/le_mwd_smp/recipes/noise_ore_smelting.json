@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2.0999999999999996,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "le_mwd_smp:noise_ore"
+  },
+  "result": {
+    "item": "le_mwd_smp:noise"
+  }
+}

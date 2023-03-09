@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "le_mwd_smp:noise_block"
+    }
+  ],
+  "result": {
+    "item": "le_mwd_smp:noise",
+    "count": 9
+  }
+}

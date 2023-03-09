@@ -6,7 +6,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "noise_gem_tile"
+      "registry_name": "noise_gem_tile",
+      "path": "~/The bottom of the void"
     },
     {
       "name": "BrightnessBlock",
@@ -14,7 +15,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brightness_block"
+      "registry_name": "brightness_block",
+      "path": "~/The bottom of the void"
     },
     {
       "name": "TheBottomOfTheVoid",
@@ -22,21 +24,84 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "the_bottom_of_the_void"
+      "registry_name": "the_bottom_of_the_void",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Dismantler",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dismantler",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Noise",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noise",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "NoiseOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noise_ore",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "NoiseOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noise_ore_block_recipe",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "NoiseBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noise_block_ore_recipe",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "NoiseOreSmelting",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noise_ore_smelting",
+      "path": "~/The bottom of the void"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.le_mwd_smp.noise": "Noise Gem",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
-      "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile"
+      "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
+      "item.le_mwd_smp.dismantler": "Dismantler",
+      "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "The bottom of the void",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "le_mwd_smp",

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:noise"
+    },
+    "1": {
+      "item": "le_mwd_smp:noise"
+    },
+    "2": {
+      "item": "le_mwd_smp:noise"
+    },
+    "3": {
+      "item": "le_mwd_smp:noise"
+    },
+    "4": {
+      "item": "le_mwd_smp:noise"
+    },
+    "5": {
+      "item": "le_mwd_smp:noise"
+    },
+    "6": {
+      "item": "le_mwd_smp:noise"
+    },
+    "7": {
+      "item": "le_mwd_smp:noise"
+    },
+    "8": {
+      "item": "le_mwd_smp:noise"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:noise_block",
+    "count": 1
+  }
+}
