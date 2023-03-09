@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Cat Cube",
+    "icon": {
+      "value": "CUSTOM:CatCubeMe"
+    },
+    "showSearch": false
+  }
+}

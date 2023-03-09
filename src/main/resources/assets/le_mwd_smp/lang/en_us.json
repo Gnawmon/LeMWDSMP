@@ -1,8 +1,14 @@
 {
-  "item.le_mwd_smp.noise": "Noise Gem",
+  "block.le_mwd_smp.cat_cube_me": "Cat Cube Original",
   "block.le_mwd_smp.brightness_block": "Brightness Block",
   "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
   "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
   "item.le_mwd_smp.dismantler": "Dismantler",
+  "item.le_mwd_smp.noise": "Noise Gem",
+  "block.le_mwd_smp.cat_cube_you": "Cat Cube Original",
+  "block.le_mwd_smp.cat_cube_original": "Cat Cube Original",
+  "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
+  "block.le_mwd_smp.cat_cube_no_one": "Cat Cube Original",
+  "itemGroup.tabcat_cube": "Cat Cube",
   "block.le_mwd_smp.noise_ore": "Noise Ore"
 }

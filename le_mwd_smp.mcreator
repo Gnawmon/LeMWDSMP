@@ -80,17 +80,102 @@
       "locked_code": false,
       "registry_name": "noise_ore_smelting",
       "path": "~/The bottom of the void"
+    },
+    {
+      "name": "DismantlerRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dismantler_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Hud",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hud"
+    },
+    {
+      "name": "CatCubeOriginal",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_cube_original",
+      "path": "~/Cat Cube"
+    },
+    {
+      "name": "CatCubeMe",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_cube_me",
+      "path": "~/Cat Cube"
+    },
+    {
+      "name": "CatCubeYou",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_cube_you",
+      "path": "~/Cat Cube"
+    },
+    {
+      "name": "CatCubeWe",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_cube_we",
+      "path": "~/Cat Cube"
+    },
+    {
+      "name": "CatCubeNoOne",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_cube_no_one",
+      "path": "~/Cat Cube"
+    },
+    {
+      "name": "CatCube",
+      "type": "tab",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cat_cube",
+      "path": "~/Cat Cube"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.le_mwd_smp.noise": "Noise Gem",
+      "block.le_mwd_smp.cat_cube_me": "Cat Cube Original",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
+      "item.le_mwd_smp.noise": "Noise Gem",
+      "block.le_mwd_smp.cat_cube_you": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_original": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_no_one": "Cat Cube Original",
+      "itemGroup.tabcat_cube": "Cat Cube",
       "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
   },
@@ -99,6 +184,10 @@
     "children": [
       {
         "name": "The bottom of the void",
+        "children": []
+      },
+      {
+        "name": "Cat Cube",
         "children": []
       }
     ]

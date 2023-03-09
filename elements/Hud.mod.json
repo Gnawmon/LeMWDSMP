@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Le MWD SMP Mod:DEVELOPMENT PHASE 1.0.16.05_69 R4",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Le MWD SMP Mod:DEVELOPMENT PHASE 1.0.16.05_69 R4",
+          "x": 5,
+          "y": 3
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
