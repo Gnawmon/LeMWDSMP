@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "le_mwd_smp:block/cat_cube_no_one"
+    }
+  }
+}

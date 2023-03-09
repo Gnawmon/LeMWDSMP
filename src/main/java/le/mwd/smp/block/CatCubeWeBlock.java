@@ -5,12 +5,12 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.SoundEvent;
 
 @LeMwdSmpModElements.ModElement.Tag
-public class FakeGrassBlock extends LeMwdSmpModElements.ModElement {
+public class CatCubeWeBlock extends LeMwdSmpModElements.ModElement {
 
-	@ObjectHolder("le_mwd_smp:fake_grass")
+	@ObjectHolder("le_mwd_smp:cat_cube_we")
 	public static final Block block = null;
 
-	public FakeGrassBlock(LeMwdSmpModElements instance) {
+	public CatCubeWeBlock(LeMwdSmpModElements instance) {
 		super(instance, 16);
 
 	}
@@ -18,15 +18,15 @@ public class FakeGrassBlock extends LeMwdSmpModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AlphaverItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(CatCubeItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	public static class CustomBlock extends Block {
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.WOOL).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
 
-			setRegistryName("fake_grass");
+			setRegistryName("cat_cube_we");
 		}
 
 		@Override

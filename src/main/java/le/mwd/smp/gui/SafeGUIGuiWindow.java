@@ -1,32 +1,17 @@
 
 package le.mwd.smp.gui;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.widget.button.Button;
-import net.minecraft.client.gui.widget.TextFieldWidget;
-import net.minecraft.client.gui.screen.inventory.ContainerScreen;
-import net.minecraft.client.Minecraft;
-
 import le.mwd.smp.LeMwdSmpMod;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
 public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod> {
+
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
+
 	private final static HashMap guistate = SafeGUIGui.guistate;
+
 	TextFieldWidget Code;
 
 	public SafeGUIGuiWindow(SafeGUIGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
@@ -45,6 +30,7 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
+
 		Code.render(ms, mouseX, mouseY, partialTicks);
 	}
 
@@ -53,6 +39,7 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		RenderSystem.disableBlend();
 	}
 
@@ -62,8 +49,10 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 			this.minecraft.player.closeScreen();
 			return true;
 		}
+
 		if (Code.isFocused())
 			return Code.keyPressed(key, b, c);
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -88,6 +77,7 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+
 		Code = new TextFieldWidget(this.font, this.guiLeft + 24, this.guiTop + 70, 120, 20, new StringTextComponent("Code")) {
 			{
 				setSuggestion("Code");
@@ -96,6 +86,7 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 			@Override
 			public void writeText(String text) {
 				super.writeText(text);
+
 				if (getText().isEmpty())
 					setSuggestion("Code");
 				else
@@ -105,6 +96,7 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 			@Override
 			public void setCursorPosition(int pos) {
 				super.setCursorPosition(pos);
+
 				if (getText().isEmpty())
 					setSuggestion("Code");
 				else
@@ -121,4 +113,5 @@ public class SafeGUIGuiWindow extends ContainerScreen<SafeGUIGui.GuiContainerMod
 			}
 		}));
 	}
+
 }

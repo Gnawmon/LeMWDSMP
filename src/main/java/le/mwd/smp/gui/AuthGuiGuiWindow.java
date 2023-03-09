@@ -1,27 +1,15 @@
 
 package le.mwd.smp.gui;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.world.World;
-import net.minecraft.util.text.ITextComponent;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.entity.player.PlayerInventory;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.gui.screen.inventory.ContainerScreen;
-import net.minecraft.client.Minecraft;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.matrix.MatrixStack;
+import le.mwd.smp.LeMwdSmpMod;
 
 @OnlyIn(Dist.CLIENT)
 public class AuthGuiGuiWindow extends ContainerScreen<AuthGuiGui.GuiContainerMod> {
+
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
+
 	private final static HashMap guistate = AuthGuiGui.guistate;
 
 	public AuthGuiGuiWindow(AuthGuiGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
@@ -40,6 +28,7 @@ public class AuthGuiGuiWindow extends ContainerScreen<AuthGuiGui.GuiContainerMod
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -60,6 +49,7 @@ public class AuthGuiGuiWindow extends ContainerScreen<AuthGuiGui.GuiContainerMod
 			this.minecraft.player.closeScreen();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -84,5 +74,7 @@ public class AuthGuiGuiWindow extends ContainerScreen<AuthGuiGui.GuiContainerMod
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
+
 	}
+
 }

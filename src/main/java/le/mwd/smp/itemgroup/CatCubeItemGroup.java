@@ -2,19 +2,19 @@
 package le.mwd.smp.itemgroup;
 
 @LeMwdSmpModElements.ModElement.Tag
-public class AlphaverItemGroup extends LeMwdSmpModElements.ModElement {
+public class CatCubeItemGroup extends LeMwdSmpModElements.ModElement {
 
-	public AlphaverItemGroup(LeMwdSmpModElements instance) {
-		super(instance, 12);
+	public CatCubeItemGroup(LeMwdSmpModElements instance) {
+		super(instance, 18);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabalphaver") {
+		tab = new ItemGroup("tabcat_cube") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ChainBlock.block);
+				return new ItemStack(CatCubeMeItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
