@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "The Bottom Of The Void",
+    "icon": {
+      "value": "CUSTOM:NoiseGemTile"
+    },
+    "showSearch": false
+  }
+}

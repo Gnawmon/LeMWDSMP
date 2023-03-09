@@ -1,9 +1,38 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "NoiseGemTile",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noise_gem_tile"
+    },
+    {
+      "name": "BrightnessBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brightness_block"
+    },
+    {
+      "name": "TheBottomOfTheVoid",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bottom_of_the_void"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.le_mwd_smp.brightness_block": "Brightness Block",
+      "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
+      "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile"
+    }
   },
   "foldersRoot": {
     "name": "~",
