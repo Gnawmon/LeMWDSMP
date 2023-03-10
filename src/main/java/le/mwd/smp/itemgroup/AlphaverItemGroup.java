@@ -6,14 +6,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.block.Blocks;
 
-import le.mwd.smp.block.ChainBlockBlock;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
 public class AlphaverItemGroup extends LeMwdSmpModElements.ModElement {
 	public AlphaverItemGroup(LeMwdSmpModElements instance) {
-		super(instance, 12);
+		super(instance, 11);
 	}
 
 	@Override
@@ -22,14 +22,14 @@ public class AlphaverItemGroup extends LeMwdSmpModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ChainBlockBlock.block);
+				return new ItemStack(Blocks.OAK_SAPLING);
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return false;
+				return true;
 			}
-		};
+		}.setBackgroundImageName("item_search.png");
 	}
 
 	public static ItemGroup tab;

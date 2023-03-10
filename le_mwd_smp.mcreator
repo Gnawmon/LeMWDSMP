@@ -80,17 +80,47 @@
       "locked_code": false,
       "registry_name": "noise_ore_smelting",
       "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Alphaver",
+      "type": "tab",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphaver",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "Marketingtrap",
+      "type": "structure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marketingtrap",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Bugnation",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugnation",
+      "path": "~/Alphaver"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.le_mwd_smp.noise": "Noise Gem",
+      "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
+      "item.le_mwd_smp.noise": "Noise Gem",
+      "entity.le_mwd_smp.bugnation": "Bugnation",
+      "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
   },
@@ -99,6 +129,10 @@
     "children": [
       {
         "name": "The bottom of the void",
+        "children": []
+      },
+      {
+        "name": "Alphaver",
         "children": []
       }
     ]

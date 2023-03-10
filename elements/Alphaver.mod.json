@@ -4,8 +4,8 @@
   "definition": {
     "name": "Alphaver",
     "icon": {
-      "value": "CUSTOM:ChainBlock"
+      "value": "Blocks.SAPLING#0"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }
