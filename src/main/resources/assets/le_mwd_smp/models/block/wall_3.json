@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/noise_gem_tile",
+    "up": "le_mwd_smp:blocks/noise_gem_tile",
+    "north": "le_mwd_smp:blocks/wall3",
+    "east": "le_mwd_smp:blocks/noise_gem_tile",
+    "south": "le_mwd_smp:blocks/noise_gem_tile",
+    "west": "le_mwd_smp:blocks/noise_gem_tile",
+    "particle": "le_mwd_smp:blocks/noise_gem_tile"
+  }
+}

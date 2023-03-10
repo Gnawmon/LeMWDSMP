@@ -2,10 +2,16 @@
   "itemGroup.tabalphaver": "Alphaver",
   "block.le_mwd_smp.brightness_block": "Brightness Block",
   "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
+  "block.le_mwd_smp.wall_2": "Wall 2",
+  "block.le_mwd_smp.wall_1": "Wall 1",
   "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
   "item.le_mwd_smp.dismantler": "Dismantler",
   "item.le_mwd_smp.noise": "Noise Gem",
+  "block.le_mwd_smp.wall_6": "Wall 6",
+  "block.le_mwd_smp.wall_5": "Wall 5",
   "entity.le_mwd_smp.bugnation": "Bugnation",
+  "block.le_mwd_smp.wall_4": "Wall 4",
+  "block.le_mwd_smp.wall_3": "Wall 3",
   "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
   "block.le_mwd_smp.noise_ore": "Noise Ore"
 }

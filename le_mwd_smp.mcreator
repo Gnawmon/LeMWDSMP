@@ -107,6 +107,69 @@
       "locked_code": false,
       "registry_name": "bugnation",
       "path": "~/Alphaver"
+    },
+    {
+      "name": "Wall1",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_1",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Wall2",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_2",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Wall3",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_3",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Wall4",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_4",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Wall5",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_5",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Wall6",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_6",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Moonfallterminal",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonfallterminal",
+      "path": "~/The bottom of the void"
     }
   ],
   "variable_elements": [],
@@ -116,10 +179,16 @@
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
+      "block.le_mwd_smp.wall_2": "Wall 2",
+      "block.le_mwd_smp.wall_1": "Wall 1",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
       "item.le_mwd_smp.noise": "Noise Gem",
+      "block.le_mwd_smp.wall_6": "Wall 6",
+      "block.le_mwd_smp.wall_5": "Wall 5",
       "entity.le_mwd_smp.bugnation": "Bugnation",
+      "block.le_mwd_smp.wall_4": "Wall 4",
+      "block.le_mwd_smp.wall_3": "Wall 3",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
