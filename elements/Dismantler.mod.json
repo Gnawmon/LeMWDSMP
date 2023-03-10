@@ -6,19 +6,21 @@
     "texture": "dismantler",
     "customModelName": "Normal",
     "name": "Dismantler",
-    "specialInfo": [],
+    "specialInfo": [
+      "Activation Code: A7d5"
+    ],
     "creativeTab": {
       "value": "CUSTOM:TheBottomOfTheVoid"
     },
     "toolType": "MultiTool",
-    "harvestLevel": 3,
+    "harvestLevel": 4,
     "efficiency": 9.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 100,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

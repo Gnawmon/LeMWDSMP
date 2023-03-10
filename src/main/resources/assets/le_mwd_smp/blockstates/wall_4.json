@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "le_mwd_smp:block/wall_4"
+    },
+    "facing=east": {
+      "model": "le_mwd_smp:block/wall_4",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "le_mwd_smp:block/wall_4",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "le_mwd_smp:block/wall_4",
+      "y": 270
     }
   }
 }

@@ -64,7 +64,7 @@ public class NoiseOreBlock extends LeMwdSmpModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(9f, 12.041123426403463f).setLightLevel(s -> 0)
-					.harvestLevel(6).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("noise_ore");
 		}
 

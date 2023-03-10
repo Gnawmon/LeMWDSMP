@@ -9,7 +9,7 @@ import net.minecraft.item.Rarity;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.Item;
 
-import le.mwd.smp.itemgroup.JohnItemGroup;
+import le.mwd.smp.itemgroup.SnapshotNullItemGroup;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
@@ -29,7 +29,7 @@ public class DiscNegative7Item extends LeMwdSmpModElements.ModElement {
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
 			super(0, (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.crimson_forest.additions")),
-					new Item.Properties().group(JohnItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
+					new Item.Properties().group(SnapshotNullItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("disc_negative_7");
 		}
 	}

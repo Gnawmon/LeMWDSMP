@@ -2,8 +2,12 @@
 package le.mwd.smp.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -12,10 +16,13 @@ import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import le.mwd.smp.itemgroup.TheBottomOfTheVoidItemGroup;
 import le.mwd.smp.LeMwdSmpModElements;
+
+import java.util.List;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
@@ -32,6 +39,17 @@ public class DismantlerItem extends LeMwdSmpModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
+				super.addInformation(itemstack, world, list, flag);
+				list.add(new StringTextComponent("Activation Code: A7d5"));
+			}
+
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("dismantler"));
 	}
 
@@ -56,7 +74,7 @@ public class DismantlerItem extends LeMwdSmpModElements.ModElement {
 
 		@Override
 		public boolean canHarvestBlock(BlockState state) {
-			return 3 >= state.getHarvestLevel();
+			return 4 >= state.getHarvestLevel();
 		}
 
 		@Override
