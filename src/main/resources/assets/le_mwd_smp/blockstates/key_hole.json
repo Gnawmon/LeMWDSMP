@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "le_mwd_smp:block/key_hole"
+    },
+    "facing=east": {
+      "model": "le_mwd_smp:block/key_hole",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "le_mwd_smp:block/key_hole",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "le_mwd_smp:block/key_hole",
+      "y": 270
+    }
+  }
+}

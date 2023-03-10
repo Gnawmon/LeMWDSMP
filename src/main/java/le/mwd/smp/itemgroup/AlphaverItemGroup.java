@@ -13,7 +13,7 @@ import le.mwd.smp.LeMwdSmpModElements;
 @LeMwdSmpModElements.ModElement.Tag
 public class AlphaverItemGroup extends LeMwdSmpModElements.ModElement {
 	public AlphaverItemGroup(LeMwdSmpModElements instance) {
-		super(instance, 11);
+		super(instance, 12);
 	}
 
 	@Override

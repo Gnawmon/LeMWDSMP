@@ -465,6 +465,78 @@
       "locked_code": false,
       "registry_name": "drumptoil",
       "path": "~/TBOTV"
+    },
+    {
+      "name": "DataDaisy",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "data_daisy",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "CreepersHeart",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepers_heart",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "VoidGem",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_gem",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "DismantlerRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dismantler_recipe",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "Assettilesaccept",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assettilesaccept",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "Assetstilesdeny",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assetstilesdeny",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "KeyHole",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_hole",
+      "path": "~/TBOTV"
+    },
+    {
+      "name": "KeyHoleGUI",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_hole_gui",
+      "path": "~/TBOTV"
     }
   ],
   "variable_elements": [],
@@ -478,9 +550,12 @@
       "block.le_mwd_smp.wall_1": "Wall 1",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
+      "item.le_mwd_smp.data_daisy": "Data Daisy",
       "itemGroup.tabsnapshot_null": "Snapshot Null",
       "item.le_mwd_smp.noise": "Noise Gem",
+      "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
       "block.le_mwd_smp.cat_cube_you": "Cat Cube Original",
+      "item.le_mwd_smp.assetstilesdeny": "assets_tiles_deny",
       "item.le_mwd_smp.disc_negative_7.desc": "SNull",
       "block.le_mwd_smp.fake_grass": "Fake Grass",
       "entity.le_mwd_smp.bugnation": "Bugnation",
@@ -495,9 +570,12 @@
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.fake_dirt": "Fake Dirt",
       "block.le_mwd_smp.chain_block": "Chain Block",
+      "item.le_mwd_smp.creepers_heart": "Creepers Heart",
+      "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.tiles": "Tile",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.authorizer": "Authorizer",
+      "item.le_mwd_smp.void_gem": "Void Gem",
       "block.le_mwd_smp.wall_6": "Wall 6",
       "block.le_mwd_smp.wall_5": "Wall 5",
       "block.le_mwd_smp.wall_4": "Wall 4",

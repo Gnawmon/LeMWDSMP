@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "le_mwd_smp:blocks/noise_gem_ore",
-    "particle": "le_mwd_smp:blocks/noise_gem_ore"
+    "all": "le_mwd_smp:blocks/template",
+    "particle": "le_mwd_smp:blocks/template"
   }
 }

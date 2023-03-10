@@ -2,15 +2,15 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "template",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
-    "rotationMode": 0,
+    "texture": "tile",
+    "textureTop": "tile",
+    "textureLeft": "tile",
+    "textureFront": "justtryuing",
+    "textureRight": "tile",
+    "textureBack": "tile",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,28 +33,28 @@
         "subtract": false
       }
     ],
-    "name": "Noise Ore",
+    "name": "Key Hole",
     "specialInfo": [],
-    "hardness": 9.0,
-    "resistance": 12.041123426403463,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:TheBottomOfTheVoid"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Noise"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -107,8 +107,8 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "guiBoundTo": "KeyHoleGUI",
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -123,9 +123,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -133,9 +131,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 2,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 23
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

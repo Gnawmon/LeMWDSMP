@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:void_gem"
+    },
+    "1": {
+      "item": "le_mwd_smp:void_gem"
+    },
+    "2": {
+      "item": "le_mwd_smp:creepers_heart"
+    },
+    "4": {
+      "item": "le_mwd_smp:data_daisy"
+    },
+    "5": {
+      "item": "le_mwd_smp:void_gem"
+    },
+    "6": {
+      "item": "le_mwd_smp:data_daisy"
+    },
+    "8": {
+      "item": "le_mwd_smp:void_gem"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:dismantler",
+    "count": 1
+  }
+}
