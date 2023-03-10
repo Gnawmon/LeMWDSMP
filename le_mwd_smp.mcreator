@@ -107,6 +107,77 @@
       "locked_code": false,
       "registry_name": "bugnation",
       "path": "~/Alphaver"
+    },
+    {
+      "name": "AdminOnlyItemsDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_only_items_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "AdminOnlyItems",
+      "type": "overlay",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "admin_only_items",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "KeyCard",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_card",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "VoidKey",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_key",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "DismantlerDash",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dismantler_dash",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "DismantlerDashKey",
+      "type": "keybind",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dismantler_dash_key",
+      "path": "~/The bottom of the void"
     }
   ],
   "variable_elements": [],
@@ -114,10 +185,13 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
+      "item.le_mwd_smp.void_key": "Void Key",
+      "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
+      "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "item.le_mwd_smp.noise": "Noise Gem",
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",

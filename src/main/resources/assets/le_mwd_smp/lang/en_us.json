@@ -1,9 +1,12 @@
 {
   "itemGroup.tabalphaver": "Alphaver",
+  "item.le_mwd_smp.void_key": "Void Key",
+  "item.le_mwd_smp.key_card": "Key Card",
   "block.le_mwd_smp.brightness_block": "Brightness Block",
   "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
   "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
   "item.le_mwd_smp.dismantler": "Dismantler",
+  "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
   "item.le_mwd_smp.noise": "Noise Gem",
   "entity.le_mwd_smp.bugnation": "Bugnation",
   "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
