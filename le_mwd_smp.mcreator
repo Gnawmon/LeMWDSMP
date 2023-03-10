@@ -7,7 +7,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_gem_tile",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "BrightnessBlock",
@@ -16,7 +16,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "brightness_block",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "TheBottomOfTheVoid",
@@ -25,7 +25,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_bottom_of_the_void",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "Dismantler",
@@ -34,7 +34,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dismantler",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "Noise",
@@ -43,7 +43,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "NoiseOre",
@@ -52,7 +52,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_ore",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "NoiseOreBlockRecipe",
@@ -61,7 +61,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_ore_block_recipe",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "NoiseBlockOreRecipe",
@@ -70,7 +70,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_block_ore_recipe",
-      "path": "~/TBOTV"
+      "path": "~/The bottom of the void"
     },
     {
       "name": "NoiseOreSmelting",
@@ -79,285 +79,26 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_ore_smelting",
-      "path": "~/TBOTV"
-    },
-    {
-      "name": "Tiles",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiles",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "Alphaver",
-      "type": "tab",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "alphaver",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "John",
-      "type": "tab",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "john",
-      "path": "~/John"
-    },
-    {
-      "name": "SafeGUI",
-      "type": "gui",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "safe_gui",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "FakeDirt",
-      "type": "block",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fake_dirt",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "Safe",
-      "type": "block",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "safe",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "FakeGrass",
-      "type": "block",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fake_grass",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "AuthGui",
-      "type": "gui",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "auth_gui",
-      "path": "~/John"
-    },
-    {
-      "name": "CatCubeNoOne",
-      "type": "block",
-      "sortid": 17,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cat_cube_no_one",
-      "path": "~/Cat Cube"
-    },
-    {
-      "name": "CatCube",
-      "type": "tab",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cat_cube",
-      "path": "~/Cat Cube"
-    },
-    {
-      "name": "CatCubeMe",
-      "type": "block",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cat_cube_me",
-      "path": "~/Cat Cube"
-    },
-    {
-      "name": "DismantlerRightclicked",
-      "type": "procedure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dismantler_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/TBOTV"
-    },
-    {
-      "name": "Hud",
-      "type": "overlay",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hud"
-    },
-    {
-      "name": "CatCubeWe",
-      "type": "block",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cat_cube_we",
-      "path": "~/Cat Cube"
-    },
-    {
-      "name": "CatCubeOriginal",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cat_cube_original",
-      "path": "~/Cat Cube"
-    },
-    {
-      "name": "CatCubeYou",
-      "type": "block",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cat_cube_you",
-      "path": "~/Cat Cube"
-    },
-    {
-      "name": "DiscNegative7",
-      "type": "musicdisc",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "disc_negative_7",
-      "path": "~/SnapshotNull"
-    },
-    {
-      "name": "ChainBlock",
-      "type": "block",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chain_block",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "Authorizer",
-      "type": "block",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "authorizer",
-      "path": "~/John"
-    },
-    {
-      "name": "SnapshotNull",
-      "type": "tab",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "snapshot_null",
-      "path": "~/SnapshotNull"
-    },
-    {
-      "name": "Flameberge",
-      "type": "tool",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flameberge",
-      "path": "~/Alphaver"
-    },
-    {
-      "name": "MakeFlame",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "make_flame",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Alphaver"
+      "path": "~/The bottom of the void"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabalphaver": "Alphaver",
-      "item.le_mwd_smp.flameberge": "Flameberge",
-      "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
-      "item.le_mwd_smp.dismantler": "Dismantler",
-      "itemGroup.tabsnapshot_null": "Snapshot Null",
       "item.le_mwd_smp.noise": "Noise Gem",
-      "block.le_mwd_smp.cat_cube_you": "Cat Cube Original",
-      "item.le_mwd_smp.disc_negative_7.desc": "SNull",
-      "block.le_mwd_smp.fake_grass": "Fake Grass",
-      "block.le_mwd_smp.cat_cube_original": "Cat Cube Original",
-      "itemGroup.tabjohn": "John",
-      "itemGroup.tabcat_cube": "Cat Cube",
-      "block.le_mwd_smp.noise_ore": "Noise Ore",
-      "block.le_mwd_smp.cat_cube_me": "Cat Cube Original",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
-      "block.le_mwd_smp.fake_dirt": "Fake Dirt",
-      "block.le_mwd_smp.chain_block": "Chain Block",
-      "block.le_mwd_smp.tiles": "Tile",
-      "block.le_mwd_smp.authorizer": "Authorizer",
-      "block.le_mwd_smp.safe": "Safe",
-      "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
-      "block.le_mwd_smp.cat_cube_no_one": "Cat Cube Original",
-      "item.le_mwd_smp.disc_negative_7": "Disc Negative 7"
+      "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
+      "item.le_mwd_smp.dismantler": "Dismantler",
+      "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "John",
-        "children": []
-      },
-      {
-        "name": "TBOTV",
-        "children": []
-      },
-      {
-        "name": "Cat Cube",
-        "children": []
-      },
-      {
-        "name": "Alphaver",
-        "children": []
-      },
-      {
-        "name": "SnapshotNull",
+        "name": "The bottom of the void",
         "children": []
       }
     ]
