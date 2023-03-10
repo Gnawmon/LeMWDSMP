@@ -1,0 +1,34 @@
+{
+  "_fv": 33,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "KEY(S) HAVE BEEN FOUND IN YOUR INVENTORY. THESE ITEMS ARE ADMIN ONLY.",
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "name": "KEY(S) HAVE BEEN FOUND IN YOUR INVENTORY. THESE ITEMS ARE ADMIN ONLY.",
+          "x": 26,
+          "y": 195
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "AdminOnlyItemsDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
