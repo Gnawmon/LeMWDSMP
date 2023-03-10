@@ -109,74 +109,66 @@
       "path": "~/Alphaver"
     },
     {
-      "name": "AdminOnlyItemsDisplayOverlayIngame",
-      "type": "procedure",
+      "name": "Wall1",
+      "type": "block",
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "admin_only_items_display_overlay_ingame",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
+      "registry_name": "wall_1",
       "path": "~/The bottom of the void"
     },
     {
-      "name": "AdminOnlyItems",
-      "type": "overlay",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "admin_only_items",
-      "path": "~/The bottom of the void"
-    },
-    {
-      "name": "KeyCard",
-      "type": "item",
+      "name": "Wall2",
+      "type": "block",
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "key_card",
+      "registry_name": "wall_2",
       "path": "~/The bottom of the void"
     },
     {
-      "name": "VoidKey",
-      "type": "item",
+      "name": "Wall3",
+      "type": "block",
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_key",
+      "registry_name": "wall_3",
       "path": "~/The bottom of the void"
     },
     {
-      "name": "DismantlerDash",
-      "type": "procedure",
+      "name": "Wall4",
+      "type": "block",
       "sortid": 17,
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "dismantler_dash",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
+      "locked_code": false,
+      "registry_name": "wall_4",
       "path": "~/The bottom of the void"
     },
     {
-      "name": "DismantlerDashKey",
-      "type": "keybind",
+      "name": "Wall5",
+      "type": "block",
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dismantler_dash_key",
+      "registry_name": "wall_5",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Wall6",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_6",
+      "path": "~/The bottom of the void"
+    },
+    {
+      "name": "Moonfallterminal",
+      "type": "gui",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moonfallterminal",
       "path": "~/The bottom of the void"
     }
   ],
@@ -185,15 +177,18 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
-      "item.le_mwd_smp.void_key": "Void Key",
-      "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
+      "block.le_mwd_smp.wall_2": "Wall 2",
+      "block.le_mwd_smp.wall_1": "Wall 1",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
-      "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "item.le_mwd_smp.noise": "Noise Gem",
+      "block.le_mwd_smp.wall_6": "Wall 6",
+      "block.le_mwd_smp.wall_5": "Wall 5",
       "entity.le_mwd_smp.bugnation": "Bugnation",
+      "block.le_mwd_smp.wall_4": "Wall 4",
+      "block.le_mwd_smp.wall_3": "Wall 3",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "block.le_mwd_smp.noise_ore": "Noise Ore"
     }
