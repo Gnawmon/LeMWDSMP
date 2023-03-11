@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "writeauthor",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"string\"><field name=\"type\">string</field><field name=\"name\">text</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">AuthorWrite</field></block></statement></block></next></block></xml>"
+  }
+}

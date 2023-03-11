@@ -1,0 +1,7 @@
+{
+  "_fv": 33,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"text_binary_ops\"><value name=\"A\"><block type=\"text\"><field name=\"TEXT\">yes</field></block></value><value name=\"B\"><block type=\"text_lowercase\"><value name=\"text\"><block type=\"gui_get_text_textfield\"><field name=\"textfield\">letextbar</field></block></value></block></value></block></value><statement name=\"DO0\"><block type=\"entity_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">you were supposed to get op but i couldnt figure it out lol</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><next><block type=\"entity_close_gui\"><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></statement></block></next></block></xml>"
+  }
+}

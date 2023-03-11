@@ -25,7 +25,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_bottom_of_the_void",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Misc"
     },
     {
       "name": "Dismantler",
@@ -222,7 +222,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "disc_negative_7",
-      "path": "~/SnapshotNull"
+      "path": "~/General"
     },
     {
       "name": "ChainBlock",
@@ -241,15 +241,6 @@
       "locked_code": false,
       "registry_name": "authorizer",
       "path": "~/John"
-    },
-    {
-      "name": "SnapshotNull",
-      "type": "tab",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "snapshot_null",
-      "path": "~/SnapshotNull"
     },
     {
       "name": "Flameberge",
@@ -302,7 +293,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "admin_only_items",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Misc"
     },
     {
       "name": "KeyCard",
@@ -350,7 +341,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dismantler_dash_key",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Misc"
     },
     {
       "name": "MakeFlame",
@@ -728,7 +719,8 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "laugh_block"
+      "registry_name": "laugh_block",
+      "path": "~/General"
     },
     {
       "name": "SetLaughRoom",
@@ -752,7 +744,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/General"
     },
     {
       "name": "SendToLaughRoom",
@@ -776,7 +769,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/General"
     },
     {
       "name": "Laughroom",
@@ -784,7 +778,8 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "laughroom"
+      "registry_name": "laughroom",
+      "path": "~/General"
     },
     {
       "name": "RemoveFromLaughRoom",
@@ -808,7 +803,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/General"
     },
     {
       "name": "CreepersDropCreepersHeart",
@@ -830,6 +826,117 @@
         ]
       },
       "path": "~/TBOTV/Procedures"
+    },
+    {
+      "name": "GiveAdminPowers",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_admin_powers",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          }
+        ]
+      },
+      "path": "~/TBOTV/Procedures"
+    },
+    {
+      "name": "AffirmAdmin",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "affirm_admin",
+      "path": "~/TBOTV/Interfaces"
+    },
+    {
+      "name": "OpenAffirmAdmin",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_affirm_admin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TBOTV/Procedures"
+    },
+    {
+      "name": "Giveperms",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "giveperms",
+      "path": "~/TBOTV/Misc"
+    },
+    {
+      "name": "General",
+      "type": "tab",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "general",
+      "path": "~/General"
+    },
+    {
+      "name": "AuthorWrite",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "author_write",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TBOTV/Procedures"
+    },
+    {
+      "name": "Writeauthor",
+      "type": "command",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "writeauthor",
+      "path": "~/TBOTV/Misc"
     }
   ],
   "variable_elements": [
@@ -885,10 +992,11 @@
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.cross_block": "⤫ Block",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
-      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.chain_block": "Chain Block",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.laugh_block": "Laugh Block",
+      "itemGroup.tabgeneral": "General",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
@@ -901,7 +1009,6 @@
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
       "item.le_mwd_smp.dismantler": "Dismantler",
       "item.le_mwd_smp.data_daisy": "Data Daisy",
-      "itemGroup.tabsnapshot_null": "Snapshot Null",
       "item.le_mwd_smp.noise": "Noise Gem",
       "block.le_mwd_smp.fake_grass": "Fake Grass",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
@@ -957,6 +1064,10 @@
           {
             "name": "Procedures",
             "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
           }
         ]
       },
@@ -969,7 +1080,7 @@
         "children": []
       },
       {
-        "name": "SnapshotNull",
+        "name": "General",
         "children": []
       }
     ]

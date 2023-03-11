@@ -11,6 +11,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.widget.button.Button;
+import net.minecraft.client.gui.widget.TextFieldWidget;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.Minecraft;
 
@@ -22,30 +23,32 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class AdminSpaceProccedGuiWindow extends ContainerScreen<AdminSpaceProccedGui.GuiContainerMod> {
+public class AffirmAdminGuiWindow extends ContainerScreen<AffirmAdminGui.GuiContainerMod> {
 	private World world;
 	private int x, y, z;
 	private PlayerEntity entity;
-	private final static HashMap guistate = AdminSpaceProccedGui.guistate;
+	private final static HashMap guistate = AffirmAdminGui.guistate;
+	TextFieldWidget letextbar;
 
-	public AdminSpaceProccedGuiWindow(AdminSpaceProccedGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
+	public AffirmAdminGuiWindow(AffirmAdminGui.GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
-		this.ySize = 166;
+		this.xSize = 135;
+		this.ySize = 124;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("le_mwd_smp:textures/screens/admin_space_procced.png");
+	private static final ResourceLocation texture = new ResourceLocation("le_mwd_smp:textures/screens/affirm_admin.png");
 
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
 		super.render(ms, mouseX, mouseY, partialTicks);
 		this.renderHoveredTooltip(ms, mouseX, mouseY);
+		letextbar.render(ms, mouseX, mouseY, partialTicks);
 	}
 
 	@Override
@@ -66,18 +69,21 @@ public class AdminSpaceProccedGuiWindow extends ContainerScreen<AdminSpaceProcce
 			this.minecraft.player.closeScreen();
 			return true;
 		}
+		if (letextbar.isFocused())
+			return letextbar.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
+		letextbar.tick();
 	}
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "adminspace", 3, 5, -16777216);
-		this.font.drawString(ms, "Proceed?", 61, 32, -16777216);
+		this.font.drawString(ms, "Affirm?", 44, 6, -5789785);
+		this.font.drawString(ms, "\"Yes\" or \"No\" to confirm.", 2, 62, -5789785);
 	}
 
 	@Override
@@ -90,16 +96,14 @@ public class AdminSpaceProccedGuiWindow extends ContainerScreen<AdminSpaceProcce
 	public void init(Minecraft minecraft, int width, int height) {
 		super.init(minecraft, width, height);
 		minecraft.keyboardListener.enableRepeatEvents(true);
-		this.addButton(new Button(this.guiLeft + 67, this.guiTop + 67, 40, 20, new StringTextComponent("Yes"), e -> {
+		letextbar = new TextFieldWidget(this.font, this.guiLeft + 7, this.guiTop + 73, 120, 20, new StringTextComponent(""));
+		guistate.put("text:letextbar", letextbar);
+		letextbar.setMaxStringLength(32767);
+		this.children.add(this.letextbar);
+		this.addButton(new Button(this.guiLeft + 33, this.guiTop + 96, 61, 20, new StringTextComponent("Confirm"), e -> {
 			if (true) {
-				LeMwdSmpMod.PACKET_HANDLER.sendToServer(new AdminSpaceProccedGui.ButtonPressedMessage(0, x, y, z));
-				AdminSpaceProccedGui.handleButtonAction(entity, 0, x, y, z);
-			}
-		}));
-		this.addButton(new Button(this.guiLeft + 69, this.guiTop + 89, 35, 20, new StringTextComponent("No"), e -> {
-			if (true) {
-				LeMwdSmpMod.PACKET_HANDLER.sendToServer(new AdminSpaceProccedGui.ButtonPressedMessage(1, x, y, z));
-				AdminSpaceProccedGui.handleButtonAction(entity, 1, x, y, z);
+				LeMwdSmpMod.PACKET_HANDLER.sendToServer(new AffirmAdminGui.ButtonPressedMessage(0, x, y, z));
+				AffirmAdminGui.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
 	}

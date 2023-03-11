@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 176,
-    "height": 166,
+    "width": 135,
+    "height": 124,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -13,55 +13,52 @@
       {
         "type": "label",
         "data": {
-          "text": "adminspace",
+          "text": "Affirm?",
           "color": {
-            "value": -16777216,
+            "value": -5789785,
             "falpha": 0.0
           },
-          "name": "adminspace",
-          "x": 129,
-          "y": 42
+          "name": "Affirm?",
+          "x": 190,
+          "y": 64
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "Proceed?",
+          "text": "\"Yes\" or \"No\" to confirm.",
           "color": {
-            "value": -16777216,
+            "value": -5789785,
             "falpha": 0.0
           },
-          "name": "Proceed?",
-          "x": 187,
-          "y": 69
+          "name": "\"Yes\" or \"No\" to confirm.",
+          "x": 148,
+          "y": 120
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "letextbar",
+          "x": 153,
+          "y": 131
         }
       },
       {
         "type": "button",
         "data": {
-          "text": "Yes",
+          "text": "Confirm",
           "onClick": {
-            "name": "OpenAdminSpaceConsole"
+            "name": "GiveAdminPowers"
           },
-          "width": 40,
+          "width": 61,
           "height": 20,
-          "name": "Yes",
-          "x": 193,
-          "y": 104
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "No",
-          "onClick": {
-            "name": "CloseAnyGUI"
-          },
-          "width": 35,
-          "height": 20,
-          "name": "No",
-          "x": 195,
-          "y": 126
+          "name": "Confirm",
+          "x": 179,
+          "y": 154
         }
       }
     ],

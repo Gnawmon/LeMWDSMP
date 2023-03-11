@@ -2,9 +2,9 @@
   "_fv": 33,
   "_type": "tab",
   "definition": {
-    "name": "Snapshot Null",
+    "name": "General",
     "icon": {
-      "value": "CUSTOM:DiscNegative7"
+      "value": "Blocks.COMMAND_BLOCK"
     },
     "showSearch": false
   }

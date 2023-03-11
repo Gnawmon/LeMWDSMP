@@ -6,7 +6,7 @@
     "name": "Disc Negative 7",
     "description": "SNull",
     "creativeTab": {
-      "value": "CUSTOM:SnapshotNull"
+      "value": "CUSTOM:General"
     },
     "music": {
       "value": "ambient.crimson_forest.additions"

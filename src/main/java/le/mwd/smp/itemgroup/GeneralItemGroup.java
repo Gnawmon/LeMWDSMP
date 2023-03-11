@@ -6,23 +6,23 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.block.Blocks;
 
-import le.mwd.smp.item.DiscNegative7Item;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
-public class SnapshotNullItemGroup extends LeMwdSmpModElements.ModElement {
-	public SnapshotNullItemGroup(LeMwdSmpModElements instance) {
-		super(instance, 23);
+public class GeneralItemGroup extends LeMwdSmpModElements.ModElement {
+	public GeneralItemGroup(LeMwdSmpModElements instance) {
+		super(instance, 58);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabsnapshot_null") {
+		tab = new ItemGroup("tabgeneral") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(DiscNegative7Item.block);
+				return new ItemStack(Blocks.COMMAND_BLOCK);
 			}
 
 			@OnlyIn(Dist.CLIENT)
