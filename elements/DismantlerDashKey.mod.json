@@ -7,6 +7,9 @@
     "keyBindingCategoryKey": "movement",
     "onKeyPressed": {
       "name": "DismantlerDash"
+    },
+    "onKeyReleased": {
+      "name": "DismantlerDashKeyOnKeyReleased"
     }
   }
 }

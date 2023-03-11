@@ -19,6 +19,7 @@ import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.client.Minecraft;
 
 import le.mwd.smp.procedures.DismantlerDashProcedure;
+import le.mwd.smp.procedures.DismantlerDashKeyOnKeyReleasedProcedure;
 import le.mwd.smp.LeMwdSmpModElements;
 import le.mwd.smp.LeMwdSmpMod;
 
@@ -32,6 +33,7 @@ import java.util.AbstractMap;
 public class DismantlerDashKeyKeyBinding extends LeMwdSmpModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
+	private long lastpress = 0;
 
 	public DismantlerDashKeyKeyBinding(LeMwdSmpModElements instance) {
 		super(instance, 18);
@@ -55,6 +57,11 @@ public class DismantlerDashKeyKeyBinding extends LeMwdSmpModElements.ModElement 
 				if (event.getAction() == GLFW.GLFW_PRESS) {
 					LeMwdSmpMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(0, 0));
 					pressAction(Minecraft.getInstance().player, 0, 0);
+					lastpress = System.currentTimeMillis();
+				} else if (event.getAction() == GLFW.GLFW_RELEASE) {
+					int dt = (int) (System.currentTimeMillis() - lastpress);
+					LeMwdSmpMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(1, dt));
+					pressAction(Minecraft.getInstance().player, 1, dt);
 				}
 			}
 		}
@@ -97,8 +104,15 @@ public class DismantlerDashKeyKeyBinding extends LeMwdSmpModElements.ModElement 
 			return;
 		if (type == 0) {
 
-			DismantlerDashProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			DismantlerDashProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
+		if (type == 1) {
+
+			DismantlerDashKeyOnKeyReleasedProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

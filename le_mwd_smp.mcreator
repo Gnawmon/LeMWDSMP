@@ -181,23 +181,6 @@
       "path": "~/Cat Cube"
     },
     {
-      "name": "DismantlerRightclicked",
-      "type": "procedure",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dismantler_rightclicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/TBOTV/Procedures"
-    },
-    {
       "name": "Hud",
       "type": "overlay",
       "sortid": 12,
@@ -351,6 +334,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -713,9 +700,37 @@
       "locked_code": false,
       "registry_name": "black_window",
       "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "DismantlerDashKeyOnKeyReleased",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dismantler_dash_key_on_key_released",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TBOTV/Procedures"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "DismantlerPressStart",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "dismantlerdash",
@@ -835,9 +850,10 @@
     "modid": "le_mwd_smp",
     "modName": "Le MWD SMP",
     "version": "1.0.0",
-    "author": "PC, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "description": "Its combination of minecraft args in a mod.",
+    "author": "Liminal, Gnawmon, Unnatural, Mark101",
+    "websiteURL": "https://github.com/Gnawmon/LeMWDSMP",
+    "license": "Not specified",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -845,6 +861,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Made with mcreator - https://mcreator.net/about",
     "modElementsPackage": "le.mwd.smp",
     "lockBaseModFiles": false
   },

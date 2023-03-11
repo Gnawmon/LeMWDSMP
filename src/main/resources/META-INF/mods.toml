@@ -1,14 +1,17 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="Not specified"
 
 [[mods]]
 modId="le_mwd_smp"
 version="1.0.0"
 displayName="Le MWD SMP"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="PC, MCreator"
+credits="Made with mcreator - https://mcreator.net/about"
+displayURL="https://github.com/Gnawmon/LeMWDSMP"
+authors="Liminal, Gnawmon, Unnatural, Mark101"
+description='''
+Its combination of minecraft args in a mod.
+'''
 
 [[dependencies.le_mwd_smp]]
     modId="minecraft"
