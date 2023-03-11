@@ -721,6 +721,115 @@
         ]
       },
       "path": "~/TBOTV/Procedures"
+    },
+    {
+      "name": "LaughBlock",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laugh_block"
+    },
+    {
+      "name": "SetLaughRoom",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_laugh_room",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SendToLaughRoom",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "send_to_laugh_room",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laughroom",
+      "type": "command",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laughroom"
+    },
+    {
+      "name": "RemoveFromLaughRoom",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_from_laugh_room",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CreepersDropCreepersHeart",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creepers_drop_creepers_heart",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TBOTV/Procedures"
     }
   ],
   "variable_elements": [
@@ -728,6 +837,24 @@
       "name": "DismantlerPressStart",
       "type": "number",
       "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "LaughRoomPosX",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "LaughRoomPosY",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "LaughRoomPosZ",
+      "type": "number",
+      "scope": "world",
       "value": "0"
     }
   ],
@@ -758,9 +885,10 @@
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.cross_block": "⤫ Block",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
-      "block.le_mwd_smp.chain_block": "Chain Block",
       "block.le_mwd_smp.fan": "Fan",
+      "block.le_mwd_smp.chain_block": "Chain Block",
       "block.le_mwd_smp.key_hole": "Key Hole",
+      "block.le_mwd_smp.laugh_block": "Laugh Block",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",

@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "command",
+  "definition": {
+    "commandName": "laughroom",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"literal\"><field name=\"name\">set</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">x</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">y</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">z</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SetLaughRoom</field></block></statement></block></statement></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">send</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">name</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">SendToLaughRoom</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">remove</field><statement name=\"args\"><block type=\"entity\"><field name=\"name\">name</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">RemoveFromLaughRoom</field></block></statement></block></statement></block></next></block></next></block></next></block></xml>"
+  }
+}

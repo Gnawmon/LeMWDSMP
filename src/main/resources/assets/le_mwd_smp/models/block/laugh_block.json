@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/laughtemp",
+    "up": "le_mwd_smp:blocks/laughtemp",
+    "north": "le_mwd_smp:blocks/laughtemp",
+    "east": "le_mwd_smp:blocks/laughtemp",
+    "south": "le_mwd_smp:blocks/laughtemp",
+    "west": "le_mwd_smp:blocks/laughtemp",
+    "particle": "le_mwd_smp:blocks/laughtemp"
+  }
+}
