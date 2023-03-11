@@ -3,8 +3,6 @@ package le.mwd.smp.procedures;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
-import net.minecraft.util.math.MathHelper;
- 
 
 import le.mwd.smp.item.DismantlerItem;
 import le.mwd.smp.LeMwdSmpMod;
@@ -20,14 +18,16 @@ public class DismantlerDashProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
+		double yaw = 0;
+		double pitch = 0;
+		double velocity = 0;
+		yaw = (entity.rotationYaw);
+		pitch = (entity.rotationPitch);
+		velocity = 10;
 		if ((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).inventory.hasItemStack(new ItemStack(DismantlerItem.block)) : false) {
-			        float yaw = entity.rotationYaw;
-        float pitch = entity.rotationPitch;
-        float velocity = 10.0F;
-        double motionX = -MathHelper.sin(yaw / 180.0F * (float)Math.PI) * MathHelper.cos(pitch / 180.0F * (float)Math.PI) * velocity;
-        double motionZ = MathHelper.cos(yaw / 180.0F * (float)Math.PI) * MathHelper.cos(pitch / 180.0F * (float)Math.PI) * velocity;
-        double motionY = -MathHelper.sin((pitch) / 180.0F * (float)Math.PI) * velocity;
-        entity.setMotion(motionX, motionY, motionZ);
+			entity.setMotion((Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * velocity),
+					(Math.sin((pitch / 180) * Math.PI) * (-1) * velocity),
+					(Math.cos((yaw / 180) * Math.PI) * Math.cos((pitch / 180) * Math.PI) * velocity));
 		}
 	}
 }

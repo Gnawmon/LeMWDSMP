@@ -344,7 +344,7 @@
       "type": "procedure",
       "sortid": 17,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "dismantler_dash",
       "metadata": {
         "dependencies": [
@@ -677,16 +677,63 @@
       "locked_code": false,
       "registry_name": "purple_console",
       "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "Drumptoil2",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drumptoil_2",
+      "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "Monitor",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monitor",
+      "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "MojangBlock",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mojang_block",
+      "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "BlackWindow",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_window",
+      "path": "~/TBOTV/Blocks"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "dismantlerdash",
+      "files": [
+        "dismantlerdash"
+      ],
+      "category": "player",
+      "subtitle": "Dismantler Dash"
+    }
+  ],
   "language_map": {
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
+      "block.le_mwd_smp.mojang_block": "Mojang Block",
       "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.purple_console": "Purple Console",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
+      "subtitles.dismantlerdash": "Dismantler Dash",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
       "block.le_mwd_smp.cat_cube_you": "Cat Cube Original",
       "item.le_mwd_smp.assetstilesdeny": "assets_tiles_deny",
@@ -703,6 +750,7 @@
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
       "block.le_mwd_smp.cat_cube_no_one": "Cat Cube Original",
+      "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.psi_block": "ꕚ Block",
       "item.le_mwd_smp.flameberge": "Flameberge",
       "block.le_mwd_smp.wall_2": "Wall 2",
@@ -724,6 +772,7 @@
       "item.le_mwd_smp.server_drive": "Server Drive",
       "block.le_mwd_smp.red_console": "Red Console",
       "block.le_mwd_smp.tiles": "Tile",
+      "block.le_mwd_smp.monitor": "Monitor",
       "block.le_mwd_smp.authorizer": "Authorizer",
       "item.le_mwd_smp.void_gem": "Void Gem",
       "block.le_mwd_smp.wall_6": "Wall 6",
@@ -731,6 +780,7 @@
       "block.le_mwd_smp.wall_4": "Wall 4",
       "block.le_mwd_smp.safe": "Safe",
       "block.le_mwd_smp.wall_3": "Wall 3",
+      "block.le_mwd_smp.black_window": "Black Window",
       "item.le_mwd_smp.disc_negative_7": "Disc Negative 7",
       "block.le_mwd_smp.tick_block": "✓ Block"
     }

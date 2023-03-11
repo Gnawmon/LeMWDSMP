@@ -1,0 +1,12 @@
+{
+  "dismantlerdash": {
+    "category": "player",
+    "subtitle": "subtitles.dismantlerdash",
+    "sounds": [
+      {
+        "name": "le_mwd_smp:dismantlerdash",
+        "stream": false
+      }
+    ]
+  }
+}
