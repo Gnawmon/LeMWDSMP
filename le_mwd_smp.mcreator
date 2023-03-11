@@ -7,7 +7,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_gem_tile",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "BrightnessBlock",
@@ -16,7 +16,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "brightness_block",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "TheBottomOfTheVoid",
@@ -34,7 +34,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dismantler",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "Noise",
@@ -43,7 +43,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "NoiseOre",
@@ -52,7 +52,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_ore",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "NoiseOreBlockRecipe",
@@ -61,7 +61,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_ore_block_recipe",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Recipes"
     },
     {
       "name": "NoiseBlockOreRecipe",
@@ -70,7 +70,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_block_ore_recipe",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Recipes"
     },
     {
       "name": "NoiseOreSmelting",
@@ -79,7 +79,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "noise_ore_smelting",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Recipes"
     },
     {
       "name": "Tiles",
@@ -195,7 +195,7 @@
           }
         ]
       },
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Procedures"
     },
     {
       "name": "Hud",
@@ -310,7 +310,7 @@
           }
         ]
       },
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Procedures"
     },
     {
       "name": "AdminOnlyItems",
@@ -328,7 +328,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "key_card",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "VoidKey",
@@ -337,7 +337,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_key",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "DismantlerDash",
@@ -354,7 +354,7 @@
           }
         ]
       },
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Procedures"
     },
     {
       "name": "DismantlerDashKey",
@@ -401,7 +401,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_1",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Wall2",
@@ -410,7 +410,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_2",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Wall3",
@@ -419,7 +419,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_3",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Wall4",
@@ -428,7 +428,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_4",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Wall5",
@@ -437,7 +437,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_5",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Wall6",
@@ -446,7 +446,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wall_6",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Moonfallterminal",
@@ -455,7 +455,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "moonfallterminal",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Interfaces"
     },
     {
       "name": "Drumptoil",
@@ -464,7 +464,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "drumptoil",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "DataDaisy",
@@ -473,7 +473,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "data_daisy",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "VoidGem",
@@ -482,7 +482,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gem",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "DismantlerRecipe",
@@ -491,7 +491,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dismantler_recipe",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Recipes"
     },
     {
       "name": "Assettilesaccept",
@@ -500,7 +500,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "assettilesaccept",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "Assetstilesdeny",
@@ -509,7 +509,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "assetstilesdeny",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "KeyHole",
@@ -518,7 +518,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "key_hole",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "KeyHoleGUI",
@@ -527,7 +527,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "key_hole_gui",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Interfaces"
     },
     {
       "name": "BlackTile",
@@ -536,7 +536,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tile",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "AdminSpaceProcced",
@@ -545,7 +545,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "admin_space_procced",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Interfaces"
     },
     {
       "name": "OpenAdminSpaceConsole",
@@ -578,7 +578,7 @@
           }
         ]
       },
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Procedures"
     },
     {
       "name": "CloseAnyGUI",
@@ -595,7 +595,7 @@
           }
         ]
       },
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Procedures"
     },
     {
       "name": "AdminspaceConsoleGUI",
@@ -604,7 +604,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "adminspace_console_gui",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Interfaces"
     },
     {
       "name": "RedConsole",
@@ -613,7 +613,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_console",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "PsiBlock",
@@ -622,7 +622,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "psi_block",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "CrossBlock",
@@ -631,7 +631,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "cross_block",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "TickBlock",
@@ -640,7 +640,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tick_block",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "Fan",
@@ -649,7 +649,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fan",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "CreepersHeart",
@@ -658,7 +658,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "creepers_heart",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     },
     {
       "name": "ServerDrive",
@@ -667,7 +667,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "server_drive",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Items"
     },
     {
       "name": "PurpleConsole",
@@ -676,7 +676,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "purple_console",
-      "path": "~/TBOTV"
+      "path": "~/TBOTV/Blocks"
     }
   ],
   "variable_elements": [],
@@ -744,7 +744,28 @@
       },
       {
         "name": "TBOTV",
-        "children": []
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Interfaces",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Cat Cube",
