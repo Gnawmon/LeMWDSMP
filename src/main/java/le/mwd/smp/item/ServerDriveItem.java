@@ -12,12 +12,12 @@ import le.mwd.smp.itemgroup.TheBottomOfTheVoidItemGroup;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
-public class CreepersHeartItem extends LeMwdSmpModElements.ModElement {
-	@ObjectHolder("le_mwd_smp:creepers_heart")
+public class ServerDriveItem extends LeMwdSmpModElements.ModElement {
+	@ObjectHolder("le_mwd_smp:server_drive")
 	public static final Item block = null;
 
-	public CreepersHeartItem(LeMwdSmpModElements instance) {
-		super(instance, 28);
+	public ServerDriveItem(LeMwdSmpModElements instance) {
+		super(instance, 44);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class CreepersHeartItem extends LeMwdSmpModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(TheBottomOfTheVoidItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("creepers_heart");
+			setRegistryName("server_drive");
 		}
 
 		@Override

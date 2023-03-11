@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "le_mwd_smp:blocks/creeper",
+    "particle": "le_mwd_smp:blocks/creeper"
+  }
+}

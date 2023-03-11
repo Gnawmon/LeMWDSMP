@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/botom2",
+    "up": "le_mwd_smp:blocks/blacktile",
+    "north": "le_mwd_smp:blocks/ball",
+    "east": "le_mwd_smp:blocks/ball",
+    "south": "le_mwd_smp:blocks/ball",
+    "west": "le_mwd_smp:blocks/ball",
+    "particle": "le_mwd_smp:blocks/botom2"
+  }
+}

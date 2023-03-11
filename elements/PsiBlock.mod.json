@@ -2,23 +2,23 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "creeper",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 120,
-    "customModelName": "Cross model",
+    "texture": "botom2",
+    "textureTop": "blacktile",
+    "textureLeft": "al",
+    "textureFront": "al",
+    "textureRight": "al",
+    "textureBack": "al",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "creeper",
+    "itemTexture": "",
     "particleTexture": "",
-    "tintType": "Foliage",
+    "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Creeper's Heart",
+    "name": "ꕚ Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -52,9 +52,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "SPONGE"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

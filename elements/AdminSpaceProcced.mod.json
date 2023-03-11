@@ -1,0 +1,76 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "adminspace",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "adminspace",
+          "x": 128,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Proceed?",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Proceed?",
+          "x": 187,
+          "y": 69
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Yes",
+          "onClick": {
+            "name": "OpenAdminSpaceConsole"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Yes",
+          "x": 186,
+          "y": 105
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "No",
+          "onClick": {
+            "name": "CloseAnyGUI"
+          },
+          "width": 35,
+          "height": 20,
+          "name": "No",
+          "x": 188,
+          "y": 128
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

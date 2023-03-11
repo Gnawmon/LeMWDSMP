@@ -1,0 +1,83 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "bogulied.png",
+          "use1Xscale": false,
+          "name": "bogulied.png",
+          "x": 126,
+          "y": 38
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "AdminspacePrompt",
+          "x": 152,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Execute",
+          "onClick": {
+            "name": "CloseAnyGUI"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Execute",
+          "x": 182,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Adminspace Console",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Adminspace Console",
+          "x": 128,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "v2.0.84",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "v2.0.84",
+          "x": 258,
+          "y": 40
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
