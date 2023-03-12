@@ -84,6 +84,7 @@ public class AffirmAdminGuiWindow extends ContainerScreen<AffirmAdminGui.GuiCont
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
 		this.font.drawString(ms, "Affirm?", 44, 6, -5789785);
 		this.font.drawString(ms, "\"Yes\" or \"No\" to confirm.", 2, 62, -5789785);
+		this.font.drawString(ms, "this doesn't work right now", -4, -17, -52429);
 	}
 
 	@Override

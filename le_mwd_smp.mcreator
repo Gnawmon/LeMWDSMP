@@ -937,6 +937,15 @@
       "locked_code": false,
       "registry_name": "writeauthor",
       "path": "~/TBOTV/Misc"
+    },
+    {
+      "name": "Marketing101",
+      "type": "command",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marketing_101",
+      "path": "~/General"
     }
   ],
   "variable_elements": [
@@ -992,8 +1001,8 @@
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.cross_block": "⤫ Block",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
-      "block.le_mwd_smp.chain_block": "Chain Block",
       "block.le_mwd_smp.fan": "Fan",
+      "block.le_mwd_smp.chain_block": "Chain Block",
       "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.laugh_block": "Laugh Block",
       "itemGroup.tabgeneral": "General",

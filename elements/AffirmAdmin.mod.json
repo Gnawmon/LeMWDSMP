@@ -60,6 +60,19 @@
           "x": 179,
           "y": 154
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "this doesn't work right now",
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "name": "this doesn't work right now",
+          "x": 142,
+          "y": 41
+        }
       }
     ],
     "gridSettings": {
