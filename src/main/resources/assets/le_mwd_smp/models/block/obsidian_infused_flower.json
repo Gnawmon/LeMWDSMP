@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "le_mwd_smp:blocks/obsidian_infused_flower",
+    "particle": "le_mwd_smp:blocks/obsidian_infused_flower"
+  }
+}

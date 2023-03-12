@@ -1,0 +1,8 @@
+{
+  "parent": "le_mwd_smp:custom/blue_flame",
+  "textures": {
+    "all": "le_mwd_smp:blocks/blue_flame",
+    "particle": "le_mwd_smp:blocks/blue_flame",
+    "torch": "le_mwd_smp:blocks/blue_flame"
+  }
+}
