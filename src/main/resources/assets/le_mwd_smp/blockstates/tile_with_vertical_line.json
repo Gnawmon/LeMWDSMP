@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "le_mwd_smp:block/tile_with_vertical_line"
+    }
+  }
+}

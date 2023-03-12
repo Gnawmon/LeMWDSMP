@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/botom2",
+    "up": "le_mwd_smp:blocks/blacktile",
+    "north": "le_mwd_smp:blocks/chefref",
+    "east": "le_mwd_smp:blocks/chefref",
+    "south": "le_mwd_smp:blocks/chefref",
+    "west": "le_mwd_smp:blocks/chefref",
+    "particle": "le_mwd_smp:blocks/botom2"
+  }
+}
