@@ -946,6 +946,24 @@
       "locked_code": false,
       "registry_name": "marketing_101",
       "path": "~/General"
+    },
+    {
+      "name": "Thing",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thing",
+      "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "Concrete",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete",
+      "path": "~/TBOTV/Blocks"
     }
   ],
   "variable_elements": [
@@ -1001,8 +1019,8 @@
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.cross_block": "⤫ Block",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
-      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.chain_block": "Chain Block",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.laugh_block": "Laugh Block",
       "itemGroup.tabgeneral": "General",
@@ -1012,6 +1030,7 @@
       "block.le_mwd_smp.cat_cube_no_one": "Cat Cube Original",
       "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.psi_block": "ꕚ Block",
+      "block.le_mwd_smp.thing": "Thing",
       "item.le_mwd_smp.flameberge": "Flameberge",
       "block.le_mwd_smp.wall_2": "Wall 2",
       "block.le_mwd_smp.wall_1": "Wall 1",
@@ -1034,6 +1053,7 @@
       "block.le_mwd_smp.monitor": "Monitor",
       "block.le_mwd_smp.authorizer": "Authorizer",
       "item.le_mwd_smp.void_gem": "Void Gem",
+      "block.le_mwd_smp.concrete": "Concrete",
       "block.le_mwd_smp.wall_6": "Wall 6",
       "block.le_mwd_smp.wall_5": "Wall 5",
       "block.le_mwd_smp.wall_4": "Wall 4",

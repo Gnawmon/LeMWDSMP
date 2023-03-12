@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/thing",
+    "up": "le_mwd_smp:blocks/thing",
+    "north": "le_mwd_smp:blocks/thing",
+    "east": "le_mwd_smp:blocks/thing",
+    "south": "le_mwd_smp:blocks/thing",
+    "west": "le_mwd_smp:blocks/thing",
+    "particle": "le_mwd_smp:blocks/thing"
+  }
+}
