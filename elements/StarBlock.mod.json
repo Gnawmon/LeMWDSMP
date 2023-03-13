@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "tile",
+    "texture": "botom2",
     "textureTop": "tile",
-    "textureLeft": "blacktile",
-    "textureFront": "blacktile",
-    "textureRight": "blacktile",
-    "textureBack": "blacktile",
+    "textureLeft": "otherballsies",
+    "textureFront": "otherballsies",
+    "textureRight": "otherballsies",
+    "textureBack": "otherballsies",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Black Tile",
+    "name": "✺ Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

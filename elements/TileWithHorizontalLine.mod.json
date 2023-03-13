@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "tile",
-    "textureTop": "tile",
-    "textureLeft": "blacktile",
-    "textureFront": "blacktile",
-    "textureRight": "blacktile",
-    "textureBack": "blacktile",
+    "texture": "botom2",
+    "textureTop": "blacktile",
+    "textureLeft": "chefref",
+    "textureFront": "chefref",
+    "textureRight": "chefref",
+    "textureBack": "chefref",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Black Tile",
+    "name": "Tile With Horizontal Line",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
