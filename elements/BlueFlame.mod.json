@@ -2,45 +2,45 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "creeper",
+    "texture": "blue_flame",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
+    "renderType": 2,
+    "customModelName": "blue_flame:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "creeper",
+    "itemTexture": "blue_flame",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "TRANSLUCENT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
+        "mx": 4.0,
         "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
+        "mz": 4.0,
+        "Mx": 12.0,
         "My": 16.0,
-        "Mz": 16.0,
+        "Mz": 12.0,
         "subtract": false
       }
     ],
-    "name": "Creeper's Heart",
+    "name": "Blue Flame",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TheBottomOfTheVoid"
+      "value": "CUSTOM:Alphaver"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "SPONGE"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 15,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
@@ -123,17 +123,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
+    "spawnWorldTypes": [
+      "Surface"
     ],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "minGenerateHeight": 100,
+    "maxGenerateHeight": 256
   }
 }

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "torch": "blue_flame"
+      },
+      "name": "default"
+    }
+  }
+}

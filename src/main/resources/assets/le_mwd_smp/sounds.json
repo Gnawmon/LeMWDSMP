@@ -8,5 +8,15 @@
         "stream": false
       }
     ]
+  },
+  "infuse": {
+    "category": "block",
+    "subtitle": "subtitles.infuse",
+    "sounds": [
+      {
+        "name": "le_mwd_smp:infuse",
+        "stream": false
+      }
+    ]
   }
 }

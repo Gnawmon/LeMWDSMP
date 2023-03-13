@@ -49,8 +49,8 @@ public class CreepersHeartBlock extends LeMwdSmpModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SPONGE).sound(SoundType.SLIME).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
-					.setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.SPONGE).sound(SoundType.SLIME).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0)
+					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("creepers_heart");
 		}
 
