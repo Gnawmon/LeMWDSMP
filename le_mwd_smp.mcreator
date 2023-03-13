@@ -1072,6 +1072,14 @@
       "locked_code": false,
       "registry_name": "slaize_100",
       "path": "~/TBOTV/Blocks"
+    },
+    {
+      "name": "Sushouse",
+      "type": "structure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sushouse"
     }
   ],
   "variable_elements": [
