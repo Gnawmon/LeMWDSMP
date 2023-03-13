@@ -1077,7 +1077,7 @@
       "name": "Sushouse",
       "type": "structure",
       "sortid": 76,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sushouse"
     },
@@ -1085,7 +1085,7 @@
       "name": "TileWithCross",
       "type": "block",
       "sortid": 78,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tile_with_cross",
       "path": "~/TBOTV/Blocks"
@@ -1094,7 +1094,7 @@
       "name": "TileWithHorizontalLine",
       "type": "block",
       "sortid": 76,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tile_with_horizontal_line",
       "path": "~/TBOTV/Blocks"
@@ -1103,7 +1103,7 @@
       "name": "TileWithVerticalLine",
       "type": "block",
       "sortid": 77,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "tile_with_vertical_line",
       "path": "~/TBOTV/Blocks"
@@ -1112,7 +1112,7 @@
       "name": "StarBlock",
       "type": "block",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "star_block",
       "path": "~/TBOTV/Blocks"
@@ -1130,7 +1130,7 @@
       "name": "BlackPrismarine",
       "type": "block",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "black_prismarine",
       "path": "~/TBOTV/Blocks"
@@ -1189,8 +1189,8 @@
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.cross_block": "⤫ Block",
       "block.le_mwd_smp.brightness_block": "Brightness Block",
-      "block.le_mwd_smp.chain_block": "Chain Block",
       "block.le_mwd_smp.fan": "Fan",
+      "block.le_mwd_smp.chain_block": "Chain Block",
       "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.laugh_block": "Laugh Block",
       "itemGroup.tabgeneral": "General",
@@ -1249,8 +1249,8 @@
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.cross_block": "⤫ Bloku",
       "block.le_mwd_smp.brightness_block": "Işık Bloku",
-      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.chain_block": "Zincir Bloku",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Anahtar Deliği",
       "block.le_mwd_smp.laugh_block": "Gülme Bloku",
       "itemGroup.tabgeneral": "Genel",
