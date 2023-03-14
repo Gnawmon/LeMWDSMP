@@ -48,8 +48,8 @@ public class AlphaverDashOverlayOverlay {
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 			RenderSystem.disableAlphaTest();
 			if (true) {
-				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("le_mwd_smp:textures/screens/tempdash.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -49, posY + 27, 0, 0, 102, 7, 102, 7);
+				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("le_mwd_smp:textures/screens/dashbar.png"));
+				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -49, posY + 28, 0, 0, 102, 7, 102, 7);
 
 			}
 			RenderSystem.depthMask(true);

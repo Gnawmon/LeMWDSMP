@@ -28,5 +28,15 @@
         "stream": false
       }
     ]
+  },
+  "alphaverdash": {
+    "category": "player",
+    "subtitle": "subtitles.alphaverdash",
+    "sounds": [
+      {
+        "name": "le_mwd_smp:dash",
+        "stream": false
+      }
+    ]
   }
 }

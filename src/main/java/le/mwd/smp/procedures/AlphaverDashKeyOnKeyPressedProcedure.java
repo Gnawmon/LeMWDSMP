@@ -1,20 +1,15 @@
 package le.mwd.smp.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.server.ServerLifecycleHooks;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ChatType;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Util;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.entity.Entity;
 
 import le.mwd.smp.LeMwdSmpModVariables;
@@ -60,18 +55,20 @@ public class AlphaverDashKeyOnKeyPressedProcedure {
 		double yaw = 0;
 		yaw = (entity.rotationYaw);
 		pitch = (entity.rotationPitch);
-		velocity = 10;
+		velocity = 7;
 		if (world.getWorldInfo().getDayTime() <= LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime
 				|| world.getWorldInfo().getDayTime() > LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime + 60) {
+			if (world instanceof World && !world.isRemote()) {
+				((World) world).playSound(null, new BlockPos(x, y, z),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("le_mwd_smp:alphaverdash")),
+						SoundCategory.PLAYERS, (float) 1, (float) 1);
+			} else {
+				((World) world).playSound(x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("le_mwd_smp:alphaverdash")),
+						SoundCategory.PLAYERS, (float) 1, (float) 1, false);
+			}
 			LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime = (world.getWorldInfo().getDayTime());
 			LeMwdSmpModVariables.MapVariables.get(world).syncData(world);
-			if (!world.isRemote()) {
-				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-				if (mcserv != null)
-					mcserv.getPlayerList().func_232641_a_(
-							new StringTextComponent(("" + LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime)),
-							ChatType.SYSTEM, Util.DUMMY_UUID);
-			}
 			entity.setMotion(
 					(Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getX()) * velocity),
 					(Math.sin((pitch / 180) * Math.PI) * (-1) * Math.abs(entity.getMotion().getY()) * velocity),
