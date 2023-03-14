@@ -50,6 +50,8 @@ public class LeMwdSmpModElements {
 		sounds.put(new ResourceLocation("le_mwd_smp", "dismantlerdash"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "dismantlerdash")));
 		sounds.put(new ResourceLocation("le_mwd_smp", "infuse"), new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "infuse")));
+		sounds.put(new ResourceLocation("le_mwd_smp", "alphaverdashrecharge"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "alphaverdashrecharge")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("le_mwd_smp").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

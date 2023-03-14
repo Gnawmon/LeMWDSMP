@@ -18,5 +18,15 @@
         "stream": false
       }
     ]
+  },
+  "alphaverdashrecharge": {
+    "category": "player",
+    "subtitle": "subtitles.alphaverdashrecharge",
+    "sounds": [
+      {
+        "name": "le_mwd_smp:recharg",
+        "stream": false
+      }
+    ]
   }
 }

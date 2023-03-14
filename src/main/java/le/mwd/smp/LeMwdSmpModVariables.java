@@ -117,6 +117,7 @@ public class LeMwdSmpModVariables {
 
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "le_mwd_smp_mapvars";
+		public double AlphaverDashKeyLastPressTime = 0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -128,10 +129,12 @@ public class LeMwdSmpModVariables {
 
 		@Override
 		public void read(CompoundNBT nbt) {
+			AlphaverDashKeyLastPressTime = nbt.getDouble("AlphaverDashKeyLastPressTime");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
+			nbt.putDouble("AlphaverDashKeyLastPressTime", AlphaverDashKeyLastPressTime);
 			return nbt;
 		}
 

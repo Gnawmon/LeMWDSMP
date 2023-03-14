@@ -1263,6 +1263,57 @@
       "locked_code": false,
       "registry_name": "obsidian_infused_flower",
       "path": "~/Alphaver"
+    },
+    {
+      "name": "AlphaverDashKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphaver_dash_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "AlphaverDashKey",
+      "type": "keybind",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphaver_dash_key",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "AlphaverDashOverlay",
+      "type": "overlay",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphaver_dash_overlay",
+      "path": "~/Alphaver"
     }
   ],
   "variable_elements": [
@@ -1289,6 +1340,12 @@
       "type": "number",
       "scope": "world",
       "value": "0"
+    },
+    {
+      "name": "AlphaverDashKeyLastPressTime",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -1307,6 +1364,14 @@
       ],
       "category": "block",
       "subtitle": "Flower Infused"
+    },
+    {
+      "name": "alphaverdashrecharge",
+      "files": [
+        "recharg"
+      ],
+      "category": "player",
+      "subtitle": "Dash Recharge"
     }
   ],
   "language_map": {
@@ -1316,8 +1381,8 @@
       "item.le_mwd_smp.key_card": "Card de Acces",
       "block.le_mwd_smp.purple_console": "Terminal Mov",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
-      "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
       "block.le_mwd_smp.flower": "Flower",
+      "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Avântul Dezmembratorului",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
@@ -1345,6 +1410,7 @@
       "block.le_mwd_smp.psi_block": "Cubul ꕚ",
       "block.le_mwd_smp.thing": "Chestie",
       "item.le_mwd_smp.flameberge": "Flameberge",
+      "subtitles.alphaverdashrecharge": "",
       "block.le_mwd_smp.wall_2": "Perete 2",
       "block.le_mwd_smp.wall_1": "Perete 1",
       "block.le_mwd_smp.noise_gem_tile": "Țiglă din Bijuteria Zgomotului",
@@ -1355,6 +1421,7 @@
       "item.le_mwd_smp.bugnation_spawn_egg": "Ou de sumonare a lui bug_nation (TEMPORARY THIS TRANSLATION SUCKS LMFAO)",
       "itemGroup.tabcat_cube": "Cubul Pisicii",
       "block.le_mwd_smp.noise_ore": "Minereu de Zgomotul",
+      "key.le_mwd_smp.alphaver_dash_key": "Alphaver Dash ",
       "item.le_mwd_smp.void_key": "Cheia Vidului",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
       "block.le_mwd_smp.cat_cube_me": "Cubul Pisicii (Eu)",
@@ -1386,8 +1453,8 @@
       "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.purple_console": "Purple Console",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
-      "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
       "block.le_mwd_smp.flower": "Flower",
+      "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Dismantler Dash",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
@@ -1415,6 +1482,7 @@
       "block.le_mwd_smp.psi_block": "ꕚ Block",
       "block.le_mwd_smp.thing": "Thing",
       "item.le_mwd_smp.flameberge": "Flameberge",
+      "subtitles.alphaverdashrecharge": "Dash Recharge",
       "block.le_mwd_smp.wall_2": "Wall 2",
       "block.le_mwd_smp.wall_1": "Wall 1",
       "block.le_mwd_smp.noise_gem_tile": "Noise Gem Tile",
@@ -1425,6 +1493,7 @@
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "itemGroup.tabcat_cube": "Cat Cube",
       "block.le_mwd_smp.noise_ore": "Noise Ore",
+      "key.le_mwd_smp.alphaver_dash_key": "Alphaver Dash ",
       "item.le_mwd_smp.void_key": "Void Key",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
       "block.le_mwd_smp.cat_cube_me": "Cat Cube Original",
@@ -1456,8 +1525,8 @@
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
       "block.le_mwd_smp.purple_console": "Mor Konsol",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
-      "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
       "block.le_mwd_smp.flower": "Flower",
+      "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Sökücü Fırlaması",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
@@ -1485,6 +1554,7 @@
       "block.le_mwd_smp.psi_block": "ꕚ Bloku",
       "block.le_mwd_smp.thing": "Bir Şey",
       "item.le_mwd_smp.flameberge": "Ateşlerin Kılıcı",
+      "subtitles.alphaverdashrecharge": "",
       "block.le_mwd_smp.wall_2": "Duvar 2",
       "block.le_mwd_smp.wall_1": "Duvar 1",
       "block.le_mwd_smp.noise_gem_tile": "Gürültü Cevheri Fayansı",
@@ -1495,6 +1565,7 @@
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "itemGroup.tabcat_cube": "Küp Kedi",
       "block.le_mwd_smp.noise_ore": "Gürültü Cevheri",
+      "key.le_mwd_smp.alphaver_dash_key": "Alphaver Dash ",
       "item.le_mwd_smp.void_key": "Boşluk Anahtarı",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
       "block.le_mwd_smp.cat_cube_me": "Küp Kedi Ben",
