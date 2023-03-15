@@ -48,17 +48,148 @@ public class SendToLaughRoomProcedure {
 		IWorld world = (IWorld) dependencies.get("world");
 		CommandContext<CommandSource> arguments = (CommandContext<CommandSource>) dependencies.get("arguments");
 		Entity entity = (Entity) dependencies.get("entity");
-		if ((new Object() {
-			public Entity getEntity() {
-				try {
-					return EntityArgument.getEntity(arguments, "name");
-				} catch (CommandSyntaxException e) {
-					e.printStackTrace();
-					return null;
+		if (LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX != 0 && LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY != 0
+				&& LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ != 0) {
+			if ((new Object() {
+				public Entity getEntity() {
+					try {
+						return EntityArgument.getEntity(arguments, "name");
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return null;
+					}
+				}
+			}.getEntity()) instanceof PlayerEntity)
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).setGameType(GameType.ADVENTURE);
+			if ((new Object() {
+				public Entity getEntity() {
+					try {
+						return EntityArgument.getEntity(arguments, "name");
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return null;
+					}
+				}
+			}.getEntity()) instanceof PlayerEntity) {
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).abilities.allowEdit = (false);
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).sendPlayerAbilities();
+			}
+			if ((new Object() {
+				public Entity getEntity() {
+					try {
+						return EntityArgument.getEntity(arguments, "name");
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return null;
+					}
+				}
+			}.getEntity()) instanceof PlayerEntity) {
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).abilities.allowFlying = (false);
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).sendPlayerAbilities();
+			}
+			if ((new Object() {
+				public Entity getEntity() {
+					try {
+						return EntityArgument.getEntity(arguments, "name");
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return null;
+					}
+				}
+			}.getEntity()) instanceof PlayerEntity) {
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).abilities.disableDamage = (false);
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).sendPlayerAbilities();
+			}
+			{
+				Entity _ent = (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity());
+				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+					RegistryKey<World> destinationType = World.OVERWORLD;
+					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+					if (nextWorld != null) {
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
+								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
+						}
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
+					}
 				}
 			}
-		}.getEntity()) instanceof PlayerEntity)
-			((PlayerEntity) (new Object() {
+			if ((new Object() {
 				public Entity getEntity() {
 					try {
 						return EntityArgument.getEntity(arguments, "name");
@@ -67,18 +198,38 @@ public class SendToLaughRoomProcedure {
 						return null;
 					}
 				}
-			}.getEntity())).setGameType(GameType.ADVENTURE);
-		if ((new Object() {
-			public Entity getEntity() {
-				try {
-					return EntityArgument.getEntity(arguments, "name");
-				} catch (CommandSyntaxException e) {
-					e.printStackTrace();
-					return null;
+			}.getEntity()) instanceof PlayerEntity)
+				((PlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).closeScreen();
+			{
+				Entity _ent = (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity());
+				_ent.setPositionAndUpdate(LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX,
+						LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY, LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ);
+				if (_ent instanceof ServerPlayerEntity) {
+					((ServerPlayerEntity) _ent).connection.setPlayerLocation(LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX,
+							LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY,
+							LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ, _ent.rotationYaw, _ent.rotationPitch,
+							Collections.emptySet());
 				}
 			}
-		}.getEntity()) instanceof PlayerEntity) {
-			((PlayerEntity) (new Object() {
+			if ((new Object() {
 				public Entity getEntity() {
 					try {
 						return EntityArgument.getEntity(arguments, "name");
@@ -87,187 +238,44 @@ public class SendToLaughRoomProcedure {
 						return null;
 					}
 				}
-			}.getEntity())).abilities.allowEdit = (false);
-			((PlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
+			}.getEntity()) instanceof ServerPlayerEntity)
+				((ServerPlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
 					}
-				}
-			}.getEntity())).sendPlayerAbilities();
-		}
-		if ((new Object() {
-			public Entity getEntity() {
-				try {
-					return EntityArgument.getEntity(arguments, "name");
-				} catch (CommandSyntaxException e) {
-					e.printStackTrace();
-					return null;
-				}
+				}.getEntity())).func_242111_a(((ServerPlayerEntity) (new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity())).world.getDimensionKey(), new BlockPos(LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX,
+						LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY, LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ),
+						0, true, false);
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent(("Sent  " + new Object() {
+					public Entity getEntity() {
+						try {
+							return EntityArgument.getEntity(arguments, "name");
+						} catch (CommandSyntaxException e) {
+							e.printStackTrace();
+							return null;
+						}
+					}
+				}.getEntity() + " to laughroom.")), (false));
 			}
-		}.getEntity()) instanceof PlayerEntity) {
-			((PlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).abilities.allowFlying = (false);
-			((PlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).sendPlayerAbilities();
-		}
-		if ((new Object() {
-			public Entity getEntity() {
-				try {
-					return EntityArgument.getEntity(arguments, "name");
-				} catch (CommandSyntaxException e) {
-					e.printStackTrace();
-					return null;
-				}
+		} else {
+			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
+				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("Set a laughroom with /laughroom first."), (false));
 			}
-		}.getEntity()) instanceof PlayerEntity) {
-			((PlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).abilities.disableDamage = (false);
-			((PlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).sendPlayerAbilities();
-		}
-		{
-			Entity _ent = (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity());
-			if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-				RegistryKey<World> destinationType = World.OVERWORLD;
-				ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-				if (nextWorld != null) {
-					((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-					((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
-							nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-					for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-					}
-					((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-				}
-			}
-		}
-		if ((new Object() {
-			public Entity getEntity() {
-				try {
-					return EntityArgument.getEntity(arguments, "name");
-				} catch (CommandSyntaxException e) {
-					e.printStackTrace();
-					return null;
-				}
-			}
-		}.getEntity()) instanceof PlayerEntity)
-			((PlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).closeScreen();
-		{
-			Entity _ent = (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity());
-			_ent.setPositionAndUpdate(LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX,
-					LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY, LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ);
-			if (_ent instanceof ServerPlayerEntity) {
-				((ServerPlayerEntity) _ent).connection.setPlayerLocation(LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX,
-						LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY, LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ,
-						_ent.rotationYaw, _ent.rotationPitch, Collections.emptySet());
-			}
-		}
-		if ((new Object() {
-			public Entity getEntity() {
-				try {
-					return EntityArgument.getEntity(arguments, "name");
-				} catch (CommandSyntaxException e) {
-					e.printStackTrace();
-					return null;
-				}
-			}
-		}.getEntity()) instanceof ServerPlayerEntity)
-			((ServerPlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).func_242111_a(((ServerPlayerEntity) (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())).world.getDimensionKey(), new BlockPos(LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX,
-					LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY, LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ), 0,
-					true, false);
-		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent(("Sent " + new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "name");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity() + "to laughroom.")), (false));
 		}
 	}
 }

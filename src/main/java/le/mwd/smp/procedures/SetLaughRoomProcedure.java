@@ -4,6 +4,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.command.arguments.BlockPosArgument;
 import net.minecraft.command.CommandSource;
 
 import le.mwd.smp.LeMwdSmpModVariables;
@@ -11,8 +12,8 @@ import le.mwd.smp.LeMwdSmpMod;
 
 import java.util.Map;
 
+import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
-import com.mojang.brigadier.arguments.DoubleArgumentType;
 
 public class SetLaughRoomProcedure {
 
@@ -35,15 +36,68 @@ public class SetLaughRoomProcedure {
 		IWorld world = (IWorld) dependencies.get("world");
 		CommandContext<CommandSource> arguments = (CommandContext<CommandSource>) dependencies.get("arguments");
 		Entity entity = (Entity) dependencies.get("entity");
-		LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX = (DoubleArgumentType.getDouble(arguments, "x"));
+		LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosX = (new Object() {
+			public double getX() {
+				try {
+					return BlockPosArgument.getBlockPos(arguments, "name").getX();
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return 0;
+				}
+			}
+		}.getX());
 		LeMwdSmpModVariables.WorldVariables.get(world).syncData(world);
-		LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY = (DoubleArgumentType.getDouble(arguments, "y"));
+		LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosY = (new Object() {
+			public double getY() {
+				try {
+					return BlockPosArgument.getBlockPos(arguments, "name").getY();
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return 0;
+				}
+			}
+		}.getY());
 		LeMwdSmpModVariables.WorldVariables.get(world).syncData(world);
-		LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ = (DoubleArgumentType.getDouble(arguments, "z"));
+		LeMwdSmpModVariables.WorldVariables.get(world).LaughRoomPosZ = (new Object() {
+			public double getZ() {
+				try {
+					return BlockPosArgument.getBlockPos(arguments, "name").getZ();
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return 0;
+				}
+			}
+		}.getZ());
 		LeMwdSmpModVariables.WorldVariables.get(world).syncData(world);
 		if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent(("Set laugh room to" + DoubleArgumentType.getDouble(arguments, "x")
-					+ DoubleArgumentType.getDouble(arguments, "y") + DoubleArgumentType.getDouble(arguments, "z"))), (false));
+			((PlayerEntity) entity).sendStatusMessage(new StringTextComponent(("Set laughrom to " + new Object() {
+				public double getX() {
+					try {
+						return BlockPosArgument.getBlockPos(arguments, "name").getX();
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return 0;
+					}
+				}
+			}.getX() + " " + new Object() {
+				public double getY() {
+					try {
+						return BlockPosArgument.getBlockPos(arguments, "name").getY();
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return 0;
+					}
+				}
+			}.getY() + " " + new Object() {
+				public double getZ() {
+					try {
+						return BlockPosArgument.getBlockPos(arguments, "name").getZ();
+					} catch (CommandSyntaxException e) {
+						e.printStackTrace();
+						return 0;
+					}
+				}
+			}.getZ() + ".")), (false));
 		}
 	}
 }
