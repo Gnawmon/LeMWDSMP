@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/developer_space_pillar_top",
+    "up": "le_mwd_smp:blocks/developer_space_pillar_top",
+    "north": "le_mwd_smp:blocks/developer_space_pillar_side",
+    "east": "le_mwd_smp:blocks/developer_space_pillar_side",
+    "south": "le_mwd_smp:blocks/developer_space_pillar_side",
+    "west": "le_mwd_smp:blocks/developer_space_pillar_side",
+    "particle": "le_mwd_smp:blocks/developer_space_pillar_top"
+  }
+}

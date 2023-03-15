@@ -1,0 +1,8 @@
+{
+  "parent": "le_mwd_smp:custom/stair_ladder",
+  "textures": {
+    "all": "le_mwd_smp:blocks/stair_ladder",
+    "particle": "le_mwd_smp:blocks/stair_ladder",
+    "ladder": "le_mwd_smp:blocks/stair_ladder"
+  }
+}

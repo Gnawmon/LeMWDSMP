@@ -1314,6 +1314,123 @@
       "locked_code": true,
       "registry_name": "alphaver_dash_overlay",
       "path": "~/Alphaver"
+    },
+    {
+      "name": "WoodenPillar",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pillar",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "WoodenPillarRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_pillar_recipe",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "QuadWindows",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quad_windows",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "QuadWindowsRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quad_windows_recipe",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "StairLadder",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stair_ladder",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "StairLadderRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stair_ladder_recipe",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "FakeGrassRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_grass_recipe",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "FakeDirtRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_dirt_recipe",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "FakeStone",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_stone",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "FakeStoneRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_stone_recipe",
+      "path": "~/Alphaver"
+    },
+    {
+      "name": "DeveloperSpacePillar",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_space_pillar",
+      "path": "~/John"
+    },
+    {
+      "name": "DeveloperSpaceWall",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "developer_space_wall",
+      "path": "~/John"
+    },
+    {
+      "name": "FakeGrassRecipeNoWool",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fake_grass_recipe_no_wool",
+      "path": "~/Alphaver"
     }
   ],
   "variable_elements": [
@@ -1387,6 +1504,7 @@
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
       "item.le_mwd_smp.key_card": "Card de Acces",
+      "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.purple_console": "Terminal Mov",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "block.le_mwd_smp.flower": "Flower",
@@ -1409,6 +1527,7 @@
       "block.le_mwd_smp.key_hole": "Gaura Cheii",
       "block.le_mwd_smp.laugh_block": "Cubul Râsului",
       "itemGroup.tabgeneral": "General",
+      "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "key.le_mwd_smp.dismantler_dash_key": "Cheia Avântului Dezmembratorului",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cubul Pisicii (Noi)",
@@ -1426,6 +1545,8 @@
       "item.le_mwd_smp.data_daisy": "Margareta Datei",
       "item.le_mwd_smp.noise": "Bijuteria Zgomotului",
       "block.le_mwd_smp.fake_grass": "Cub de Iarbă Fals",
+      "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
+      "block.le_mwd_smp.stair_ladder": "Stair Ladder",
       "item.le_mwd_smp.bugnation_spawn_egg": "Ou de sumonare a lui bug_nation (TEMPORARY THIS TRANSLATION SUCKS LMFAO)",
       "itemGroup.tabcat_cube": "Cubul Pisicii",
       "block.le_mwd_smp.noise_ore": "Minereu de Zgomotul",
@@ -1439,6 +1560,7 @@
       "item.le_mwd_smp.server_drive": "Diskul Serverului",
       "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
       "block.le_mwd_smp.red_console": "Terminal Roșu",
+      "block.le_mwd_smp.quad_windows": "Quad Windows",
       "block.le_mwd_smp.tiles": "Țiglă",
       "block.le_mwd_smp.monitor": "Monitor",
       "block.le_mwd_smp.authorizer": "Autorizator",
@@ -1454,12 +1576,14 @@
       "block.le_mwd_smp.black_window": "Geam Negru",
       "item.le_mwd_smp.disc_negative_7": "Discul -7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
-      "block.le_mwd_smp.tick_block": "Cubul ✓"
+      "block.le_mwd_smp.tick_block": "Cubul ✓",
+      "block.le_mwd_smp.fake_stone": "Fake Stone"
     },
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Block",
       "item.le_mwd_smp.key_card": "Key Card",
+      "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.purple_console": "Purple Console",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "block.le_mwd_smp.flower": "Flower",
@@ -1482,6 +1606,7 @@
       "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.laugh_block": "Laugh Block",
       "itemGroup.tabgeneral": "General",
+      "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
@@ -1499,6 +1624,8 @@
       "item.le_mwd_smp.data_daisy": "Data Daisy",
       "item.le_mwd_smp.noise": "Noise Gem",
       "block.le_mwd_smp.fake_grass": "Fake Grass",
+      "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
+      "block.le_mwd_smp.stair_ladder": "Stair Ladder",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "itemGroup.tabcat_cube": "Cat Cube",
       "block.le_mwd_smp.noise_ore": "Noise Ore",
@@ -1512,6 +1639,7 @@
       "item.le_mwd_smp.server_drive": "Server Drive",
       "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
       "block.le_mwd_smp.red_console": "Red Console",
+      "block.le_mwd_smp.quad_windows": "Quad Windows",
       "block.le_mwd_smp.tiles": "Tile",
       "block.le_mwd_smp.monitor": "Monitor",
       "block.le_mwd_smp.authorizer": "Authorizer",
@@ -1527,12 +1655,14 @@
       "block.le_mwd_smp.black_window": "Black Window",
       "item.le_mwd_smp.disc_negative_7": "Disc Negative 7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
-      "block.le_mwd_smp.tick_block": "✓ Block"
+      "block.le_mwd_smp.tick_block": "✓ Block",
+      "block.le_mwd_smp.fake_stone": "Fake Stone"
     },
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
+      "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.purple_console": "Mor Konsol",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "block.le_mwd_smp.flower": "Flower",
@@ -1555,6 +1685,7 @@
       "block.le_mwd_smp.key_hole": "Anahtar Deliği",
       "block.le_mwd_smp.laugh_block": "Gülme Bloku",
       "itemGroup.tabgeneral": "Genel",
+      "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Küp Kedi Biz",
@@ -1572,6 +1703,8 @@
       "item.le_mwd_smp.data_daisy": "Bilgi Papatyası",
       "item.le_mwd_smp.noise": "Gürültü Mücevheri",
       "block.le_mwd_smp.fake_grass": "Sahte Çim",
+      "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
+      "block.le_mwd_smp.stair_ladder": "Stair Ladder",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
       "itemGroup.tabcat_cube": "Küp Kedi",
       "block.le_mwd_smp.noise_ore": "Gürültü Cevheri",
@@ -1585,6 +1718,7 @@
       "item.le_mwd_smp.server_drive": "Sunucu Sürücüsü",
       "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
       "block.le_mwd_smp.red_console": "Kırmızı Konsol",
+      "block.le_mwd_smp.quad_windows": "Quad Windows",
       "block.le_mwd_smp.tiles": "Fayans",
       "block.le_mwd_smp.monitor": "Mönitör",
       "block.le_mwd_smp.authorizer": "Yetkilendirici",
@@ -1600,7 +1734,8 @@
       "block.le_mwd_smp.black_window": "Siyah Pencere",
       "item.le_mwd_smp.disc_negative_7": "Disk Negatif 7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
-      "block.le_mwd_smp.tick_block": "✓ Bloku"
+      "block.le_mwd_smp.tick_block": "✓ Bloku",
+      "block.le_mwd_smp.fake_stone": "Fake Stone"
     }
   },
   "foldersRoot": {
@@ -1658,7 +1793,7 @@
     "modName": "Le MWD SMP",
     "version": "1.0.0",
     "description": "Its combination of minecraft args in a mod.",
-    "author": "Liminal, Unnatural, Mark101, Gnawmon, Marioood, AndrewIdot, GameMasterPDX",
+    "author": "Liminal, Unnatural, Mark101, Gnawmon, Marioood, AndrewIdot, GameMasterPDX, Bolternon",
     "websiteURL": "https://github.com/Gnawmon/LeMWDSMP",
     "license": "Not specified",
     "disableForgeVersionCheck": true,

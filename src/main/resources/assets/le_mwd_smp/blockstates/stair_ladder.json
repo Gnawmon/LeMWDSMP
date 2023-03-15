@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "le_mwd_smp:block/stair_ladder"
+    },
+    "facing=east": {
+      "model": "le_mwd_smp:block/stair_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "le_mwd_smp:block/stair_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "le_mwd_smp:block/stair_ladder",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "le_mwd_smp:block/stair_ladder",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "le_mwd_smp:block/stair_ladder",
+      "x": 90
+    }
+  }
+}

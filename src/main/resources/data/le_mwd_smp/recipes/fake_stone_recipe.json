@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gray_wool"
+    },
+    "1": {
+      "item": "minecraft:gray_wool"
+    },
+    "2": {
+      "item": "minecraft:gray_wool"
+    },
+    "3": {
+      "item": "minecraft:gray_wool"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:fake_stone",
+    "count": 2
+  }
+}

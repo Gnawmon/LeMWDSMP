@@ -2,6 +2,7 @@
   "itemGroup.tabalphaver": "Alphaver",
   "block.le_mwd_smp.mojang_block": "Mojang Bloku",
   "item.le_mwd_smp.key_card": "Anahtar Kartı",
+  "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
   "block.le_mwd_smp.purple_console": "Mor Konsol",
   "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
   "block.le_mwd_smp.flower": "Flower",
@@ -24,6 +25,7 @@
   "block.le_mwd_smp.key_hole": "Anahtar Deliği",
   "block.le_mwd_smp.laugh_block": "Gülme Bloku",
   "itemGroup.tabgeneral": "Genel",
+  "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
   "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
   "block.le_mwd_smp.drumptoil": "Drumptoil",
   "block.le_mwd_smp.cat_cube_we": "Küp Kedi Biz",
@@ -41,6 +43,8 @@
   "item.le_mwd_smp.data_daisy": "Bilgi Papatyası",
   "item.le_mwd_smp.noise": "Gürültü Mücevheri",
   "block.le_mwd_smp.fake_grass": "Sahte Çim",
+  "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
+  "block.le_mwd_smp.stair_ladder": "Stair Ladder",
   "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
   "itemGroup.tabcat_cube": "Küp Kedi",
   "block.le_mwd_smp.noise_ore": "Gürültü Cevheri",
@@ -54,6 +58,7 @@
   "item.le_mwd_smp.server_drive": "Sunucu Sürücüsü",
   "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
   "block.le_mwd_smp.red_console": "Kırmızı Konsol",
+  "block.le_mwd_smp.quad_windows": "Quad Windows",
   "block.le_mwd_smp.tiles": "Fayans",
   "block.le_mwd_smp.monitor": "Mönitör",
   "block.le_mwd_smp.authorizer": "Yetkilendirici",
@@ -69,5 +74,6 @@
   "block.le_mwd_smp.black_window": "Siyah Pencere",
   "item.le_mwd_smp.disc_negative_7": "Disk Negatif 7",
   "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
-  "block.le_mwd_smp.tick_block": "✓ Bloku"
+  "block.le_mwd_smp.tick_block": "✓ Bloku",
+  "block.le_mwd_smp.fake_stone": "Fake Stone"
 }

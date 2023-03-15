@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "ladder": "stair_ladder"
+      },
+      "name": "default"
+    }
+  }
+}

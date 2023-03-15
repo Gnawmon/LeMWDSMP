@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/quad_windows",
+    "up": "le_mwd_smp:blocks/quad_windows",
+    "north": "le_mwd_smp:blocks/quad_windows",
+    "east": "le_mwd_smp:blocks/quad_windows",
+    "south": "le_mwd_smp:blocks/quad_windows",
+    "west": "le_mwd_smp:blocks/quad_windows",
+    "particle": "le_mwd_smp:blocks/quad_windows"
+  }
+}
