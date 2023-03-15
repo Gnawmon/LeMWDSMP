@@ -35,13 +35,23 @@ public class MakeFlameProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
-		world.setBlockState(new BlockPos(x + 1, y, z), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + 1, y, z + 1), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + 1, y, z + 2), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + 0, y, z + 3), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + -1, y, z + 4), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + -1, y, z + 5), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + -1, y, z + 5), Blocks.FIRE.getDefaultState(), 3);
-		world.setBlockState(new BlockPos(x + -1, y, z + 5), Blocks.FIRE.getDefaultState(), 3);
+		if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z))) {
+			world.setBlockState(new BlockPos(x + 1, y, z), Blocks.FIRE.getDefaultState(), 3);
+		}
+		if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 1))) {
+			world.setBlockState(new BlockPos(x + 1, y, z + 1), Blocks.FIRE.getDefaultState(), 3);
+		}
+		if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 2))) {
+			world.setBlockState(new BlockPos(x + 1, y, z + 2), Blocks.FIRE.getDefaultState(), 3);
+		}
+		if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 3))) {
+			world.setBlockState(new BlockPos(x + 1, y, z + 3), Blocks.FIRE.getDefaultState(), 3);
+		}
+		if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 4))) {
+			world.setBlockState(new BlockPos(x + 1, y, z + 4), Blocks.FIRE.getDefaultState(), 3);
+		}
+		if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 5))) {
+			world.setBlockState(new BlockPos(x + 1, y, z + 5), Blocks.FIRE.getDefaultState(), 3);
+		}
 	}
 }
