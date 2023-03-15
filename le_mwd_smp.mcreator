@@ -1467,20 +1467,20 @@
   ],
   "sound_elements": [
     {
+      "name": "alphaverdash",
+      "files": [
+        "dash"
+      ],
+      "category": "player",
+      "subtitle": "Dash"
+    },
+    {
       "name": "dismantlerdash",
       "files": [
         "dismantlerdash"
       ],
       "category": "player",
       "subtitle": "Dismantler Dash"
-    },
-    {
-      "name": "infuse",
-      "files": [
-        "infuse"
-      ],
-      "category": "block",
-      "subtitle": "Flower Infused"
     },
     {
       "name": "alphaverdashrecharge",
@@ -1491,12 +1491,12 @@
       "subtitle": "Dash Recharge"
     },
     {
-      "name": "alphaverdash",
+      "name": "infuse",
       "files": [
-        "dash"
+        "infuse"
       ],
-      "category": "player",
-      "subtitle": "Dash"
+      "category": "block",
+      "subtitle": "Flower Infused"
     }
   ],
   "language_map": {
@@ -1506,6 +1506,7 @@
       "item.le_mwd_smp.key_card": "Card de Acces",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.purple_console": "Terminal Mov",
+      "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "block.le_mwd_smp.flower": "Flower",
       "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
@@ -1563,6 +1564,7 @@
       "block.le_mwd_smp.quad_windows": "Quad Windows",
       "block.le_mwd_smp.tiles": "Țiglă",
       "block.le_mwd_smp.monitor": "Monitor",
+      "block.le_mwd_smp.shelve": "Shelve",
       "block.le_mwd_smp.authorizer": "Autorizator",
       "item.le_mwd_smp.void_gem": "Bijuteria Vidului",
       "block.le_mwd_smp.concrete": "Beton",
@@ -1585,17 +1587,18 @@
       "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.purple_console": "Purple Console",
+      "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "block.le_mwd_smp.flower": "Flower",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Dismantler Dash",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
-      "block.le_mwd_smp.cat_cube_you": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_you": "Cat Cube You",
       "item.le_mwd_smp.assetstilesdeny": "assets_tiles_deny",
       "item.le_mwd_smp.disc_negative_7.desc": "SNull",
       "entity.le_mwd_smp.bugnation": "Bugnation",
-      "block.le_mwd_smp.cat_cube_original": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_original": "Vinny",
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
       "block.le_mwd_smp.cross_block": "⤫ Block",
@@ -1609,8 +1612,8 @@
       "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
-      "block.le_mwd_smp.cat_cube_we": "Cat Cube Original",
-      "block.le_mwd_smp.cat_cube_no_one": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_we": "Cat Cube We",
+      "block.le_mwd_smp.cat_cube_no_one": "Cat Cube No One",
       "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
       "block.le_mwd_smp.psi_block": "ꕚ Block",
@@ -1632,7 +1635,7 @@
       "key.le_mwd_smp.alphaver_dash_key": "Alphaver Dash ",
       "item.le_mwd_smp.void_key": "Void Key",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
-      "block.le_mwd_smp.cat_cube_me": "Cat Cube Original",
+      "block.le_mwd_smp.cat_cube_me": "Cat Cube Me",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.black_tile": "Black Tile",
       "block.le_mwd_smp.fake_dirt": "Fake Dirt",
@@ -1642,6 +1645,7 @@
       "block.le_mwd_smp.quad_windows": "Quad Windows",
       "block.le_mwd_smp.tiles": "Tile",
       "block.le_mwd_smp.monitor": "Monitor",
+      "block.le_mwd_smp.shelve": "Shelve",
       "block.le_mwd_smp.authorizer": "Authorizer",
       "item.le_mwd_smp.void_gem": "Void Gem",
       "block.le_mwd_smp.concrete": "Concrete",
@@ -1664,6 +1668,7 @@
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.purple_console": "Mor Konsol",
+      "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "block.le_mwd_smp.flower": "Flower",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
@@ -1721,6 +1726,7 @@
       "block.le_mwd_smp.quad_windows": "Quad Windows",
       "block.le_mwd_smp.tiles": "Fayans",
       "block.le_mwd_smp.monitor": "Mönitör",
+      "block.le_mwd_smp.shelve": "Shelve",
       "block.le_mwd_smp.authorizer": "Yetkilendirici",
       "item.le_mwd_smp.void_gem": "Boşluk Mücevheri",
       "block.le_mwd_smp.concrete": "Beton",

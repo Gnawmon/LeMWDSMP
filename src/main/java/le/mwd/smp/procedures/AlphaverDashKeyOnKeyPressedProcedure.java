@@ -7,10 +7,16 @@ import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.world.GameType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
+import net.minecraft.client.Minecraft;
 
 import le.mwd.smp.LeMwdSmpModVariables;
 import le.mwd.smp.LeMwdSmpMod;
@@ -56,8 +62,20 @@ public class AlphaverDashKeyOnKeyPressedProcedure {
 		yaw = (entity.rotationYaw);
 		pitch = (entity.rotationPitch);
 		velocity = 7;
-		if (world.getWorldInfo().getDayTime() <= LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime
-				|| world.getWorldInfo().getDayTime() > LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime + 60) {
+		if ((world.getWorldInfo().getDayTime() <= LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime
+				|| world.getWorldInfo().getDayTime() > LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime + 60)
+				&& !(new Object() {
+					public boolean checkGamemode(Entity _ent) {
+						if (_ent instanceof ServerPlayerEntity) {
+							return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
+						} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
+							NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
+									.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
+							return _npi != null && _npi.getGameType() == GameType.CREATIVE;
+						}
+						return false;
+					}
+				}.checkGamemode(entity))) {
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos(x, y, z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("le_mwd_smp:alphaverdash")),

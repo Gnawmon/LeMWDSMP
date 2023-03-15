@@ -47,13 +47,13 @@ public class LeMwdSmpModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public LeMwdSmpModElements() {
-		sounds.put(new ResourceLocation("le_mwd_smp", "dismantlerdash"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "dismantlerdash")));
-		sounds.put(new ResourceLocation("le_mwd_smp", "infuse"), new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "infuse")));
-		sounds.put(new ResourceLocation("le_mwd_smp", "alphaverdashrecharge"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "alphaverdashrecharge")));
 		sounds.put(new ResourceLocation("le_mwd_smp", "alphaverdash"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "alphaverdash")));
+		sounds.put(new ResourceLocation("le_mwd_smp", "dismantlerdash"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "dismantlerdash")));
+		sounds.put(new ResourceLocation("le_mwd_smp", "alphaverdashrecharge"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "alphaverdashrecharge")));
+		sounds.put(new ResourceLocation("le_mwd_smp", "infuse"), new net.minecraft.util.SoundEvent(new ResourceLocation("le_mwd_smp", "infuse")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("le_mwd_smp").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Bugnation",
     "mobLabel": "",
-    "mobModelName": "Piglin",
+    "mobModelName": "Modelplayer",
     "mobModelTexture": "bugsigmanation.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
