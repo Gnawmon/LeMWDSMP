@@ -1467,6 +1467,36 @@
       "locked_code": false,
       "registry_name": "molten_flintrecipe",
       "path": "~/Alphaver"
+    },
+    {
+      "name": "FlowerAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver"
     }
   ],
   "variable_elements": [
@@ -1544,8 +1574,8 @@
       "block.le_mwd_smp.purple_console": "Terminal Mov",
       "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
-      "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
       "block.le_mwd_smp.flower": "Flower",
+      "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Avântul Dezmembratorului",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
@@ -1627,8 +1657,8 @@
       "block.le_mwd_smp.purple_console": "Purple Console",
       "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
-      "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
       "block.le_mwd_smp.flower": "Flower",
+      "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Dismantler Dash",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
@@ -1710,8 +1740,8 @@
       "block.le_mwd_smp.purple_console": "Mor Konsol",
       "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
-      "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
       "block.le_mwd_smp.flower": "Flower",
+      "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "subtitles.dismantlerdash": "Sökücü Fırlaması",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
