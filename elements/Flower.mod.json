@@ -129,23 +129,57 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "deep_warm_ocean"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "warm_ocean"
+      },
+      {
+        "value": "mutated_desert"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "river"
+      }
+    ],
     "blocksToReplace": [
       {
-        "value": "Blocks.WATERLILY"
-      },
-      {
-        "value": "Blocks.WATER"
-      },
-      {
-        "value": "Blocks.FLOWING_WATER"
+        "value": "Blocks.AIR"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 32,
     "frequencyOnChunk": 32,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64,
+    "minGenerateHeight": 62,
+    "maxGenerateHeight": 63,
     "generateCondition": {
       "name": "FlowerAdditionalGenerationCondition"
     }

@@ -183,11 +183,7 @@ public class FlowerBlock extends LeMwdSmpModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.LILY_PAD)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.WATER)
-				blockCriteria = true;
-			if (blockAt.getBlock() == Blocks.WATER)
+			if (blockAt.getBlock() == Blocks.AIR)
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -215,13 +211,13 @@ public class FlowerBlock extends LeMwdSmpModElements.ModElement {
 					int z = pos.getZ();
 					if (!FlowerAdditionalGenerationConditionProcedure.executeProcedure(Stream
 							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-									new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+									new AbstractMap.SimpleEntry<>("z", z))
 							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 32)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 32)).range(63)
 					.square().func_242731_b(32);
 			event.getRegistry().register(feature.setRegistryName("flower"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("le_mwd_smp:flower"), configuredFeature);
@@ -230,6 +226,35 @@ public class FlowerBlock extends LeMwdSmpModElements.ModElement {
 
 	@SubscribeEvent
 	public void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("cold_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_cold_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_frozen_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_lukewarm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("deep_warm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("frozen_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("lukewarm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("warm_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("desert_lakes").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("frozen_river").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("river").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.UNDERGROUND_ORES).add(() -> configuredFeature);
 	}
 }
