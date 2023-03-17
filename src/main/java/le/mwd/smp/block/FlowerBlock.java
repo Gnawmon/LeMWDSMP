@@ -57,7 +57,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import le.mwd.smp.procedures.FlowerInfuseProcedure;
-import le.mwd.smp.procedures.FlowerAdditionalGenerationConditionProcedure;
 import le.mwd.smp.itemgroup.AlphaverItemGroup;
 import le.mwd.smp.LeMwdSmpModElements;
 
@@ -205,14 +204,6 @@ public class FlowerBlock extends LeMwdSmpModElements.ModElement {
 					if (dimensionType == World.OVERWORLD)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
-						return false;
-					int x = pos.getX();
-					int y = pos.getY();
-					int z = pos.getZ();
-					if (!FlowerAdditionalGenerationConditionProcedure.executeProcedure(Stream
-							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-									new AbstractMap.SimpleEntry<>("z", z))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))
 						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}

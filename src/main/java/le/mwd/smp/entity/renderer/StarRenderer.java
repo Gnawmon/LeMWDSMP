@@ -14,23 +14,23 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import le.mwd.smp.entity.BugnationEntity;
+import le.mwd.smp.entity.StarEntity;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @OnlyIn(Dist.CLIENT)
-public class BugnationRenderer {
+public class StarRenderer {
 	public static class ModelRegisterHandler {
 		@SubscribeEvent
 		@OnlyIn(Dist.CLIENT)
 		public void registerModels(ModelRegistryEvent event) {
-			RenderingRegistry.registerEntityRenderingHandler(BugnationEntity.entity, renderManager -> {
+			RenderingRegistry.registerEntityRenderingHandler(StarEntity.entity, renderManager -> {
 				return new MobRenderer(renderManager, new Modelplayer(), 0.5f) {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("le_mwd_smp:textures/entities/bugsigmanation.png");
+						return new ResourceLocation("le_mwd_smp:textures/entities/47b239ce99024f45756f4daae4b62492be5c68f5.png");
 					}
 				};
 			});

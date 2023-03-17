@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoltenFlint"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MoltenFlint"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FlamebergeShard"
+      },
+      {
+        "value": "CUSTOM:SteelRod"
+      },
+      {
+        "value": "CUSTOM:FlamebergeShard"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Flameberge"
+    },
+    "name": "flamberge_recipe",
+    "namespace": "mod"
+  }
+}
