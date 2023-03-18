@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "le_mwd_smp:block/the_universe_block"
+    }
+  }
+}

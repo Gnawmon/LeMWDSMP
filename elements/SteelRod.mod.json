@@ -8,7 +8,7 @@
     "name": "Steel Rod",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:General"
     },
     "stackSize": 64,
     "enchantability": 0,

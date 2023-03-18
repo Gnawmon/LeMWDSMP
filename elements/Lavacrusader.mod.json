@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Lavacrusader",
+    "icon": {
+      "value": "CUSTOM:TheUniverseBlock"
+    },
+    "showSearch": false
+  }
+}

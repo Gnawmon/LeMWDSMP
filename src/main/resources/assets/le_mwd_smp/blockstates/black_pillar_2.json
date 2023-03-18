@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "le_mwd_smp:block/black_pillar_2",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "le_mwd_smp:block/black_pillar_2"
+    },
+    "axis=z": {
+      "model": "le_mwd_smp:block/black_pillar_2",
+      "x": 90
+    }
+  }
+}

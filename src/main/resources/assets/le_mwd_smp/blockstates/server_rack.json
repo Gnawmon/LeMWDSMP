@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "le_mwd_smp:block/server_rack"
+    },
+    "facing=east": {
+      "model": "le_mwd_smp:block/server_rack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "le_mwd_smp:block/server_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "le_mwd_smp:block/server_rack",
+      "y": 270
     }
   }
 }

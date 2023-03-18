@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "le_mwd_smp:block/lc_black_window"
+    }
+  }
+}

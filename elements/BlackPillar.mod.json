@@ -2,15 +2,15 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "blacktile",
-    "textureTop": "blacktile",
-    "textureLeft": "blacktile",
-    "textureFront": "temp",
-    "textureRight": "blacktile",
-    "textureBack": "blacktile",
+    "texture": "tile040",
+    "textureTop": "tile040",
+    "textureLeft": "tile039",
+    "textureFront": "tile039",
+    "textureRight": "tile039",
+    "textureBack": "tile039",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 1,
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Server Rack",
+    "name": "Black Pillar",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TheBottomOfTheVoid"
+      "value": "CUSTOM:Lavacrusader"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -107,25 +107,14 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasInventory": false,
-    "guiBoundTo": "Server",
-    "openGUIOnRightClick": true,
-    "inventorySize": 10,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
-    ],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
