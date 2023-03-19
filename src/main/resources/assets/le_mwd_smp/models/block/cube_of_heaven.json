@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "le_mwd_smp:blocks/cube_of_heaven_side",
+    "particle": "le_mwd_smp:blocks/cube_of_heaven_side"
+  }
+}

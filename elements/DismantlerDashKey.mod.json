@@ -3,7 +3,7 @@
   "_type": "keybind",
   "definition": {
     "triggerKey": "Z",
-    "keyBindingName": "Dismantler Dash Key",
+    "keyBindingName": "Dismantler Dash ",
     "keyBindingCategoryKey": "movement",
     "onKeyPressed": {
       "name": "DismantlerDash"

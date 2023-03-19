@@ -63,7 +63,6 @@ public class DismantlerDashKeyOnKeyReleasedProcedure {
 			entity.setMotion((Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * velocity),
 					(Math.sin((pitch / 180) * Math.PI) * (-1) * velocity),
 					(Math.cos((yaw / 180) * Math.PI) * Math.cos((pitch / 180) * Math.PI) * velocity));
-			entity.fallDistance = (float) (0);
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos(x, y, z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("le_mwd_smp:dismantlerdash")),

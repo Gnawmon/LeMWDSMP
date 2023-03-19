@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "le_mwd_smp:block/alphaver_cat_cube"
+    }
+  }
+}
