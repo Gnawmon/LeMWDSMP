@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "le_mwd_smp:blocks/1053484962550124624_1",
+    "particle": "le_mwd_smp:blocks/1053484962550124624_1"
+  }
+}
