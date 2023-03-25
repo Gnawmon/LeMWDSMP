@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/launcherbottom",
+    "up": "le_mwd_smp:blocks/launchertop",
+    "north": "le_mwd_smp:blocks/launcher",
+    "east": "le_mwd_smp:blocks/launcher",
+    "south": "le_mwd_smp:blocks/launcher",
+    "west": "le_mwd_smp:blocks/launcher",
+    "particle": "le_mwd_smp:blocks/launcherbottom"
+  }
+}
