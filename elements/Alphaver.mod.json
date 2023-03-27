@@ -4,7 +4,7 @@
   "definition": {
     "name": "Alphaver",
     "icon": {
-      "value": "CUSTOM:Flower"
+      "value": "CUSTOM:LauncherBlock"
     },
     "showSearch": true
   }

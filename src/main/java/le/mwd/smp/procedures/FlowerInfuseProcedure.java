@@ -17,9 +17,9 @@ import net.minecraft.entity.Entity;
 import net.minecraft.client.network.play.NetworkPlayerInfo;
 import net.minecraft.client.entity.player.AbstractClientPlayerEntity;
 import net.minecraft.client.Minecraft;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
+import le.mwd.smp.item.ObsidianIngotItem;
 import le.mwd.smp.block.ObsidianInfusedFlowerBlock;
 import le.mwd.smp.block.InfusedFlowerBlock;
 import le.mwd.smp.block.GoldInfusedFlowerBlock;
@@ -134,8 +134,8 @@ public class FlowerInfuseProcedure {
 					(((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)).shrink((int) 1);
 				}
 			}
-			if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem() == Blocks.OBSIDIAN
-					.asItem()) {
+			if (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
+					.getItem() == ObsidianIngotItem.block) {
 				{
 					BlockPos _bp = new BlockPos(x, y, z);
 					BlockState _bs = ObsidianInfusedFlowerBlock.block.getDefaultState();
