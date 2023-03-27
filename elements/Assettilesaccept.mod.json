@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ender_eye",
+    "texture": "accept",
     "customModelName": "Normal",
     "name": "assets_tiles_accept",
     "rarity": "COMMON",

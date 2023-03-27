@@ -4,7 +4,7 @@
   "definition": {
     "name": "General",
     "icon": {
-      "value": "Blocks.COMMAND_BLOCK"
+      "value": "CUSTOM:LaughBlock"
     },
     "showSearch": false
   }

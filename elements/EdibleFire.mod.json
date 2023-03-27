@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tile178",
+    "texture": "edible_fire",
     "customModelName": "Normal",
     "name": "Edible Fire",
     "rarity": "COMMON",

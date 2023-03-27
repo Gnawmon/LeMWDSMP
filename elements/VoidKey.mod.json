@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "keytexture",
+    "texture": "admin_key",
     "customModelName": "Normal",
     "name": "Void Key",
     "rarity": "EPIC",

@@ -59,16 +59,19 @@ public class AlphaverDashKeyOnKeyPressedProcedure {
 		double pitch = 0;
 		double velocity = 0;
 		double yaw = 0;
+		yaw = (entity.rotationYaw);
+		pitch = (entity.rotationPitch);
+		velocity = 7;
 		if ((world.getWorldInfo().getDayTime() <= LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime
 				|| world.getWorldInfo().getDayTime() > LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime + 60)
 				&& !(new Object() {
 					public boolean checkGamemode(Entity _ent) {
 						if (_ent instanceof ServerPlayerEntity) {
-							return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SPECTATOR;
+							return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.CREATIVE;
 						} else if (_ent instanceof PlayerEntity && _ent.world.isRemote()) {
 							NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
 									.getPlayerInfo(((AbstractClientPlayerEntity) _ent).getGameProfile().getId());
-							return _npi != null && _npi.getGameType() == GameType.SPECTATOR;
+							return _npi != null && _npi.getGameType() == GameType.CREATIVE;
 						}
 						return false;
 					}
@@ -84,7 +87,11 @@ public class AlphaverDashKeyOnKeyPressedProcedure {
 			}
 			LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime = (world.getWorldInfo().getDayTime());
 			LeMwdSmpModVariables.MapVariables.get(world).syncData(world);
-			entity.setMotion((entity.getMotion().getX() * 3), (entity.getMotion().getY() * 3), (entity.getMotion().getZ() * 3));
+			entity.setMotion(
+					(Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getX()) * velocity),
+					(Math.sin((pitch / 180) * Math.PI) * (-1) * Math.abs(entity.getMotion().getY()) * velocity),
+					(Math.cos((yaw / 180) * Math.PI) * Math.cos((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getZ()) * velocity));
+			entity.fallDistance = (float) (0);
 			new Object() {
 				private int ticks = 0;
 				private float waitTicks;

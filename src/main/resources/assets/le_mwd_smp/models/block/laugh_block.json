@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "le_mwd_smp:blocks/laughroom",
-    "particle": "le_mwd_smp:blocks/laughroom"
+    "all": "le_mwd_smp:blocks/laughroom_wall",
+    "particle": "le_mwd_smp:blocks/laughroom_wall"
   }
 }

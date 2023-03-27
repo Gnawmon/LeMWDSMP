@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/001_bredas",
+    "up": "le_mwd_smp:blocks/001_bredas",
+    "north": "le_mwd_smp:blocks/001_bredas",
+    "east": "le_mwd_smp:blocks/001_bredas",
+    "south": "le_mwd_smp:blocks/001_bredas",
+    "west": "le_mwd_smp:blocks/001_bredas",
+    "particle": "le_mwd_smp:blocks/001_bredas"
+  }
+}

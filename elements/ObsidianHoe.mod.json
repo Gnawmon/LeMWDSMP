@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tile209",
+    "texture": "obsidian_hoe",
     "customModelName": "Normal",
     "name": "Obsidian Hoe",
     "specialInfo": [],

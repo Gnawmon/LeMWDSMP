@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "le_mwd_smp:blocks/terrain-3.png1",
-    "particle": "le_mwd_smp:blocks/terrain-3.png1"
+    "all": "le_mwd_smp:blocks/fake_dirt",
+    "particle": "le_mwd_smp:blocks/fake_dirt"
   }
 }

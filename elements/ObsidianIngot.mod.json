@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tile208",
+    "texture": "obsidian_ingot",
     "customModelName": "Normal",
     "name": "Obsidian Ingot",
     "rarity": "COMMON",

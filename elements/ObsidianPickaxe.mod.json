@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tile177",
+    "texture": "obsidian_pickaxe",
     "customModelName": "Normal",
     "name": "Obsidian Pickaxe",
     "specialInfo": [],

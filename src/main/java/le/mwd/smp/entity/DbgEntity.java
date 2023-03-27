@@ -44,7 +44,7 @@ import le.mwd.smp.LeMwdSmpModElements;
 public class DbgEntity extends LeMwdSmpModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.8f)).build("dbg").setRegistryName("dbg");
+			.size(0.6f, 1.95f)).build("dbg").setRegistryName("dbg");
 
 	public DbgEntity(LeMwdSmpModElements instance) {
 		super(instance, 132);

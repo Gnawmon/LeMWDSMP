@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tile161",
+    "texture": "obsidian_shovel",
     "customModelName": "Normal",
     "name": "Obsidian Shovel",
     "specialInfo": [],

@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "items-1.png13",
+    "texture": "flameberge",
     "customModelName": "Normal",
     "name": "Flameberge",
     "specialInfo": [],

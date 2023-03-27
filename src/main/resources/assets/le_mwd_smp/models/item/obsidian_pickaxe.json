@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "le_mwd_smp:items/tile177"
+    "layer0": "le_mwd_smp:items/obsidian_pickaxe"
   }
 }

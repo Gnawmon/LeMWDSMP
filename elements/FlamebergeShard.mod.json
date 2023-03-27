@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "flame_berge_sharde",
+    "texture": "flameberge_shard",
     "customModelName": "Normal",
     "name": "Flameberge Shard",
     "rarity": "COMMON",

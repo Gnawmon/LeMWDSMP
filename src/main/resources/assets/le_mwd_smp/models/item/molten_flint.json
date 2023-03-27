@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "le_mwd_smp:items/waat"
+    "layer0": "le_mwd_smp:items/molten_flint"
   }
 }

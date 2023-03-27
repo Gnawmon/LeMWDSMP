@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tile145",
+    "texture": "obsidian_sword",
     "customModelName": "Normal",
     "name": "Obisidian Sword",
     "specialInfo": [],

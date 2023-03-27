@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "laughroom",
+    "texture": "laughroom_wall",
     "textureTop": "laughtemp",
     "textureLeft": "laughtemp",
     "textureFront": "laughtemp",

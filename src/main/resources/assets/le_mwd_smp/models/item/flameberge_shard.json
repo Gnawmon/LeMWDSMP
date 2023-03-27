@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "le_mwd_smp:items/flame_berge_sharde"
+    "layer0": "le_mwd_smp:items/flameberge_shard"
   }
 }

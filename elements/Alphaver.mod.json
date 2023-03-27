@@ -4,7 +4,7 @@
   "definition": {
     "name": "Alphaver",
     "icon": {
-      "value": "Blocks.SAPLING#0"
+      "value": "CUSTOM:Flower"
     },
     "showSearch": true
   }

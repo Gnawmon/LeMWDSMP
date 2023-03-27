@@ -6,8 +6,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.block.Blocks;
 
+import le.mwd.smp.block.FlowerBlock;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class AlphaverItemGroup extends LeMwdSmpModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.OAK_SAPLING);
+				return new ItemStack(FlowerBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "name2",
+    "texture": "server_drive",
     "customModelName": "Normal",
     "name": "Server Drive",
     "rarity": "COMMON",

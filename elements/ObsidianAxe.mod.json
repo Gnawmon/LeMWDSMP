@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "tile193",
+    "texture": "obsidian_axe",
     "customModelName": "Normal",
     "name": "Obsidian Axe",
     "specialInfo": [],

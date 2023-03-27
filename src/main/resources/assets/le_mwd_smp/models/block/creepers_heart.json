@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "le_mwd_smp:blocks/creeper",
-    "particle": "le_mwd_smp:blocks/creeper"
+    "cross": "le_mwd_smp:blocks/creeper_heart",
+    "particle": "le_mwd_smp:blocks/creeper_heart"
   }
 }

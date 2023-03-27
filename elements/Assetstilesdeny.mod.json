@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "experience_bottle",
+    "texture": "deny",
     "customModelName": "Normal",
     "name": "assets_tiles_deny",
     "rarity": "COMMON",

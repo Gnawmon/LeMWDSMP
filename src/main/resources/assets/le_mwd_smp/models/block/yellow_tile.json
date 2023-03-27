@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "le_mwd_smp:blocks/tile152",
-    "up": "le_mwd_smp:blocks/tile152",
-    "north": "le_mwd_smp:blocks/tile152",
-    "east": "le_mwd_smp:blocks/tile152",
-    "south": "le_mwd_smp:blocks/tile152",
-    "west": "le_mwd_smp:blocks/tile152",
-    "particle": "le_mwd_smp:blocks/tile152"
+    "down": "le_mwd_smp:blocks/yellow_hub_tile",
+    "up": "le_mwd_smp:blocks/yellow_hub_tile",
+    "north": "le_mwd_smp:blocks/yellow_hub_tile",
+    "east": "le_mwd_smp:blocks/yellow_hub_tile",
+    "south": "le_mwd_smp:blocks/yellow_hub_tile",
+    "west": "le_mwd_smp:blocks/yellow_hub_tile",
+    "particle": "le_mwd_smp:blocks/yellow_hub_tile"
   }
 }

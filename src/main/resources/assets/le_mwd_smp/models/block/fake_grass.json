@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "le_mwd_smp:blocks/brightness_block",
-    "up": "le_mwd_smp:blocks/terrain-1.png22",
-    "north": "le_mwd_smp:blocks/terrain-2.png4",
-    "east": "le_mwd_smp:blocks/terrain-2.png4",
-    "south": "le_mwd_smp:blocks/terrain-2.png4",
-    "west": "le_mwd_smp:blocks/terrain-2.png4",
-    "particle": "le_mwd_smp:blocks/brightness_block"
+    "down": "le_mwd_smp:blocks/fake_dirt",
+    "up": "le_mwd_smp:blocks/fake_grass_top",
+    "north": "le_mwd_smp:blocks/fake_grass_side",
+    "east": "le_mwd_smp:blocks/fake_grass_side",
+    "south": "le_mwd_smp:blocks/fake_grass_side",
+    "west": "le_mwd_smp:blocks/fake_grass_side",
+    "particle": "le_mwd_smp:blocks/fake_dirt"
   }
 }

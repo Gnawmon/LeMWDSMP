@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "creeper",
+    "texture": "creeper_heart",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "creeper",
+    "itemTexture": "creeper_heart",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

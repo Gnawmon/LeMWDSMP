@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "steelrod",
+    "texture": "steel_rod",
     "customModelName": "Normal",
     "name": "Steel Rod",
     "rarity": "COMMON",

@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "tile144",
+    "textureHelmet": "obsidian_helmet",
     "enableBody": true,
-    "textureBody": "tile160",
+    "textureBody": "obsidian_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "tile176",
+    "textureLeggings": "obsidian_leggings",
     "enableBoots": true,
-    "textureBoots": "tile192",
+    "textureBoots": "obsidian_boots",
     "creativeTab": {
       "value": "CUSTOM:Alphaver"
     },

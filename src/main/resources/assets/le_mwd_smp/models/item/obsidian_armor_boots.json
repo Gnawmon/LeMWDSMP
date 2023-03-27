@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "le_mwd_smp:items/tile192"
+    "layer0": "le_mwd_smp:items/obsidian_boots"
   }
 }

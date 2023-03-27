@@ -10,31 +10,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "CUSTOM:SteelRod"
       }
     ],
     "recipeReturnStack": {

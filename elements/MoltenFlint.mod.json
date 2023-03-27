@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "waat",
+    "texture": "molten_flint",
     "customModelName": "Normal",
     "name": "Molten Flint",
     "rarity": "COMMON",

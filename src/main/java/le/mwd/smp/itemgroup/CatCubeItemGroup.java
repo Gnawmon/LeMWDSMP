@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import le.mwd.smp.block.CatCubeMeBlock;
+import le.mwd.smp.block.CatCubeYouBlock;
 import le.mwd.smp.LeMwdSmpModElements;
 
 @LeMwdSmpModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class CatCubeItemGroup extends LeMwdSmpModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(CatCubeMeBlock.block);
+				return new ItemStack(CatCubeYouBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
