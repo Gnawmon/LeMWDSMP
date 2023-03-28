@@ -8,6 +8,8 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.client.renderer.texture.TextureAtlasSprite;
+import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.player.PlayerEntity;
@@ -18,6 +20,7 @@ import com.mojang.blaze3d.platform.GlStateManager;
 
 @Mod.EventBusSubscriber
 public class AlphaverDashOverlayOverlay {
+
 	@OnlyIn(Dist.CLIENT)
 	@SubscribeEvent(priority = EventPriority.NORMAL)
 	public static void eventHandler(RenderGameOverlayEvent.Post event) {
@@ -58,4 +61,6 @@ public class AlphaverDashOverlayOverlay {
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 		}
 	}
+
+
 }

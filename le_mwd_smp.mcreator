@@ -1311,7 +1311,7 @@
           }
         ]
       },
-      "path": "~/Alphaver/Items"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "AlphaverDashKey",
@@ -1464,7 +1464,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_rodcraftinge",
-      "path": "~/Alphaver/Items"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "MoltenFlint",
@@ -1562,7 +1562,7 @@
           }
         ]
       },
-      "path": "~/Alphaver/Items"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "UniverseBlockGUI",
@@ -1955,6 +1955,24 @@
       "locked_code": false,
       "registry_name": "dbg_cross",
       "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "Fryshroom",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryshroom",
+      "path": "~/Alphaver/Items"
+    },
+    {
+      "name": "FryshroomRecipe",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fryshroom_recipe",
+      "path": "~/Alphaver/Recipes"
     }
   ],
   "variable_elements": [
@@ -2042,6 +2060,7 @@
       "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
+      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.star_block": "✺ Block",
       "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Gaura Cheii",
@@ -2186,6 +2205,7 @@
       "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
+      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.fan": "Server Cooling Fan",
       "block.le_mwd_smp.star_block": "✺ Block",
       "block.le_mwd_smp.key_hole": "Key Hole",
@@ -2330,6 +2350,7 @@
       "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
+      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.star_block": "✺ Block",
       "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Anahtar Deliği",

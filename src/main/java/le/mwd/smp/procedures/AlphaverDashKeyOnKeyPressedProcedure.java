@@ -89,7 +89,7 @@ public class AlphaverDashKeyOnKeyPressedProcedure {
 			LeMwdSmpModVariables.MapVariables.get(world).syncData(world);
 			entity.setMotion(
 					(Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getX()) * velocity),
-					(Math.sin((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getY()) * velocity),
+					(Math.sin((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getY()) * velocity * (-1)),
 					(Math.cos((yaw / 180) * Math.PI) * Math.cos((pitch / 180) * Math.PI) * Math.abs(entity.getMotion().getZ()) * velocity));
 			entity.fallDistance = (float) (0);
 			new Object() {
