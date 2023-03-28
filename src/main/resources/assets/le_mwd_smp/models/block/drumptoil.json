@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "le_mwd_smp:blocks/drumptoil",
-    "particle": "le_mwd_smp:blocks/drumptoil"
+    "all": "le_mwd_smp:blocks/moon_block",
+    "particle": "le_mwd_smp:blocks/moon_block"
   }
 }

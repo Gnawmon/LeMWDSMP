@@ -3,10 +3,10 @@
   "textures": {
     "down": "le_mwd_smp:blocks/botom2",
     "up": "le_mwd_smp:blocks/blacktile",
-    "north": "le_mwd_smp:blocks/ballsies",
-    "east": "le_mwd_smp:blocks/ballsies",
-    "south": "le_mwd_smp:blocks/ballsies",
-    "west": "le_mwd_smp:blocks/ballsies",
+    "north": "le_mwd_smp:blocks/y_moniter",
+    "east": "le_mwd_smp:blocks/y_moniter",
+    "south": "le_mwd_smp:blocks/y_moniter",
+    "west": "le_mwd_smp:blocks/y_moniter",
     "particle": "le_mwd_smp:blocks/botom2"
   }
 }

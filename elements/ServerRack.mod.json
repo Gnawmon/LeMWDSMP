@@ -5,7 +5,7 @@
     "texture": "blacktile",
     "textureTop": "blacktile",
     "textureLeft": "blacktile",
-    "textureFront": "temp",
+    "textureFront": "admin_terminal",
     "textureRight": "blacktile",
     "textureBack": "blacktile",
     "renderType": 10,

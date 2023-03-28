@@ -2,14 +2,14 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "concrete",
-    "textureTop": "concrete",
-    "textureLeft": "concrete",
-    "textureFront": "concrete",
-    "textureRight": "concrete",
-    "textureBack": "concrete",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "multicolor_tile",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Delta End Stone",
+    "name": "Multicolor Tile",
     "specialInfo": [],
-    "hardness": 1.4000000000000001,
-    "resistance": 4.0,
+    "hardness": 2.8,
+    "resistance": 16.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TheBottomOfTheVoid"
+      "value": "CUSTOM:Lavacrusader"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

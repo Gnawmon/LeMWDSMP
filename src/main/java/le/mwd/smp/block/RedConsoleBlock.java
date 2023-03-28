@@ -82,7 +82,7 @@ public class RedConsoleBlock extends LeMwdSmpModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Red Console");
+						return new StringTextComponent("Terminal");
 					}
 
 					@Override

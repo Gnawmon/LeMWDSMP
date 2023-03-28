@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "botom2",
-    "textureTop": "tile",
-    "textureLeft": "clay",
-    "textureFront": "clay",
-    "textureRight": "clay",
-    "textureBack": "clay",
+    "textureTop": "blacktile",
+    "textureLeft": "terminal",
+    "textureFront": "terminal",
+    "textureRight": "terminal",
+    "textureBack": "terminal",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Purple Console",
+    "name": "Terminal",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

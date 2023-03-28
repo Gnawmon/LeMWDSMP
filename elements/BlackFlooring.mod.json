@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "tile040",
+    "texture": "stone_pillar_top",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Black Flooring",
+    "name": "Stone  Floor",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

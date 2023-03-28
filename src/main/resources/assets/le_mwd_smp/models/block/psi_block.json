@@ -3,10 +3,10 @@
   "textures": {
     "down": "le_mwd_smp:blocks/botom2",
     "up": "le_mwd_smp:blocks/blacktile",
-    "north": "le_mwd_smp:blocks/al",
-    "east": "le_mwd_smp:blocks/al",
-    "south": "le_mwd_smp:blocks/al",
-    "west": "le_mwd_smp:blocks/al",
+    "north": "le_mwd_smp:blocks/psi_moniter",
+    "east": "le_mwd_smp:blocks/psi_moniter",
+    "south": "le_mwd_smp:blocks/psi_moniter",
+    "west": "le_mwd_smp:blocks/psi_moniter",
     "particle": "le_mwd_smp:blocks/botom2"
   }
 }

@@ -1,7 +1,7 @@
 {
   "parent": "block/door_top_rh",
   "textures": {
-    "bottom": "le_mwd_smp:blocks/tile079",
-    "top": "le_mwd_smp:blocks/tile063"
+    "bottom": "le_mwd_smp:blocks/black_door_bottom",
+    "top": "le_mwd_smp:blocks/black_door_top"
   }
 }

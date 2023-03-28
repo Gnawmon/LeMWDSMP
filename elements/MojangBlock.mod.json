@@ -4,10 +4,10 @@
   "definition": {
     "texture": "botom2",
     "textureTop": "blacktile",
-    "textureLeft": "ntitled",
-    "textureFront": "ntitled",
-    "textureRight": "ntitled",
-    "textureBack": "ntitled",
+    "textureLeft": "red_mojang_block",
+    "textureFront": "red_mojang_block",
+    "textureRight": "red_mojang_block",
+    "textureBack": "red_mojang_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Mojang Block",
+    "name": "Red Mojang Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

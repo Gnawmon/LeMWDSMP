@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "tile054",
+    "texture": "glass_tile",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,26 +33,26 @@
         "subtract": false
       }
     ],
-    "name": "Black Window",
+    "name": "Glass Tile",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 0.3,
+    "resistance": 2.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Lavacrusader"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 1,
     "material": {
       "value": "GLASS"
     },

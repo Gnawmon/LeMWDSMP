@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "le_mwd_smp:blocks/tile079"
+    "layer0": "le_mwd_smp:items/black_door"
   }
 }

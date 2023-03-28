@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "le_mwd_smp:blocks/tile040",
-    "particle": "le_mwd_smp:blocks/tile040"
+    "all": "le_mwd_smp:blocks/stone_pillar_top",
+    "particle": "le_mwd_smp:blocks/stone_pillar_top"
   }
 }

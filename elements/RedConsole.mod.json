@@ -4,10 +4,10 @@
   "definition": {
     "texture": "botom2",
     "textureTop": "blacktile",
-    "textureLeft": "2dw",
-    "textureFront": "2dw",
-    "textureRight": "2dw",
-    "textureBack": "2dw",
+    "textureLeft": "admin_terminal",
+    "textureFront": "admin_terminal",
+    "textureRight": "admin_terminal",
+    "textureBack": "admin_terminal",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Red Console",
+    "name": "Terminal",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

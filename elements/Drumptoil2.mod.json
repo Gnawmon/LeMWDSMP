@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "drumptoil2",
+    "texture": "sun_block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Drumptoil 2",
+    "name": "Sun Block",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

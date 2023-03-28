@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "tile040",
-    "textureTop": "tile040",
-    "textureLeft": "tile039",
-    "textureFront": "tile039",
-    "textureRight": "tile039",
-    "textureBack": "tile039",
+    "texture": "stone_pillar_top",
+    "textureTop": "stone_pillar_top",
+    "textureLeft": "stone_pillar_side",
+    "textureFront": "stone_pillar_side",
+    "textureRight": "stone_pillar_side",
+    "textureBack": "stone_pillar_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Black Pillar",
+    "name": "Stone Pillar",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

@@ -2,10 +2,7 @@
 package le.mwd.smp.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -13,8 +10,6 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -27,12 +22,12 @@ import java.util.List;
 import java.util.Collections;
 
 @LeMwdSmpModElements.ModElement.Tag
-public class LCBlackWindowBlock extends LeMwdSmpModElements.ModElement {
-	@ObjectHolder("le_mwd_smp:lc_black_window")
+public class MulticolorTileBlock extends LeMwdSmpModElements.ModElement {
+	@ObjectHolder("le_mwd_smp:multicolor_tile")
 	public static final Block block = null;
 
-	public LCBlackWindowBlock(LeMwdSmpModElements instance) {
-		super(instance, 122);
+	public MulticolorTileBlock(LeMwdSmpModElements instance) {
+		super(instance, 149);
 	}
 
 	@Override
@@ -42,22 +37,16 @@ public class LCBlackWindowBlock extends LeMwdSmpModElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(LavacrusaderItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getTranslucent());
-	}
-
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(0.3f, 2.5f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("lc_black_window");
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.8f, 16f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("multicolor_tile");
 		}
 
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 1;
+			return 15;
 		}
 
 		@Override
