@@ -6,7 +6,7 @@ this is a heavy work in progress
 
 ## Download Instructions
 
-* `$ git clone -`
+* `$ git clone https://github.com/Gnawmon/LeMWDSMP.git`
 or
 * Download this repository as a .zip file
 
