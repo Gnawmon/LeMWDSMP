@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "le_mwd_smp:blocks/hub_door_bottom",
+    "top": "le_mwd_smp:blocks/hub_door_top"
+  }
+}

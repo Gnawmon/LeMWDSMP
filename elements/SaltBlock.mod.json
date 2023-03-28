@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "grey_bricks",
-    "textureTop": "tile007",
-    "textureLeft": "tile007",
-    "textureFront": "tile007",
-    "textureRight": "tile007",
-    "textureBack": "tile007",
+    "texture": "saltblock",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -33,22 +33,22 @@
         "subtract": false
       }
     ],
-    "name": "Gray Bricks",
+    "name": "Salt",
     "specialInfo": [],
-    "hardness": 2.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:General"
+      "value": "CUSTOM:Alphaver"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

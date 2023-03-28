@@ -14,6 +14,7 @@
   "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
   "block.le_mwd_smp.cross_block": "⤫ Bloku",
   "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+  "block.le_mwd_smp.dbg_cross": "DBG Cross",
   "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
   "block.le_mwd_smp.star_block": "✺ Block",
   "block.le_mwd_smp.fan": "Fan",
@@ -37,6 +38,7 @@
   "itemGroup.tablavacrusader": "Lavacrusader",
   "item.le_mwd_smp.dismantler": "Sökücü",
   "item.le_mwd_smp.data_daisy": "Bilgi Papatyası",
+  "block.le_mwd_smp.dbg_block": "DBG Block",
   "item.le_mwd_smp.jumpgrade": "Jumpgrade",
   "block.le_mwd_smp.server_rack": "Server Rack",
   "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
@@ -73,6 +75,7 @@
   "block.le_mwd_smp.blue_flame": "Blue Flame",
   "block.le_mwd_smp.slaize_50": "Slaize 5 0",
   "subtitles.dismantlerdash": "Sökücü Fırlaması",
+  "block.le_mwd_smp.salt_block": "Salt",
   "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
   "block.le_mwd_smp.cat_cube_alternate": "Cat Cube Alternate",
   "block.le_mwd_smp.cat_cube_you": "Küp Kedi Sen",
@@ -92,6 +95,7 @@
   "block.le_mwd_smp.white_mojang_block": "White Mojang Block",
   "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
   "block.le_mwd_smp.slaize_40": "Slaize 4 0",
+  "block.le_mwd_smp.hub_door": "Hub Door",
   "block.le_mwd_smp.black_flooring_2": "Black Flooring 2",
   "block.le_mwd_smp.integrity_cube": "Integrity Cube",
   "block.le_mwd_smp.cat_cube_no_one": "Küp Kedi Hiç Kimse",
@@ -135,5 +139,6 @@
   "item.le_mwd_smp.disc_negative_7": "Disk Negatif 7",
   "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
   "block.le_mwd_smp.black_door": "Black Door",
+  "block.le_mwd_smp.barrier_block": "Barrier Block",
   "entity.le_mwd_smp.hamil": "Hamil"
 }

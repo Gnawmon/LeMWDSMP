@@ -88,7 +88,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiles",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "Alphaver",
@@ -97,7 +97,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "alphaver",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Misc"
     },
     {
       "name": "John",
@@ -115,7 +115,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "safe_gui",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Interfaces"
     },
     {
       "name": "FakeDirt",
@@ -124,7 +124,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_dirt",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "Safe",
@@ -133,7 +133,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "safe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "FakeGrass",
@@ -142,7 +142,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_grass",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "AuthGui",
@@ -231,7 +231,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "chain_block",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "Authorizer",
@@ -249,7 +249,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flameberge",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "Marketingtrap",
@@ -266,7 +266,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bugnation",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Mobs"
     },
     {
       "name": "AdminOnlyItemsDisplayOverlayIngame",
@@ -374,7 +374,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "Wall1",
@@ -1182,7 +1182,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "Flower",
@@ -1191,7 +1191,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "NormalInfusedFlowerHarm",
@@ -1208,7 +1208,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "ObsidianInfusedFlowerHurt",
@@ -1225,7 +1225,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "InfusedFlower",
@@ -1234,7 +1234,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infused_flower",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "GoldInfusedFlower",
@@ -1243,7 +1243,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "gold_infused_flower",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "BlueFlame",
@@ -1252,7 +1252,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_flame",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "GoldInfusedFlowerHurt",
@@ -1269,7 +1269,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "ObsidianInfusedFlower",
@@ -1278,7 +1278,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_infused_flower",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "AlphaverDashKeyOnKeyPressed",
@@ -1311,7 +1311,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "AlphaverDashKey",
@@ -1320,7 +1320,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "alphaver_dash_key",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Misc"
     },
     {
       "name": "AlphaverDashOverlay",
@@ -1329,7 +1329,7 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "alphaver_dash_overlay",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Interfaces"
     },
     {
       "name": "WoodenPillar",
@@ -1338,7 +1338,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_pillar",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "WoodenPillarRecipe",
@@ -1347,7 +1347,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "wooden_pillar_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "QuadWindows",
@@ -1356,7 +1356,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "quad_windows",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "QuadWindowsRecipe",
@@ -1365,7 +1365,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "quad_windows_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "StairLadder",
@@ -1374,7 +1374,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stair_ladder",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "StairLadderRecipe",
@@ -1383,7 +1383,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stair_ladder_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "FakeGrassRecipe",
@@ -1392,7 +1392,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_grass_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "FakeDirtRecipe",
@@ -1401,7 +1401,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_dirt_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "FakeStone",
@@ -1410,7 +1410,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_stone",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "FakeStoneRecipe",
@@ -1419,7 +1419,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_stone_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "DeveloperSpacePillar",
@@ -1446,7 +1446,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fake_grass_recipe_no_wool",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "SteelRod",
@@ -1455,7 +1455,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_rod",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "SteelRodcraftinge",
@@ -1464,7 +1464,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "steel_rodcraftinge",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "MoltenFlint",
@@ -1473,7 +1473,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_flint",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "MoltenFlintrecipe",
@@ -1482,7 +1482,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "molten_flintrecipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "FlamebergeShard",
@@ -1491,7 +1491,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flameberge_shard",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "FlambergeRECIPE",
@@ -1500,7 +1500,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "flamberge_recipe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Recipes"
     },
     {
       "name": "Server",
@@ -1562,7 +1562,7 @@
           }
         ]
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "UniverseBlockGUI",
@@ -1733,7 +1733,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_ingot",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "ObsidianArmor",
@@ -1748,7 +1748,7 @@
         "eb": true,
         "ec": true
       },
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "ObisidianSword",
@@ -1757,7 +1757,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obisidian_sword",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "ObsidianPickaxe",
@@ -1766,7 +1766,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_pickaxe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "ObsidianShovel",
@@ -1775,7 +1775,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_shovel",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "ObsidianAxe",
@@ -1784,7 +1784,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_axe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "ObsidianHoe",
@@ -1793,7 +1793,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "obsidian_hoe",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "BlueTile",
@@ -1802,7 +1802,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_tile",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "YellowTile",
@@ -1811,7 +1811,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_tile",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "EdibleFire",
@@ -1820,7 +1820,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "edible_fire",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Items"
     },
     {
       "name": "GreenMojangBlock",
@@ -1829,7 +1829,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "green_mojang_block",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "BlueMojangBlock",
@@ -1838,7 +1838,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_mojang_block",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "WhiteMojangBlock",
@@ -1847,7 +1847,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_mojang_block",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "LauncherBlock",
@@ -1856,7 +1856,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "launcher_block",
-      "path": "~/Alphaver"
+      "path": "~/Alphaver/Blocks"
     },
     {
       "name": "GrayscaleBricks",
@@ -1865,7 +1865,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grayscale_bricks",
-      "path": "~/Alphaver"
+      "path": "~/General"
     },
     {
       "name": "Bredas",
@@ -1910,6 +1910,51 @@
       "locked_code": false,
       "registry_name": "multicolor_tile",
       "path": "~/Lavacrusader"
+    },
+    {
+      "name": "HubDoor",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_door",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "BarrierBlock",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barrier_block",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "SaltBlock",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_block",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "DBGBlock",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dbg_block",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "DBGCross",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dbg_cross",
+      "path": "~/Alphaver/Blocks"
     }
   ],
   "variable_elements": [
@@ -1982,8 +2027,8 @@
     "ro_ro": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Card de Acces",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
@@ -1993,22 +2038,23 @@
       "entity.le_mwd_smp.bugnation": "bug_nation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "Cubul ⤫",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+      "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
-      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.star_block": "✺ Block",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Gaura Cheii",
-      "block.le_mwd_smp.laugh_block": "Cubul Râsului",
       "block.le_mwd_smp.black_light": "Black Light",
+      "block.le_mwd_smp.laugh_block": "Cubul Râsului",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Cheia Avântului Dezmembratorului",
       "block.le_mwd_smp.slaize_00": "Slaize 0 0",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cubul Pisicii (Noi)",
-      "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
+      "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.arg_fans": "Arg Fans",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar 2",
       "block.le_mwd_smp.thing": "Chestie",
@@ -2018,6 +2064,7 @@
       "itemGroup.tablavacrusader": "Lavacrusader",
       "item.le_mwd_smp.dismantler": "Dezmembratorul",
       "item.le_mwd_smp.data_daisy": "Margareta Datei",
+      "block.le_mwd_smp.dbg_block": "DBG Block",
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
@@ -2054,6 +2101,7 @@
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "block.le_mwd_smp.slaize_50": "Slaize 5 0",
       "subtitles.dismantlerdash": "Avântul Dezmembratorului",
+      "block.le_mwd_smp.salt_block": "Salt",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
       "block.le_mwd_smp.cat_cube_alternate": "Cat Cube Alternate",
       "block.le_mwd_smp.cat_cube_you": "Cubul Pisicii (Tu)",
@@ -2073,6 +2121,7 @@
       "block.le_mwd_smp.white_mojang_block": "White Mojang Block",
       "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "block.le_mwd_smp.slaize_40": "Slaize 4 0",
+      "block.le_mwd_smp.hub_door": "Hub Door",
       "block.le_mwd_smp.black_flooring_2": "Black Flooring 2",
       "block.le_mwd_smp.integrity_cube": "Integrity Cube",
       "block.le_mwd_smp.cat_cube_no_one": "Cubul Pisicii (Nimeni)",
@@ -2116,13 +2165,14 @@
       "item.le_mwd_smp.disc_negative_7": "Discul -7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
       "block.le_mwd_smp.black_door": "Black Door",
+      "block.le_mwd_smp.barrier_block": "Barrier Block",
       "entity.le_mwd_smp.hamil": "Hamil"
     },
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Red Mojang Block",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "item.le_mwd_smp.key_card": "Key Card",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
@@ -2132,22 +2182,23 @@
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "⤫ Block",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+      "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
-      "block.le_mwd_smp.star_block": "✺ Block",
       "block.le_mwd_smp.fan": "Server Cooling Fan",
+      "block.le_mwd_smp.star_block": "✺ Block",
       "block.le_mwd_smp.key_hole": "Key Hole",
-      "block.le_mwd_smp.laugh_block": "Laugh Block",
       "block.le_mwd_smp.black_light": "Light Tiles",
+      "block.le_mwd_smp.laugh_block": "Laugh Block",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash ",
       "block.le_mwd_smp.slaize_00": "Slaize 0 0",
       "block.le_mwd_smp.drumptoil": "Moon Block",
       "block.le_mwd_smp.cat_cube_we": "001 we grenades",
-      "block.le_mwd_smp.drumptoil_2": "Sun Block",
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
+      "block.le_mwd_smp.drumptoil_2": "Sun Block",
       "block.le_mwd_smp.arg_fans": ":Arg _Fans:",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar",
       "block.le_mwd_smp.thing": "Thing",
@@ -2157,6 +2208,7 @@
       "itemGroup.tablavacrusader": "Lavacrusader",
       "item.le_mwd_smp.dismantler": "Dismantler",
       "item.le_mwd_smp.data_daisy": "Data Daisy",
+      "block.le_mwd_smp.dbg_block": "DBG Block",
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Cyan Mojang Block",
@@ -2193,6 +2245,7 @@
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "block.le_mwd_smp.slaize_50": "Slaize 5 0",
       "subtitles.dismantlerdash": "Dismantler Dash",
+      "block.le_mwd_smp.salt_block": "Salt",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
       "block.le_mwd_smp.cat_cube_alternate": "001 claymores",
       "block.le_mwd_smp.cat_cube_you": "001 grenades",
@@ -2212,6 +2265,7 @@
       "block.le_mwd_smp.white_mojang_block": "White Mojang Block",
       "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "block.le_mwd_smp.slaize_40": "Slaize 4 0",
+      "block.le_mwd_smp.hub_door": "Hub Door",
       "block.le_mwd_smp.black_flooring_2": "Black Floor",
       "block.le_mwd_smp.integrity_cube": "001 integrities",
       "block.le_mwd_smp.cat_cube_no_one": "001",
@@ -2255,13 +2309,14 @@
       "item.le_mwd_smp.disc_negative_7": "Disc Negative 7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
       "block.le_mwd_smp.black_door": "Black Door",
+      "block.le_mwd_smp.barrier_block": "Barrier Block",
       "entity.le_mwd_smp.hamil": "Hamil"
     },
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
@@ -2271,22 +2326,23 @@
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "⤫ Bloku",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+      "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
-      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.star_block": "✺ Block",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Anahtar Deliği",
-      "block.le_mwd_smp.laugh_block": "Gülme Bloku",
       "block.le_mwd_smp.black_light": "Black Light",
+      "block.le_mwd_smp.laugh_block": "Gülme Bloku",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.slaize_00": "Slaize 0 0",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Küp Kedi Biz",
-      "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
+      "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.arg_fans": "Arg Fans",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar 2",
       "block.le_mwd_smp.thing": "Bir Şey",
@@ -2296,6 +2352,7 @@
       "itemGroup.tablavacrusader": "Lavacrusader",
       "item.le_mwd_smp.dismantler": "Sökücü",
       "item.le_mwd_smp.data_daisy": "Bilgi Papatyası",
+      "block.le_mwd_smp.dbg_block": "DBG Block",
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
@@ -2332,6 +2389,7 @@
       "block.le_mwd_smp.blue_flame": "Blue Flame",
       "block.le_mwd_smp.slaize_50": "Slaize 5 0",
       "subtitles.dismantlerdash": "Sökücü Fırlaması",
+      "block.le_mwd_smp.salt_block": "Salt",
       "item.le_mwd_smp.assettilesaccept": "assets_tiles_accept",
       "block.le_mwd_smp.cat_cube_alternate": "Cat Cube Alternate",
       "block.le_mwd_smp.cat_cube_you": "Küp Kedi Sen",
@@ -2351,6 +2409,7 @@
       "block.le_mwd_smp.white_mojang_block": "White Mojang Block",
       "block.le_mwd_smp.developer_space_wall": "Developer Space Wall",
       "block.le_mwd_smp.slaize_40": "Slaize 4 0",
+      "block.le_mwd_smp.hub_door": "Hub Door",
       "block.le_mwd_smp.black_flooring_2": "Black Flooring 2",
       "block.le_mwd_smp.integrity_cube": "Integrity Cube",
       "block.le_mwd_smp.cat_cube_no_one": "Küp Kedi Hiç Kimse",
@@ -2394,6 +2453,7 @@
       "item.le_mwd_smp.disc_negative_7": "Disk Negatif 7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
       "block.le_mwd_smp.black_door": "Black Door",
+      "block.le_mwd_smp.barrier_block": "Barrier Block",
       "entity.le_mwd_smp.hamil": "Hamil"
     }
   },
@@ -2447,7 +2507,36 @@
       },
       {
         "name": "Alphaver",
-        "children": []
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Recipes",
+            "children": []
+          },
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Interfaces",
+            "children": []
+          },
+          {
+            "name": "Misc",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Mobs",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Lavacrusader",

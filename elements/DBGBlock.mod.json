@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "grey_bricks",
-    "textureTop": "tile007",
-    "textureLeft": "tile007",
-    "textureFront": "tile007",
-    "textureRight": "tile007",
-    "textureBack": "tile007",
+    "texture": "dbg",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Gray Bricks",
+    "name": "DBG Block",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:General"
+      "value": "CUSTOM:Alphaver"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
