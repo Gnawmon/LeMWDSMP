@@ -2000,6 +2000,36 @@
       "locked_code": false,
       "registry_name": "scaffold_stone",
       "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "BlueFlameAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_flame_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver/Blocks"
     }
   ],
   "variable_elements": [
@@ -2072,8 +2102,8 @@
     "ro_ro": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Card de Acces",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.creepers_heart": "Inima Creeper-ului",
@@ -2083,16 +2113,16 @@
       "entity.le_mwd_smp.bugnation": "bug_nation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "Cubul ⤫",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
-      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
-      "block.le_mwd_smp.fan": "Fan",
+      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.star_block": "✺ Block",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Gaura Cheii",
-      "block.le_mwd_smp.laugh_block": "Cubul Râsului",
       "block.le_mwd_smp.black_light": "Black Light",
+      "block.le_mwd_smp.laugh_block": "Cubul Râsului",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Cheia Avântului Dezmembratorului",
@@ -2220,8 +2250,8 @@
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Red Mojang Block",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "item.le_mwd_smp.key_card": "Key Card",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027s Heart",
@@ -2231,16 +2261,16 @@
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "⤫ Block",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
-      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
-      "block.le_mwd_smp.star_block": "✺ Block",
+      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.fan": "Server Cooling Fan",
+      "block.le_mwd_smp.star_block": "✺ Block",
       "block.le_mwd_smp.key_hole": "Key Hole",
-      "block.le_mwd_smp.laugh_block": "Laugh Block",
       "block.le_mwd_smp.black_light": "Light Tiles",
+      "block.le_mwd_smp.laugh_block": "Laugh Block",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash ",
@@ -2368,8 +2398,8 @@
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.creepers_heart": "Creeper\u0027ın Kalbi",
@@ -2379,16 +2409,16 @@
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "⤫ Bloku",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
-      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
-      "block.le_mwd_smp.fan": "Fan",
+      "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.star_block": "✺ Block",
+      "block.le_mwd_smp.fan": "Fan",
       "block.le_mwd_smp.key_hole": "Anahtar Deliği",
-      "block.le_mwd_smp.laugh_block": "Gülme Bloku",
       "block.le_mwd_smp.black_light": "Black Light",
+      "block.le_mwd_smp.laugh_block": "Gülme Bloku",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",

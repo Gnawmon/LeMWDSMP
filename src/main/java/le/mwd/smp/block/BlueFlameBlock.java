@@ -39,15 +39,21 @@ import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import le.mwd.smp.procedures.BlueFlameAdditionalGenerationConditionProcedure;
 import le.mwd.smp.itemgroup.AlphaverItemGroup;
 import le.mwd.smp.LeMwdSmpModElements;
 
+import java.util.stream.Stream;
 import java.util.Random;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @LeMwdSmpModElements.ModElement.Tag
 public class BlueFlameBlock extends LeMwdSmpModElements.ModElement {
@@ -116,6 +122,8 @@ public class BlueFlameBlock extends LeMwdSmpModElements.ModElement {
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
+			if (blockAt.getBlock() == Blocks.AIR)
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -137,11 +145,19 @@ public class BlueFlameBlock extends LeMwdSmpModElements.ModElement {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
+					int x = pos.getX();
+					int y = pos.getY();
+					int z = pos.getZ();
+					if (!BlueFlameAdditionalGenerationConditionProcedure.executeProcedure(Stream
+							.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
+									new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))
+						return false;
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(256)
-					.square().func_242731_b(1);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 12)).range(256)
+					.square().func_242731_b(64);
 			event.getRegistry().register(feature.setRegistryName("blue_flame"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("le_mwd_smp:blue_flame"), configuredFeature);
 		}

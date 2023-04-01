@@ -127,11 +127,18 @@
       "Surface"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 16,
+    "frequencyPerChunks": 64,
+    "frequencyOnChunk": 12,
     "minGenerateHeight": 100,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 256,
+    "generateCondition": {
+      "name": "BlueFlameAdditionalGenerationCondition"
+    }
   }
 }
