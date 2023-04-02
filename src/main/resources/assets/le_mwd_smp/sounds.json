@@ -1,10 +1,10 @@
 {
-  "dismantlerdash": {
+  "alphaverdashrecharge": {
     "category": "player",
-    "subtitle": "subtitles.dismantlerdash",
+    "subtitle": "subtitles.alphaverdashrecharge",
     "sounds": [
       {
-        "name": "le_mwd_smp:dismantlerdash",
+        "name": "le_mwd_smp:recharg",
         "stream": false
       }
     ]
@@ -19,22 +19,22 @@
       }
     ]
   },
-  "alphaverdashrecharge": {
-    "category": "player",
-    "subtitle": "subtitles.alphaverdashrecharge",
-    "sounds": [
-      {
-        "name": "le_mwd_smp:recharg",
-        "stream": false
-      }
-    ]
-  },
   "alphaverdash": {
     "category": "player",
     "subtitle": "subtitles.alphaverdash",
     "sounds": [
       {
         "name": "le_mwd_smp:dash",
+        "stream": false
+      }
+    ]
+  },
+  "dismantlerdash": {
+    "category": "player",
+    "subtitle": "subtitles.dismantlerdash",
+    "sounds": [
+      {
+        "name": "le_mwd_smp:dismantlerdash",
         "stream": false
       }
     ]

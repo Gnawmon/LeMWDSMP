@@ -1,5 +1,6 @@
 package le.mwd.smp.procedures;
 
+import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.GameType;
 import net.minecraft.util.math.BlockPos;
@@ -28,11 +29,6 @@ public class MakeFlameProcedure {
 				LeMwdSmpMod.LOGGER.warn("Failed to load dependency x for procedure MakeFlame!");
 			return;
 		}
-		if (dependencies.get("y") == null) {
-			if (!dependencies.containsKey("y"))
-				LeMwdSmpMod.LOGGER.warn("Failed to load dependency y for procedure MakeFlame!");
-			return;
-		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
 				LeMwdSmpMod.LOGGER.warn("Failed to load dependency z for procedure MakeFlame!");
@@ -45,7 +41,6 @@ public class MakeFlameProcedure {
 		}
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
-		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		Entity entity = (Entity) dependencies.get("entity");
 		if (!(new Object() {
@@ -60,23 +55,69 @@ public class MakeFlameProcedure {
 				return false;
 			}
 		}.checkGamemode(entity))) {
-			if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z))) {
-				world.setBlockState(new BlockPos(x + 1, y, z), Blocks.FIRE.getDefaultState(), 3);
+			if (world.isAirBlock(
+					new BlockPos(x - 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 1), (int) (z + 2)), z + 2))) {
+				world.setBlockState(
+						new BlockPos(x - 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 1), (int) (z + 2)), z + 2),
+						Blocks.FIRE.getDefaultState(), 3);
 			}
-			if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 1))) {
-				world.setBlockState(new BlockPos(x + 1, y, z + 1), Blocks.FIRE.getDefaultState(), 3);
+			if (world.isAirBlock(new BlockPos(x, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) x, (int) (z + 2)), z + 2))) {
+				world.setBlockState(new BlockPos(x, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) x, (int) (z + 2)), z + 2),
+						Blocks.FIRE.getDefaultState(), 3);
 			}
-			if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 2))) {
-				world.setBlockState(new BlockPos(x + 1, y, z + 2), Blocks.FIRE.getDefaultState(), 3);
+			if (world.isAirBlock(
+					new BlockPos(x + 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 1), (int) (z + 2)), z + 2))) {
+				world.setBlockState(
+						new BlockPos(x + 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 1), (int) (z + 2)), z + 2),
+						Blocks.FIRE.getDefaultState(), 3);
 			}
-			if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 3))) {
-				world.setBlockState(new BlockPos(x + 1, y, z + 3), Blocks.FIRE.getDefaultState(), 3);
+			if (world.isAirBlock(
+					new BlockPos(x + 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 2), (int) (z - 1)), z - 1))) {
+				world.setBlockState(
+						new BlockPos(x + 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 2), (int) (z - 1)), z - 1),
+						Blocks.FIRE.getDefaultState(), 3);
 			}
-			if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 4))) {
-				world.setBlockState(new BlockPos(x + 1, y, z + 4), Blocks.FIRE.getDefaultState(), 3);
+			if (world.isAirBlock(new BlockPos(x + 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 2), (int) z), z))) {
+				world.setBlockState(new BlockPos(x + 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 2), (int) z), z),
+						Blocks.FIRE.getDefaultState(), 3);
 			}
-			if (Blocks.FIRE.getDefaultState().isValidPosition(world, new BlockPos(x + 1, y, z + 5))) {
-				world.setBlockState(new BlockPos(x + 1, y, z + 5), Blocks.FIRE.getDefaultState(), 3);
+			if (world.isAirBlock(
+					new BlockPos(x + 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 2), (int) (z + 1)), z + 1))) {
+				world.setBlockState(
+						new BlockPos(x + 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 2), (int) (z + 1)), z + 1),
+						Blocks.FIRE.getDefaultState(), 3);
+			}
+			if (world.isAirBlock(
+					new BlockPos(x - 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 1), (int) (z - 2)), z - 2))) {
+				world.setBlockState(
+						new BlockPos(x - 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 1), (int) (z - 2)), z - 2),
+						Blocks.FIRE.getDefaultState(), 3);
+			}
+			if (world.isAirBlock(new BlockPos(x, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) x, (int) (z - 2)), z - 2))) {
+				world.setBlockState(new BlockPos(x, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) x, (int) (z - 2)), z - 2),
+						Blocks.FIRE.getDefaultState(), 3);
+			}
+			if (world.isAirBlock(
+					new BlockPos(x + 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 1), (int) (z - 2)), z - 2))) {
+				world.setBlockState(
+						new BlockPos(x + 1, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x + 1), (int) (z - 2)), z - 2),
+						Blocks.FIRE.getDefaultState(), 3);
+			}
+			if (world.isAirBlock(
+					new BlockPos(x - 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 2), (int) (z - 1)), z - 1))) {
+				world.setBlockState(
+						new BlockPos(x - 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 2), (int) (z - 1)), z - 1),
+						Blocks.FIRE.getDefaultState(), 3);
+			}
+			if (world.isAirBlock(new BlockPos(x - 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 2), (int) z), z))) {
+				world.setBlockState(new BlockPos(x - 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 2), (int) z), z),
+						Blocks.FIRE.getDefaultState(), 3);
+			}
+			if (world.isAirBlock(
+					new BlockPos(x - 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 2), (int) (z + 1)), z + 1))) {
+				world.setBlockState(
+						new BlockPos(x - 2, world.getHeight(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, (int) (x - 2), (int) (z + 1)), z + 1),
+						Blocks.FIRE.getDefaultState(), 3);
 			}
 		}
 	}

@@ -361,10 +361,6 @@
             "type": "number"
           },
           {
-            "name": "y",
-            "type": "number"
-          },
-          {
             "name": "z",
             "type": "number"
           },
@@ -2066,12 +2062,12 @@
   ],
   "sound_elements": [
     {
-      "name": "dismantlerdash",
+      "name": "alphaverdashrecharge",
       "files": [
-        "dismantlerdash"
+        "recharg"
       ],
       "category": "player",
-      "subtitle": "Dismantler Dash"
+      "subtitle": "Dash Recharge"
     },
     {
       "name": "infuse",
@@ -2082,20 +2078,20 @@
       "subtitle": "Flower Infused"
     },
     {
-      "name": "alphaverdashrecharge",
-      "files": [
-        "recharg"
-      ],
-      "category": "player",
-      "subtitle": "Dash Recharge"
-    },
-    {
       "name": "alphaverdash",
       "files": [
         "dash"
       ],
       "category": "player",
       "subtitle": "Dash"
+    },
+    {
+      "name": "dismantlerdash",
+      "files": [
+        "dismantlerdash"
+      ],
+      "category": "player",
+      "subtitle": "Dismantler Dash"
     }
   ],
   "language_map": {
@@ -2171,6 +2167,7 @@
       "block.le_mwd_smp.tick_block": "Cubul ✓",
       "block.le_mwd_smp.fake_stone": "Fake Stone",
       "block.le_mwd_smp.purple_console": "Terminal Mov",
+      "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "item.le_mwd_smp.edible_fire": "Edible Fire",
       "block.le_mwd_smp.flower": "Flower",
@@ -2319,6 +2316,7 @@
       "block.le_mwd_smp.tick_block": "✓ Block",
       "block.le_mwd_smp.fake_stone": "Fake Stone",
       "block.le_mwd_smp.purple_console": "Terminal",
+      "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "item.le_mwd_smp.edible_fire": "Edible Fire",
       "block.le_mwd_smp.flower": "Flower",
@@ -2467,6 +2465,7 @@
       "block.le_mwd_smp.tick_block": "✓ Bloku",
       "block.le_mwd_smp.fake_stone": "Fake Stone",
       "block.le_mwd_smp.purple_console": "Mor Konsol",
+      "subtitles.infuse": "Flower Infused",
       "block.le_mwd_smp.tile_with_cross": "Tile With Cross",
       "item.le_mwd_smp.edible_fire": "Edible Fire",
       "block.le_mwd_smp.flower": "Flower",

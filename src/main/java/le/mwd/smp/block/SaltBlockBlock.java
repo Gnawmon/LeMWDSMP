@@ -37,7 +37,7 @@ public class SaltBlockBlock extends LeMwdSmpModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.3f, 0f).setLightLevel(s -> 0));
 			setRegistryName("salt_block");
 		}
 

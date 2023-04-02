@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "le_mwd_smp:blocks/saltblock",
-    "particle": "le_mwd_smp:blocks/saltblock"
+    "down": "le_mwd_smp:blocks/salt_block_top",
+    "up": "le_mwd_smp:blocks/salt_block_top",
+    "north": "le_mwd_smp:blocks/salt_block_side",
+    "east": "le_mwd_smp:blocks/salt_block_side",
+    "south": "le_mwd_smp:blocks/salt_block_side",
+    "west": "le_mwd_smp:blocks/salt_block_side",
+    "particle": "le_mwd_smp:blocks/salt_block_top"
   }
 }
