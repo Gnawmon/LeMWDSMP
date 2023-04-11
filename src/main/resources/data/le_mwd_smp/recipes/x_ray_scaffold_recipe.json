@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "1": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "2": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "3": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "4": {
+      "item": "le_mwd_smp:blue_flame"
+    },
+    "5": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "6": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "7": {
+      "item": "le_mwd_smp:steel_rod"
+    },
+    "8": {
+      "item": "le_mwd_smp:steel_rod"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:scaffold_xray",
+    "count": 3
+  }
+}

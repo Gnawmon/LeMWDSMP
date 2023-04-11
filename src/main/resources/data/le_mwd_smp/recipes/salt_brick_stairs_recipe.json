@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:salt_bricks"
+    },
+    "3": {
+      "item": "le_mwd_smp:salt_bricks"
+    },
+    "4": {
+      "item": "le_mwd_smp:salt_bricks"
+    },
+    "6": {
+      "item": "le_mwd_smp:salt_bricks"
+    },
+    "7": {
+      "item": "le_mwd_smp:salt_bricks"
+    },
+    "8": {
+      "item": "le_mwd_smp:salt_bricks"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:salt_brick_stairs",
+    "count": 4
+  }
+}

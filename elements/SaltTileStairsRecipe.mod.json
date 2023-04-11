@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SaltTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SaltTiles"
+      },
+      {
+        "value": "CUSTOM:SaltTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SaltTiles"
+      },
+      {
+        "value": "CUSTOM:SaltTiles"
+      },
+      {
+        "value": "CUSTOM:SaltTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SaltTileStairs"
+    },
+    "name": "salt_tile_stairs_recipe",
+    "namespace": "mod"
+  }
+}

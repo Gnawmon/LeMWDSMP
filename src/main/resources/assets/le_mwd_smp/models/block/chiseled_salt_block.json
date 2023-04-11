@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "le_mwd_smp:blocks/chiseled_salt",
+    "particle": "le_mwd_smp:blocks/chiseled_salt"
+  }
+}

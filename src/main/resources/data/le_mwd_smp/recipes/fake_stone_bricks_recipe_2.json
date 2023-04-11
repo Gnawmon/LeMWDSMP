@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "le_mwd_smp:fake_stone"
+  },
+  "result": "le_mwd_smp:fake_stone_bricks"
+}

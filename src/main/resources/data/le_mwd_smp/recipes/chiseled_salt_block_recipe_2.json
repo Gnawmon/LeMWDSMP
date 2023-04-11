@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:salt_tile_slab"
+    },
+    "1": {
+      "item": "le_mwd_smp:salt_tile_slab"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:chiseled_salt_block",
+    "count": 1
+  }
+}

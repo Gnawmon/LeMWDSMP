@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:scaffold"
+    },
+    "1": {
+      "item": "le_mwd_smp:blue_flame"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:scaffold_xray",
+    "count": 1
+  }
+}

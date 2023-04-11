@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:salt_block"
+    },
+    "1": {
+      "item": "le_mwd_smp:salt_block"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:salt_bricks",
+    "count": 2
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "le_mwd_smp:salt_bricks"
+  },
+  "result": "le_mwd_smp:salt_brick_slab"
+}

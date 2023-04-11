@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "le_mwd_smp:block/salt_brick_slab"
+    },
+    "type=top": {
+      "model": "le_mwd_smp:block/salt_brick_slab_top"
+    },
+    "type=double": {
+      "model": "le_mwd_smp:block/salt_brick_slab_full"
+    }
+  }
+}

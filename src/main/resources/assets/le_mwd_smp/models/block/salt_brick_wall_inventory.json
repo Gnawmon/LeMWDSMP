@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "le_mwd_smp:blocks/salt_bricks",
+    "particle": "le_mwd_smp:blocks/salt_bricks"
+  }
+}
