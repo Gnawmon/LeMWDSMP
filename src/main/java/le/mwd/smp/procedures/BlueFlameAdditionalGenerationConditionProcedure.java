@@ -1,13 +1,7 @@
 package le.mwd.smp.procedures;
 
-import net.minecraftforge.fml.server.ServerLifecycleHooks;
-
 import net.minecraft.world.IWorld;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.ChatType;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Util;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.block.Blocks;
 
 import le.mwd.smp.LeMwdSmpMod;
@@ -42,11 +36,6 @@ public class BlueFlameAdditionalGenerationConditionProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if (y >= 92 && Blocks.AIR == (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock()) {
-			if (!world.isRemote()) {
-				MinecraftServer mcserv = ServerLifecycleHooks.getCurrentServer();
-				if (mcserv != null)
-					mcserv.getPlayerList().func_232641_a_(new StringTextComponent("Generated blue flame."), ChatType.SYSTEM, Util.DUMMY_UUID);
-			}
 			return true;
 		}
 		return false;

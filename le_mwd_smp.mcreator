@@ -2025,7 +2025,7 @@
           }
         ]
       },
-      "path": "~/Alphaver/Blocks"
+      "path": "~/Alphaver/Procedures"
     },
     {
       "name": "SaltBricks",
@@ -2350,6 +2350,48 @@
       "locked_code": false,
       "registry_name": "stone_scaffold_recipe_3",
       "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "HubBiome",
+      "type": "biome",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_biome",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "Hub",
+      "type": "dimension",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "HubDoorEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_door_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver/Procedures"
     }
   ],
   "variable_elements": [
@@ -2422,8 +2464,8 @@
     "ro_ro": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Card de Acces",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.salt_bricks": "Salt Bricks",
@@ -2434,8 +2476,9 @@
       "entity.le_mwd_smp.bugnation": "bug_nation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "Cubul ⤫",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+      "biome.le_mwd_smp.hub_biome": "Hub Biome",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
       "item.le_mwd_smp.fryshroom": "Fryshroom",
@@ -2529,6 +2572,7 @@
       "block.le_mwd_smp.hub_door": "Hub Door",
       "block.le_mwd_smp.black_flooring_2": "Black Flooring 2",
       "block.le_mwd_smp.scaffold_xray": "Scaffold Xray",
+      "item.le_mwd_smp.hub": "Hub Portal Igniter",
       "block.le_mwd_smp.integrity_cube": "Integrity Cube",
       "block.le_mwd_smp.cat_cube_no_one": "Cubul Pisicii (Nimeni)",
       "block.le_mwd_smp.black_pillar": "Black Pillar",
@@ -2580,8 +2624,8 @@
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Red Mojang Block",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "item.le_mwd_smp.key_card": "Key Card",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.salt_bricks": "Salt Bricks",
@@ -2592,8 +2636,9 @@
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "⤫ Block",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+      "biome.le_mwd_smp.hub_biome": "Hub Biome",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
       "item.le_mwd_smp.fryshroom": "Fryshroom",
@@ -2687,6 +2732,7 @@
       "block.le_mwd_smp.hub_door": "Hub Door",
       "block.le_mwd_smp.black_flooring_2": "Black Floor",
       "block.le_mwd_smp.scaffold_xray": "X-Ray Scaffold",
+      "item.le_mwd_smp.hub": "Hub Portal Igniter",
       "block.le_mwd_smp.integrity_cube": "001 integrities",
       "block.le_mwd_smp.cat_cube_no_one": "001",
       "block.le_mwd_smp.black_pillar": "Stone Pillar",
@@ -2738,8 +2784,8 @@
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
       "block.le_mwd_smp.salt_bricks": "Salt Bricks",
@@ -2750,8 +2796,9 @@
       "entity.le_mwd_smp.bugnation": "Bugnation",
       "item.le_mwd_smp.checkmarkguy_spawn_egg": "Checkmarkguy Spawn Egg",
       "block.le_mwd_smp.tile_with_horizontal_line": "Tile With Horizontal Line",
-      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "block.le_mwd_smp.cross_block": "⤫ Bloku",
+      "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
+      "biome.le_mwd_smp.hub_biome": "Hub Biome",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
       "item.le_mwd_smp.fryshroom": "Fryshroom",
@@ -2845,6 +2892,7 @@
       "block.le_mwd_smp.hub_door": "Hub Door",
       "block.le_mwd_smp.black_flooring_2": "Black Flooring 2",
       "block.le_mwd_smp.scaffold_xray": "Scaffold Xray",
+      "item.le_mwd_smp.hub": "Hub Portal Igniter",
       "block.le_mwd_smp.integrity_cube": "Integrity Cube",
       "block.le_mwd_smp.cat_cube_no_one": "Küp Kedi Hiç Kimse",
       "block.le_mwd_smp.black_pillar": "Black Pillar",
