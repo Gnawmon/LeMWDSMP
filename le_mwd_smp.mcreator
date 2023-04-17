@@ -185,7 +185,7 @@
       "type": "overlay",
       "sortid": 12,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "hud"
     },
     {
@@ -1319,15 +1319,6 @@
       "path": "~/Alphaver/Misc"
     },
     {
-      "name": "AlphaverDashOverlay",
-      "type": "overlay",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "alphaver_dash_overlay",
-      "path": "~/Alphaver/Interfaces"
-    },
-    {
       "name": "WoodenPillar",
       "type": "block",
       "sortid": 92,
@@ -2392,6 +2383,14 @@
         ]
       },
       "path": "~/Alphaver/Procedures"
+    },
+    {
+      "name": "Dashbar",
+      "type": "code",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dashbar"
     }
   ],
   "variable_elements": [

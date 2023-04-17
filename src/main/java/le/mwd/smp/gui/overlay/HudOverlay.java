@@ -38,8 +38,13 @@ public class HudOverlay {
 			double y = _y;
 			double z = _z;
 			if (true) {
-				Minecraft.getInstance().fontRenderer.drawString(event.getMatrixStack(), "Le MWD SMP Mod:DEVELOPMENT PHASE 1.0.16.05_69 R4",
-						posX + -208, posY + -117, -1);
+				
+				String versionString = "Le MWD SMP Mod:DEVELOPMENT PHASE 1.0.16.05_69 R4";
+				
+				int shadowOffset = 1;
+				Minecraft.getInstance().fontRenderer.drawString(event.getMatrixStack(), versionString, 2 + shadowOffset, 2 + shadowOffset, 1);
+				Minecraft.getInstance().fontRenderer.drawString(event.getMatrixStack(), versionString, 2, 2, -1);
+				
 			}
 		}
 	}
