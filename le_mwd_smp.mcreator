@@ -2391,6 +2391,15 @@
       "compiles": true,
       "locked_code": true,
       "registry_name": "dashbar"
+    },
+    {
+      "name": "BlueDandelion",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_dandelion",
+      "path": "~/Alphaver/Blocks"
     }
   ],
   "variable_elements": [
@@ -2496,6 +2505,7 @@
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
       "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.arg_fans": "Arg Fans",
+      "block.le_mwd_smp.blue_dandelion": "Blue Dandelion",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar 2",
       "block.le_mwd_smp.thing": "Chestie",
       "item.le_mwd_smp.flameberge": "Flameberge",
@@ -2656,6 +2666,7 @@
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
       "block.le_mwd_smp.drumptoil_2": "Sun Block",
       "block.le_mwd_smp.arg_fans": ":Arg _Fans:",
+      "block.le_mwd_smp.blue_dandelion": "Blue Dandelion",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar",
       "block.le_mwd_smp.thing": "Thing",
       "item.le_mwd_smp.flameberge": "Flameberge",
@@ -2816,6 +2827,7 @@
       "block.le_mwd_smp.gold_infused_flower": "Gold Infused Flower",
       "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.arg_fans": "Arg Fans",
+      "block.le_mwd_smp.blue_dandelion": "Blue Dandelion",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar 2",
       "block.le_mwd_smp.thing": "Bir Şey",
       "item.le_mwd_smp.flameberge": "Ateşlerin Kılıcı",

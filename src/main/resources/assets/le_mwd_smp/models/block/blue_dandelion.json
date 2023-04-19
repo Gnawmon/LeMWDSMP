@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "le_mwd_smp:blocks/blue_dandelion",
+    "particle": "le_mwd_smp:blocks/blue_dandelion"
+  }
+}

@@ -53,16 +53,18 @@ public class DismantlerDashKeyOnKeyReleasedProcedure {
 		double pitch = 0;
 		double velocity = 0;
 		double yaw = 0;
+		double maxValue = 0;
 		yaw = (entity.rotationYaw);
 		pitch = (entity.rotationPitch);
 		velocity = (world.getWorldInfo().getDayTime() - (entity.getCapability(LeMwdSmpModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new LeMwdSmpModVariables.PlayerVariables())).DismantlerPressStart);
+		maxValue = 15;
 		if (DismantlerItem.block == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY).getItem()
 				|| DismantlerItem.block == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 						.getItem()) {
-			entity.setMotion((Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * velocity),
-					(Math.sin((pitch / 180) * Math.PI) * (-1) * velocity),
-					(Math.cos((yaw / 180) * Math.PI) * Math.cos((pitch / 180) * Math.PI) * velocity));
+			entity.setMotion(Math.max(Math.sin((yaw / 180) * Math.PI) * (-1) * Math.cos((pitch / 180) * Math.PI) * velocity, maxValue),
+					Math.max(Math.sin((pitch / 180) * Math.PI) * (-1) * velocity, maxValue),
+					Math.max(Math.cos((yaw / 180) * Math.PI) * Math.cos((pitch / 180) * Math.PI) * velocity, maxValue));
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos(x, y, z),
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("le_mwd_smp:dismantlerdash")),

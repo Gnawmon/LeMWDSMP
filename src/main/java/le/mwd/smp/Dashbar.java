@@ -35,10 +35,14 @@ import net.minecraft.test.TestExecutor;
 import net.minecraft.util.math.vector.Matrix4f;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.util.math.MathHelper;
+
 
 import java.util.Random;
 
 import org.lwjgl.opengl.GL11;
+
+import com.mojang.blaze3d.platform.GlStateManager;
 
 @Mod.EventBusSubscriber
 public class Dashbar {
@@ -68,14 +72,12 @@ public class Dashbar {
 			double z = _z;
 			if (true) {
 				
-			
-			
+		
 				
 				
 			}
 		}
 	}
-	
 	
 	
 }
