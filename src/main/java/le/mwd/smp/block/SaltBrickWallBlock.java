@@ -52,7 +52,7 @@ public class SaltBrickWallBlock extends LeMwdSmpModElements.ModElement {
 	public static class CustomBlock extends WallBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.9f, 2.8f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("salt_brick_wall");
 		}
 

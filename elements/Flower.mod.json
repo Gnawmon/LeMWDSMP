@@ -126,9 +126,7 @@
     "onRightClicked": {
       "name": "FlowerInfuse"
     },
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [
       {
         "value": "cold_ocean"

@@ -38,9 +38,9 @@ public class SaltTileStairsBlock extends LeMwdSmpModElements.ModElement {
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(() -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.9f, 2.8f)
-					.setLightLevel(s -> 0).harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
+					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
 					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.9f, 2.8f).setLightLevel(s -> 0)
-							.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
+							.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("salt_tile_stairs");
 		}
 
