@@ -3,6 +3,7 @@ package le.mwd.smp.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.network.NetworkHooks;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
@@ -53,7 +54,8 @@ public class AuthorizerBlock extends LeMwdSmpModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).setLightLevel(s -> 0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("authorizer");
 		}
 

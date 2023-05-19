@@ -2,6 +2,7 @@
 package le.mwd.smp.block;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
@@ -45,7 +46,8 @@ public class DeveloperSpacePillarBlock extends LeMwdSmpModElements.ModElement {
 		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2.5f, 100f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 100f).setLightLevel(s -> 0).harvestLevel(2)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
 			setRegistryName("developer_space_pillar");
 		}

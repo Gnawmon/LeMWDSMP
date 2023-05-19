@@ -48,7 +48,7 @@ public class FanBlock extends LeMwdSmpModElements.ModElement {
 		public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1.8f, 8f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 8f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
 			setRegistryName("fan");

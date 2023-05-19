@@ -2554,6 +2554,65 @@
       "locked_code": false,
       "registry_name": "hallowed_bricks",
       "path": "~/RAVD"
+    },
+    {
+      "name": "MineWatchCamera",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_watch_camera",
+      "path": "~/General"
+    },
+    {
+      "name": "MineWatchCameraRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_watch_camera_recipe",
+      "path": "~/General"
+    },
+    {
+      "name": "KeyHoleUpdateTick",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "key_hole_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/General"
+    },
+    {
+      "name": "AWDIcon",
+      "type": "block",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awd_icon"
     }
   ],
   "variable_elements": [
@@ -2626,8 +2685,8 @@
     "ro_ro": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Card de Acces",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -2655,6 +2714,7 @@
       "key.le_mwd_smp.dismantler_dash_key": "Cheia Avântului Dezmembratorului",
       "block.le_mwd_smp.chiseled_salt_block": "Chiseled Salt Block",
       "block.le_mwd_smp.slaize_00": "Slaize 0 0",
+      "block.le_mwd_smp.awd_icon": "AWD Icon",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Cubul Pisicii (Noi)",
       "block.le_mwd_smp.realityspace_cross_block": "Realityspace Tile Block",
@@ -2675,6 +2735,7 @@
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
+      "block.le_mwd_smp.mine_watch_camera": "Mine Watch Camera",
       "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
       "block.le_mwd_smp.salt_brick_wall": "Salt Brick Stairs",
       "itemGroup.tabcat_cube": "Cubul Pisicii",
@@ -2797,8 +2858,8 @@
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Red Mojang Block",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "item.le_mwd_smp.key_card": "Key Card",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -2826,6 +2887,7 @@
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash ",
       "block.le_mwd_smp.chiseled_salt_block": "Chiseled Salt Block",
       "block.le_mwd_smp.slaize_00": "Slaize 0 0",
+      "block.le_mwd_smp.awd_icon": "AWD Icon",
       "block.le_mwd_smp.drumptoil": "Moon Block",
       "block.le_mwd_smp.cat_cube_we": "001 we grenades",
       "block.le_mwd_smp.realityspace_cross_block": "Realityspace Cross Block",
@@ -2846,6 +2908,7 @@
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Cyan Mojang Block",
+      "block.le_mwd_smp.mine_watch_camera": "MineWatch Camera",
       "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
       "block.le_mwd_smp.salt_brick_wall": "Salt Brick Wall",
       "itemGroup.tabcat_cube": "Cat Cube",
@@ -2968,8 +3031,8 @@
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
-      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "item.le_mwd_smp.key_card": "Anahtar Kartı",
+      "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -2997,6 +3060,7 @@
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
       "block.le_mwd_smp.chiseled_salt_block": "Chiseled Salt Block",
       "block.le_mwd_smp.slaize_00": "Slaize 0 0",
+      "block.le_mwd_smp.awd_icon": "AWD Icon",
       "block.le_mwd_smp.drumptoil": "Drumptoil",
       "block.le_mwd_smp.cat_cube_we": "Küp Kedi Biz",
       "block.le_mwd_smp.realityspace_cross_block": "Realityspace Tile Block",
@@ -3017,6 +3081,7 @@
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
+      "block.le_mwd_smp.mine_watch_camera": "Mine Watch Camera",
       "block.le_mwd_smp.wooden_pillar": "Wooden Pillar",
       "block.le_mwd_smp.salt_brick_wall": "Salt Brick Stairs",
       "itemGroup.tabcat_cube": "Küp Kedi",

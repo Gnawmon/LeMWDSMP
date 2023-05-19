@@ -1,0 +1,8 @@
+{
+  "parent": "le_mwd_smp:custom/awd_icon",
+  "textures": {
+    "all": "le_mwd_smp:blocks/awd_icon",
+    "particle": "le_mwd_smp:blocks/awd_icon",
+    "0": "le_mwd_smp:blocks/awd_icon"
+  }
+}

@@ -11,8 +11,8 @@
       "value": "CUSTOM:Alphaver"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
+    "harvestLevel": 3,
+    "efficiency": 8.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,

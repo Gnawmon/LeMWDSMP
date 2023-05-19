@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "le_mwd_smp:block/mine_watch_camera"
+    },
+    "facing=east": {
+      "model": "le_mwd_smp:block/mine_watch_camera",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "le_mwd_smp:block/mine_watch_camera",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "le_mwd_smp:block/mine_watch_camera",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "le_mwd_smp:block/mine_watch_camera",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "le_mwd_smp:block/mine_watch_camera",
+      "x": 90
+    }
+  }
+}

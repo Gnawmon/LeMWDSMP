@@ -22,7 +22,7 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": ""
+      "value": "CUSTOM:CatCubeYou"
     },
     "portalParticles": {
       "value": "EXPLOSION_NORMAL"
@@ -35,8 +35,8 @@
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "",
-    "portalTexture": "",
+    "texture": "edible_fire",
+    "portalTexture": "arg_fans",
     "enablePortal": false
   }
 }

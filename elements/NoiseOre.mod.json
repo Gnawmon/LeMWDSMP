@@ -35,7 +35,7 @@
     ],
     "name": "Noise Ore",
     "specialInfo": [],
-    "hardness": 9.0,
+    "hardness": 5.0,
     "resistance": 12.041123426403463,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -133,8 +133,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 4,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 9,
     "minGenerateHeight": 1,
     "maxGenerateHeight": 23
   }

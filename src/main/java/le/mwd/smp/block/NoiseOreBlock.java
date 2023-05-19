@@ -63,7 +63,7 @@ public class NoiseOreBlock extends LeMwdSmpModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(9f, 12.041123426403463f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(5f, 12.041123426403463f).setLightLevel(s -> 0)
 					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("noise_ore");
 		}
@@ -118,8 +118,8 @@ public class NoiseOreBlock extends LeMwdSmpModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 2)).range(23)
-					.square().func_242731_b(4);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(23)
+					.square().func_242731_b(20);
 			event.getRegistry().register(feature.setRegistryName("noise_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("le_mwd_smp:noise_ore"), configuredFeature);
 		}

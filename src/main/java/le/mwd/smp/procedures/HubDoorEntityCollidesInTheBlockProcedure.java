@@ -1,9 +1,5 @@
 package le.mwd.smp.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
-
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
@@ -38,72 +34,43 @@ public class HubDoorEntityCollidesInTheBlockProcedure {
 		}
 		IWorld world = (IWorld) dependencies.get("world");
 		Entity entity = (Entity) dependencies.get("entity");
-		new Object() {
-			private int ticks = 0;
-			private float waitTicks;
-			private IWorld world;
-
-			public void start(IWorld world, int waitTicks) {
-				this.waitTicks = waitTicks;
-				MinecraftForge.EVENT_BUS.register(this);
-				this.world = world;
-			}
-
-			@SubscribeEvent
-			public void tick(TickEvent.ServerTickEvent event) {
-				if (event.phase == TickEvent.Phase.END) {
-					this.ticks += 1;
-					if (this.ticks >= this.waitTicks)
-						run();
-				}
-			}
-
-			private void run() {
-				if ((world instanceof World ? (((World) world).getDimensionKey()) : World.OVERWORLD) == (RegistryKey
-						.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("le_mwd_smp:hub")))) {
-					{
-						Entity _ent = entity;
-						if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-							RegistryKey<World> destinationType = World.OVERWORLD;
-							ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-							if (nextWorld != null) {
-								((ServerPlayerEntity) _ent).connection
-										.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-								((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(),
-										nextWorld.getSpawnPoint().getY() + 1, nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-								((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-								for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-									((ServerPlayerEntity) _ent).connection
-											.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-								}
-								((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-							}
+		if ((world instanceof World ? (((World) world).getDimensionKey()) : World.OVERWORLD) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
+				new ResourceLocation("le_mwd_smp:hub")))) {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+					RegistryKey<World> destinationType = World.OVERWORLD;
+					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+					if (nextWorld != null) {
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
+								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
 						}
-					}
-				} else {
-					{
-						Entity _ent = entity;
-						if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
-							RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY,
-									new ResourceLocation("le_mwd_smp:hub"));
-							ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
-							if (nextWorld != null) {
-								((ServerPlayerEntity) _ent).connection
-										.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
-								((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(),
-										nextWorld.getSpawnPoint().getY() + 1, nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
-								((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
-								for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
-									((ServerPlayerEntity) _ent).connection
-											.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
-								}
-								((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
-							}
-						}
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
 					}
 				}
-				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, (int) 20);
+		} else {
+			{
+				Entity _ent = entity;
+				if (!_ent.world.isRemote && _ent instanceof ServerPlayerEntity) {
+					RegistryKey<World> destinationType = RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("le_mwd_smp:hub"));
+					ServerWorld nextWorld = _ent.getServer().getWorld(destinationType);
+					if (nextWorld != null) {
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SChangeGameStatePacket(SChangeGameStatePacket.field_241768_e_, 0));
+						((ServerPlayerEntity) _ent).teleport(nextWorld, nextWorld.getSpawnPoint().getX(), nextWorld.getSpawnPoint().getY() + 1,
+								nextWorld.getSpawnPoint().getZ(), _ent.rotationYaw, _ent.rotationPitch);
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayerAbilitiesPacket(((ServerPlayerEntity) _ent).abilities));
+						for (EffectInstance effectinstance : ((ServerPlayerEntity) _ent).getActivePotionEffects()) {
+							((ServerPlayerEntity) _ent).connection.sendPacket(new SPlayEntityEffectPacket(_ent.getEntityId(), effectinstance));
+						}
+						((ServerPlayerEntity) _ent).connection.sendPacket(new SPlaySoundEventPacket(1032, BlockPos.ZERO, 0, false));
+					}
+				}
+			}
+		}
 	}
 }

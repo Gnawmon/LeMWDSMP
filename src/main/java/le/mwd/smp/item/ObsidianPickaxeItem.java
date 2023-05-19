@@ -29,7 +29,7 @@ public class ObsidianPickaxeItem extends LeMwdSmpModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 8f;
 			}
 
 			public float getAttackDamage() {
@@ -37,7 +37,7 @@ public class ObsidianPickaxeItem extends LeMwdSmpModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 1;
+				return 3;
 			}
 
 			public int getEnchantability() {
