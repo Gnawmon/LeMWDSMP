@@ -2377,6 +2377,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -2613,6 +2625,35 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "awd_icon"
+    },
+    {
+      "name": "PlaceBlock",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "place_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver/Procedures"
     }
   ],
   "variable_elements": [
@@ -2685,8 +2726,8 @@
     "ro_ro": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
-      "item.le_mwd_smp.key_card": "Card de Acces",
       "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
+      "item.le_mwd_smp.key_card": "Card de Acces",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -2858,8 +2899,8 @@
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Red Mojang Block",
-      "item.le_mwd_smp.key_card": "Key Card",
       "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
+      "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -3031,8 +3072,8 @@
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
-      "item.le_mwd_smp.key_card": "Anahtar Kartı",
       "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
+      "item.le_mwd_smp.key_card": "Anahtar Kartı",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
