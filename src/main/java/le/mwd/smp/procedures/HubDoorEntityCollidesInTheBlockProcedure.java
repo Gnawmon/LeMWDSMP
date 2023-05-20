@@ -1,9 +1,5 @@
 package le.mwd.smp.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
-
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
@@ -21,11 +17,8 @@ import net.minecraft.entity.Entity;
 
 import le.mwd.smp.LeMwdSmpMod;
 
-import java.util.stream.Stream;
 import java.util.Map;
-import java.util.HashMap;
 import java.util.Collections;
-import java.util.AbstractMap;
 
 public class HubDoorEntityCollidesInTheBlockProcedure {
 
@@ -116,34 +109,5 @@ public class HubDoorEntityCollidesInTheBlockProcedure {
 				}
 			}
 		}
-		new Object() {
-			private int ticks = 0;
-			private float waitTicks;
-			private IWorld world;
-
-			public void start(IWorld world, int waitTicks) {
-				this.waitTicks = waitTicks;
-				MinecraftForge.EVENT_BUS.register(this);
-				this.world = world;
-			}
-
-			@SubscribeEvent
-			public void tick(TickEvent.ServerTickEvent event) {
-				if (event.phase == TickEvent.Phase.END) {
-					this.ticks += 1;
-					if (this.ticks >= this.waitTicks)
-						run();
-				}
-			}
-
-			private void run() {
-
-				PlaceBlockProcedure.executeProcedure(Stream
-						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
-						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-				MinecraftForge.EVENT_BUS.unregister(this);
-			}
-		}.start(world, (int) 40);
 	}
 }

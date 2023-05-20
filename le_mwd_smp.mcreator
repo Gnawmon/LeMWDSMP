@@ -266,7 +266,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bugnation",
-      "path": "~/Alphaver/Mobs"
+      "path": "~/Alphaver/Blocks/Mobs"
     },
     {
       "name": "AdminOnlyItemsDisplayOverlayIngame",
@@ -2624,36 +2624,17 @@
       "sortid": 221,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "awd_icon"
+      "registry_name": "awd_icon",
+      "path": "~/Alphaver/Blocks"
     },
     {
-      "name": "PlaceBlock",
-      "type": "procedure",
+      "name": "BlueFlames",
+      "type": "structure",
       "sortid": 222,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "place_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Alphaver/Procedures"
+      "registry_name": "blue_flames",
+      "path": "~/Alphaver"
     }
   ],
   "variable_elements": [
@@ -3296,7 +3277,12 @@
         "children": [
           {
             "name": "Blocks",
-            "children": []
+            "children": [
+              {
+                "name": "Mobs",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Recipes",
@@ -3316,10 +3302,6 @@
           },
           {
             "name": "Procedures",
-            "children": []
-          },
-          {
-            "name": "Mobs",
             "children": []
           }
         ]
