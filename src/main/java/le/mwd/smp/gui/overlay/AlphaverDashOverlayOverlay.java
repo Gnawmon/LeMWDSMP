@@ -1,6 +1,7 @@
 
 package le.mwd.smp.gui.overlay;
 
+import net.minecraftforge.fml.client.gui.GuiUtils;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
@@ -8,14 +9,20 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.math.vector.Matrix4f;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.Minecraft;
 
 import com.mojang.blaze3d.systems.RenderSystem;
+
+import org.apache.commons.lang3.ObjectUtils.Null;
+import org.lwjgl.opengl.GL11;
+
 import com.mojang.blaze3d.platform.GlStateManager;
 
 @Mod.EventBusSubscriber
@@ -51,8 +58,14 @@ public class AlphaverDashOverlayOverlay {
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 			RenderSystem.disableAlphaTest();
 			if (true) {
-				Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("le_mwd_smp:textures/screens/dashbar.png"));
-				Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -49, posY + 28, 0, 0, 102, 7, 102, 7);
+				 Matrix4f matrix = new Matrix4f();
+		
+				 int i6 = 1920;
+				 int i7 = 1080;
+				GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(),2,i6 / 2 - 50 - 1, i7 - 90 - 1, i6 / 2 - 50 + 100 + 1, i7 - 90 + 5 + 1, -14671840, 0xFF000000);
+				
+				//Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("le_mwd_smp:textures/screens/dashbar.png"));
+			//	Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -49, posY + 28, 0, 0, 102, 7, 102, 7);
 
 			}
 			RenderSystem.depthMask(true);
@@ -61,6 +74,6 @@ public class AlphaverDashOverlayOverlay {
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 		}
 	}
-
+	
 
 }

@@ -53,7 +53,7 @@ public class BlueFlamesStructure {
 					if (!dimensionCriteria)
 						return false;
 					if ((random.nextInt(1000000) + 1) <= 100000) {
-						int count = random.nextInt(5) + 1;
+						int count = random.nextInt(1) + 3;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
