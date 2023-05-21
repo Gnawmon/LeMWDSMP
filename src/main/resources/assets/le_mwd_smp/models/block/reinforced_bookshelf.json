@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/ext_planks",
+    "up": "le_mwd_smp:blocks/ext_planks",
+    "north": "le_mwd_smp:blocks/reinforced_bookshelf",
+    "east": "le_mwd_smp:blocks/reinforced_bookshelf",
+    "south": "le_mwd_smp:blocks/reinforced_bookshelf",
+    "west": "le_mwd_smp:blocks/reinforced_bookshelf",
+    "particle": "le_mwd_smp:blocks/ext_planks"
+  }
+}

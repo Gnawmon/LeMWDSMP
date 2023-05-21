@@ -1,0 +1,25 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "salt_block",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 100000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 5,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "onStructureGenerated": {
+      "name": "SaltPillarsGeneration"
+    }
+  }
+}

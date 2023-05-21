@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "le_mwd_smp:blocks/gem_door_bottom",
+    "top": "le_mwd_smp:blocks/gem_door_top"
+  }
+}

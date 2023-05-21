@@ -1,0 +1,56 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "orbls_home",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "snowy_slopes"
+      },
+      {
+        "value": "cold_beach"
+      },
+      {
+        "value": "snowy_mountains"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "taiga_cold_hills"
+      },
+      {
+        "value": "mutated_taiga_cold"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "taiga"
+      },
+      {
+        "value": "taiga_hills"
+      },
+      {
+        "value": "mutated_taiga"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

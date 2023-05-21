@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "le_mwd_smp:blocks/low_river_lilypad",
+    "particle": "le_mwd_smp:blocks/low_river_lilypad"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "   ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:log"
+    },
+    "1": {
+      "item": "minecraft:log"
+    },
+    "2": {
+      "item": "minecraft:log"
+    },
+    "6": {
+      "item": "minecraft:log"
+    },
+    "7": {
+      "item": "minecraft:log"
+    },
+    "8": {
+      "item": "minecraft:log"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:empty_reinforced_bookshelf",
+    "count": 4
+  }
+}

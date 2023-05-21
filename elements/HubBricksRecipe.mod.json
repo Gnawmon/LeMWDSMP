@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LowRiverStone"
+      },
+      {
+        "value": "CUSTOM:LowRiverStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LowRiverStone"
+      },
+      {
+        "value": "CUSTOM:LowRiverStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HubBricks"
+    },
+    "name": "hub_bricks_recipe",
+    "namespace": "mod"
+  }
+}

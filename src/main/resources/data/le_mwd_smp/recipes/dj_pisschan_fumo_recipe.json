@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "1": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "2": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "3": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "4": {
+      "item": "le_mwd_smp:arg_fans"
+    },
+    "5": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "6": {
+      "item": "minecraft:cyan_wool"
+    },
+    "7": {
+      "item": "minecraft:magenta_wool"
+    },
+    "8": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:dj_pisschan_fumo",
+    "count": 1
+  }
+}

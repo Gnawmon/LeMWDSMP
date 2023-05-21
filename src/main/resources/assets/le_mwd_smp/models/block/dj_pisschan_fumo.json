@@ -1,0 +1,8 @@
+{
+  "parent": "le_mwd_smp:custom/dj_pisschan_fumo",
+  "textures": {
+    "all": "le_mwd_smp:blocks/dj_pisschan_fumo",
+    "particle": "le_mwd_smp:blocks/dj_pisschan_fumo",
+    "0": "le_mwd_smp:blocks/dj_pisschan_fumo"
+  }
+}

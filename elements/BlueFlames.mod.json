@@ -3,7 +3,7 @@
   "_type": "structure",
   "definition": {
     "structure": "flames",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 100000,
     "minCountPerChunk": 3,

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/gem_log_top",
+    "up": "le_mwd_smp:blocks/gem_log_top",
+    "north": "le_mwd_smp:blocks/gem_log_side",
+    "east": "le_mwd_smp:blocks/gem_log_side",
+    "south": "le_mwd_smp:blocks/gem_log_side",
+    "west": "le_mwd_smp:blocks/gem_log_side",
+    "particle": "le_mwd_smp:blocks/gem_log_top"
+  }
+}

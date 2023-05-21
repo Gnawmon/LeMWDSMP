@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "salt_block",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 20,
+    "minCountPerChunk": 2,
+    "maxCountPerChunk": 6,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 0,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "Nether"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "onStructureGenerated": {
+      "name": "SaltPillarGenerationOnGenerated"
+    }
+  }
+}

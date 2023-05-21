@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "le_mwd_smp:hub_bricks"
+    },
+    "1": {
+      "item": "le_mwd_smp:hub_bricks"
+    },
+    "2": {
+      "item": "le_mwd_smp:hub_bricks"
+    },
+    "3": {
+      "item": "le_mwd_smp:hub_bricks"
+    }
+  },
+  "result": {
+    "item": "le_mwd_smp:low_river_stone_tiles",
+    "count": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "viviverns_home_r2",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -8,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.SAND#0"
+      },
+      {
+        "value": "Blocks.SAND#1"
+      }
+    ],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

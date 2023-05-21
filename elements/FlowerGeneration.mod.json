@@ -3,7 +3,7 @@
   "_type": "structure",
   "definition": {
     "structure": "flower",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
     "spawnProbability": 15000,
     "minCountPerChunk": 5,

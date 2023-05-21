@@ -50,16 +50,16 @@ public class TrollroomStructureStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 15) {
+					if ((random.nextInt(1000000) + 1) <= 800) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
 							int k = ck + random.nextInt(16);
-							int j = world.getHeight(Heightmap.Type.WORLD_SURFACE_WG, i, k);
+							int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
 							j -= 1;
-							Rotation rotation = Rotation.values()[random.nextInt(3)];
-							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + -75, k + 0);
+							Rotation rotation = Rotation.NONE;
+							Mirror mirror = Mirror.NONE;
+							BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();

@@ -1,0 +1,26 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "salt_block_2",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 200000,
+    "minCountPerChunk": 8,
+    "maxCountPerChunk": 16,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "Nether"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "onStructureGenerated": {
+      "name": "UndergroundSaltPillarsGeneration"
+    }
+  }
+}

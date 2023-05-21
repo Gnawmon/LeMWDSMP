@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "le_mwd_smp:blocks/solid_cyan_glass",
+    "particle": "le_mwd_smp:blocks/solid_cyan_glass"
+  }
+}

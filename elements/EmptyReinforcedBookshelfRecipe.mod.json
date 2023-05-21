@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.LOG"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EmptyReinforcedBookshelf"
+    },
+    "name": "empty_reinforced_bookshelf_recipe",
+    "namespace": "mod"
+  }
+}

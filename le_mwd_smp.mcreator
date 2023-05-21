@@ -2635,6 +2635,596 @@
       "locked_code": false,
       "registry_name": "blue_flames",
       "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "ORBLsHome",
+      "type": "structure",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_ls_home",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "StructureWall",
+      "type": "block",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "structure_wall",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "DJPisschanFumoRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dj_pisschan_fumo_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "HubBricks",
+      "type": "block",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_bricks",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "GemPlanks",
+      "type": "block",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_planks",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "GemLog",
+      "type": "block",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_log",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "GemLeaves",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_leaves",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "LowRiverStone",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_river_stone",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "AndrewWell",
+      "type": "structure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andrew_well",
+      "path": "~/General"
+    },
+    {
+      "name": "EpicUnrelatedStructure",
+      "type": "structure",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "epic_unrelated_structure"
+    },
+    {
+      "name": "SaltPyramid",
+      "type": "structure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_pyramid",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "VivivernStructure",
+      "type": "structure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vivivern_structure",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "MiniOrderOfTheStone",
+      "type": "structure",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mini_order_of_the_stone",
+      "path": "~/Lavacrusader/Misc"
+    },
+    {
+      "name": "SaltGenerationOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_generation_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/General"
+    },
+    {
+      "name": "CyanGlassLamp",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_glass_lamp",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "GreenGlassLamp",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_glass_lamp",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "PurpleGlassLamp",
+      "type": "block",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_glass_lamp",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "DJPisschanFumo",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dj_pisschan_fumo",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "LowRiverLilypad",
+      "type": "block",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_river_lilypad",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "ReinforcedBookshelf",
+      "type": "block",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_bookshelf",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "EmptyReinforcedBookshelf",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_reinforced_bookshelf",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "ReinforcedBookshelfRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reinforced_bookshelf_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "EmptyReinforcedBookshelfRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "empty_reinforced_bookshelf_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "CyanGlassLampRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_glass_lamp_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "GreenGlassLampRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_glass_lamp_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "PurpleGlassLampRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_glass_lamp_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "GemDoor",
+      "type": "block",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gem_door",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "VivivernsHome",
+      "type": "structure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "viviverns_home",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "SaltPillarsGeneration",
+      "type": "procedure",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_pillars_generation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver/Procedures"
+    },
+    {
+      "name": "UndergroundSaltPillarsGeneration",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_salt_pillars_generation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Alphaver/Procedures"
+    },
+    {
+      "name": "SaltGeneration",
+      "type": "structure",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salt_generation",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "UndergroundSaltGeneration",
+      "type": "structure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_salt_generation",
+      "path": "~/Alphaver/Misc"
+    },
+    {
+      "name": "HubBricksRecipe",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_bricks_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "LowRiverStoneTiles",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_river_stone_tiles",
+      "path": "~/Alphaver/Blocks"
+    },
+    {
+      "name": "LowRiverStoneTilesRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "low_river_stone_tiles_recipe",
+      "path": "~/Alphaver/Recipes"
+    },
+    {
+      "name": "Abode",
+      "type": "painting",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abode",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Green",
+      "type": "painting",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Blue",
+      "type": "painting",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Red",
+      "type": "painting",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Nebula",
+      "type": "painting",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nebula",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Sunrise",
+      "type": "painting",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunrise",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Niceland",
+      "type": "painting",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niceland",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Mist",
+      "type": "painting",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mist",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Sky",
+      "type": "painting",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Curves",
+      "type": "painting",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curves",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Figure",
+      "type": "painting",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "figure",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Contrast",
+      "type": "painting",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contrast",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Demo",
+      "type": "painting",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demo",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Squares",
+      "type": "painting",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squares",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Cube",
+      "type": "painting",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cube",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "Entrance",
+      "type": "painting",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entrance",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "StaticPainting",
+      "type": "painting",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "static_painting",
+      "path": "~/Alphaver/Paintings"
+    },
+    {
+      "name": "WePartakeInAMinorAmountOfTomFoolery",
+      "type": "painting",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "we_partake_in_a_minor_amount_of_tom_foolery",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Gilbert",
+      "type": "painting",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gilbert",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Topg",
+      "type": "painting",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topg",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Gamer",
+      "type": "painting",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamer",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Springtrap",
+      "type": "painting",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "springtrap",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "Methscop",
+      "type": "painting",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methscop",
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AndrewsHouse",
+      "type": "structure",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "andrews_house",
+      "path": "~/General"
     }
   ],
   "variable_elements": [
@@ -2707,8 +3297,8 @@
     "ro_ro": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Cubul Mojang",
-      "item.le_mwd_smp.key_card": "Card de Acces",
       "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
+      "item.le_mwd_smp.key_card": "Card de Acces",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -2724,6 +3314,7 @@
       "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "biome.le_mwd_smp.hub_biome": "Hub Biome",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
+      "block.le_mwd_smp.empty_reinforced_bookshelf": "Reinforced Bookshelf",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
       "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.star_block": "✺ Block",
@@ -2731,6 +3322,7 @@
       "block.le_mwd_smp.key_hole": "Gaura Cheii",
       "block.le_mwd_smp.black_light": "Black Light",
       "block.le_mwd_smp.laugh_block": "Cubul Râsului",
+      "block.le_mwd_smp.gem_door": "Gem Door",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Cheia Avântului Dezmembratorului",
@@ -2744,6 +3336,7 @@
       "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.arg_fans": "Arg Fans",
       "block.le_mwd_smp.blue_dandelion": "Blue Dandelion",
+      "block.le_mwd_smp.green_glass_lamp": "Cyan Glass Lamp",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar 2",
       "block.le_mwd_smp.thing": "Chestie",
       "item.le_mwd_smp.flameberge": "Flameberge",
@@ -2755,6 +3348,7 @@
       "block.le_mwd_smp.dbg_block": "DBG Block",
       "block.le_mwd_smp.purpur_bricks": "Purpur Bricks",
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
+      "block.le_mwd_smp.dj_pisschan_fumo": "DJ Pi55chan Fumo",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
       "block.le_mwd_smp.mine_watch_camera": "Mine Watch Camera",
@@ -2762,13 +3356,16 @@
       "block.le_mwd_smp.salt_brick_wall": "Salt Brick Stairs",
       "itemGroup.tabcat_cube": "Cubul Pisicii",
       "block.le_mwd_smp.salt_tile_slab": "Salt Tiles",
+      "block.le_mwd_smp.low_river_stone_tiles": "Low River Stone Tiles",
       "block.le_mwd_smp.blue_tile": "Blue Tile",
       "block.le_mwd_smp.noise_ore": "Minereu de Zgomotul",
       "item.le_mwd_smp.obsidian_armor_leggings": "Obsidian Leggings",
       "item.le_mwd_smp.void_key": "Cheia Vidului",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
+      "block.le_mwd_smp.cyan_glass_lamp": "Cyan Glass Lamp",
       "itemGroup.tabthe_bottom_of_the_void": "Fundul Vidului",
       "block.le_mwd_smp.fake_dirt": "Cub de Pământ Fals",
+      "block.le_mwd_smp.low_river_lilypad": "Infused Flower",
       "item.le_mwd_smp.server_drive": "Diskul Serverului",
       "block.le_mwd_smp.slaize_60": "Slaize 6 0",
       "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
@@ -2803,6 +3400,7 @@
       "block.le_mwd_smp.cat_cube_you": "Cubul Pisicii (Tu)",
       "item.le_mwd_smp.assetstilesdeny": "assets_tiles_deny",
       "block.le_mwd_smp.realityspace_tile_block": "Realityspace Pattern Block",
+      "block.le_mwd_smp.purple_glass_lamp": "Green Glass Lamp",
       "block.le_mwd_smp.cat_cube_original": "Cubul Pisicii (Original)",
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.lc_black_window": "Black Window",
@@ -2839,10 +3437,13 @@
       "block.le_mwd_smp.hallowed_bricks": "Hallowed Bricks",
       "block.le_mwd_smp.multicolor_tile": "Multicolor Tile",
       "item.le_mwd_smp.noise": "Bijuteria Zgomotului",
+      "block.le_mwd_smp.gem_planks": "Gem Planks",
+      "block.le_mwd_smp.gem_leaves": "Gem Leaves",
       "block.le_mwd_smp.fake_grass": "Cub de Iarbă Fals",
       "item.le_mwd_smp.dbg_spawn_egg": "Dbg Spawn Egg",
       "block.le_mwd_smp.stair_ladder": "Stair Ladder",
       "item.le_mwd_smp.bugnation_spawn_egg": "Ou de sumonare a lui bug_nation (TEMPORARY THIS TRANSLATION SUCKS LMFAO)",
+      "block.le_mwd_smp.structure_wall": "Structure Wall",
       "item.le_mwd_smp.obsidian_ingot": "Obsidian Ingot",
       "block.le_mwd_smp.launcher_block": "Launcher Block",
       "block.le_mwd_smp.cube_of_heaven": "Cube Of Heaven",
@@ -2851,6 +3452,7 @@
       "block.le_mwd_smp.cat_cube_me": "Cubul Pisicii (Eu)",
       "block.le_mwd_smp.black_tile": "Țiglă Neagră",
       "block.le_mwd_smp.salt_brick_slab": "Salt Bricks",
+      "block.le_mwd_smp.low_river_stone": "Low River Stone",
       "block.le_mwd_smp.realityspace_ms_pacman_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.red_console": "Terminal Roșu",
       "block.le_mwd_smp.tiles": "Țiglă",
@@ -2867,9 +3469,12 @@
       "block.le_mwd_smp.wall_4": "Perete 4",
       "block.le_mwd_smp.wall_3": "Perete 3",
       "item.le_mwd_smp.steel_rod": "Steel Rod",
+      "block.le_mwd_smp.hub_bricks": "Hub Bricks",
+      "block.le_mwd_smp.gem_log": "Gem Log",
       "block.le_mwd_smp.black_window": "Geam Negru",
       "block.le_mwd_smp.fake_stone_bricks": "Fake Stone Bricks",
       "block.le_mwd_smp.salt_tiles": "Salt Tiles",
+      "block.le_mwd_smp.reinforced_bookshelf": "Reinforced Bookshelf",
       "item.le_mwd_smp.disc_negative_7": "Discul -7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
       "block.le_mwd_smp.realityspace_pattern_block": "Realityspac Ms. Pacman Block",
@@ -2880,8 +3485,8 @@
     "en_us": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Red Mojang Block",
-      "item.le_mwd_smp.key_card": "Key Card",
       "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Chestplate",
+      "item.le_mwd_smp.key_card": "Key Card",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -2897,6 +3502,7 @@
       "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "biome.le_mwd_smp.hub_biome": "Hub Biome",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
+      "block.le_mwd_smp.empty_reinforced_bookshelf": "Empty Reinforced Bookshelf",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
       "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.fan": "Server Cooling Fan",
@@ -2904,6 +3510,7 @@
       "block.le_mwd_smp.key_hole": "Key Hole",
       "block.le_mwd_smp.black_light": "Light Tiles",
       "block.le_mwd_smp.laugh_block": "Laugh Block",
+      "block.le_mwd_smp.gem_door": "Gem Door",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash ",
@@ -2917,6 +3524,7 @@
       "block.le_mwd_smp.drumptoil_2": "Sun Block",
       "block.le_mwd_smp.arg_fans": ":Arg _Fans:",
       "block.le_mwd_smp.blue_dandelion": "Blue Dandelion",
+      "block.le_mwd_smp.green_glass_lamp": "Green Glass Lamp",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar",
       "block.le_mwd_smp.thing": "Thing",
       "item.le_mwd_smp.flameberge": "Flameberge",
@@ -2928,6 +3536,7 @@
       "block.le_mwd_smp.dbg_block": "DBG Block",
       "block.le_mwd_smp.purpur_bricks": "Purpur Bricks",
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
+      "block.le_mwd_smp.dj_pisschan_fumo": "DJ Pi55chan Fumo",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Cyan Mojang Block",
       "block.le_mwd_smp.mine_watch_camera": "MineWatch Camera",
@@ -2935,13 +3544,16 @@
       "block.le_mwd_smp.salt_brick_wall": "Salt Brick Wall",
       "itemGroup.tabcat_cube": "Cat Cube",
       "block.le_mwd_smp.salt_tile_slab": "Salt Tile Slab",
+      "block.le_mwd_smp.low_river_stone_tiles": "Low River Stone Tiles",
       "block.le_mwd_smp.blue_tile": "Blue Tile",
       "block.le_mwd_smp.noise_ore": "Noise Ore",
       "item.le_mwd_smp.obsidian_armor_leggings": "Obsidian Leggings",
       "item.le_mwd_smp.void_key": "Void Key",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
+      "block.le_mwd_smp.cyan_glass_lamp": "Cyan Glass Lamp",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.fake_dirt": "Fake Dirt",
+      "block.le_mwd_smp.low_river_lilypad": "Low River Lilypad",
       "item.le_mwd_smp.server_drive": "Server Drive",
       "block.le_mwd_smp.slaize_60": "Slaize 6 0",
       "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
@@ -2976,6 +3588,7 @@
       "block.le_mwd_smp.cat_cube_you": "001 grenades",
       "item.le_mwd_smp.assetstilesdeny": "assets_tiles_deny",
       "block.le_mwd_smp.realityspace_tile_block": "Realityspace Tile Block",
+      "block.le_mwd_smp.purple_glass_lamp": "Purple Glass Lamp",
       "block.le_mwd_smp.cat_cube_original": "Vinny",
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.lc_black_window": "Glass Tile",
@@ -3012,10 +3625,13 @@
       "block.le_mwd_smp.hallowed_bricks": "Hallowed Bricks",
       "block.le_mwd_smp.multicolor_tile": "Multicolor Tile",
       "item.le_mwd_smp.noise": "Noise Gem",
+      "block.le_mwd_smp.gem_planks": "Gem Planks",
+      "block.le_mwd_smp.gem_leaves": "Gem Leaves",
       "block.le_mwd_smp.fake_grass": "Fake Grass",
       "item.le_mwd_smp.dbg_spawn_egg": "Dbg Spawn Egg",
       "block.le_mwd_smp.stair_ladder": "Stair Ladder",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
+      "block.le_mwd_smp.structure_wall": "Structure Wall",
       "item.le_mwd_smp.obsidian_ingot": "Obsidian Ingot",
       "block.le_mwd_smp.launcher_block": "Launcher Block",
       "block.le_mwd_smp.cube_of_heaven": "Cube Of Heaven",
@@ -3024,6 +3640,7 @@
       "block.le_mwd_smp.cat_cube_me": "001 me grenades",
       "block.le_mwd_smp.black_tile": "Black Tile",
       "block.le_mwd_smp.salt_brick_slab": "Salt Brick Slab",
+      "block.le_mwd_smp.low_river_stone": "Low River Stone",
       "block.le_mwd_smp.realityspace_ms_pacman_block": "Realityspace Ms. Pacman Block",
       "block.le_mwd_smp.red_console": "Terminal",
       "block.le_mwd_smp.tiles": "Tile",
@@ -3040,9 +3657,12 @@
       "block.le_mwd_smp.wall_4": "Wall 4",
       "block.le_mwd_smp.wall_3": "Wall 3",
       "item.le_mwd_smp.steel_rod": "Steel Rod",
+      "block.le_mwd_smp.hub_bricks": "Hub Bricks",
+      "block.le_mwd_smp.gem_log": "Gem Log",
       "block.le_mwd_smp.black_window": "Black Window",
       "block.le_mwd_smp.fake_stone_bricks": "Fake Stone Bricks",
       "block.le_mwd_smp.salt_tiles": "Salt Tiles",
+      "block.le_mwd_smp.reinforced_bookshelf": "Reinforced Bookshelf",
       "item.le_mwd_smp.disc_negative_7": "Disc Negative 7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
       "block.le_mwd_smp.realityspace_pattern_block": "Realityspace Pattern Block",
@@ -3053,8 +3673,8 @@
     "tr_tr": {
       "itemGroup.tabalphaver": "Alphaver",
       "block.le_mwd_smp.mojang_block": "Mojang Bloku",
-      "item.le_mwd_smp.key_card": "Anahtar Kartı",
       "item.le_mwd_smp.obsidian_armor_chestplate": "Obsidian Body",
+      "item.le_mwd_smp.key_card": "Anahtar Kartı",
       "block.le_mwd_smp.developer_space_pillar": "Developer Space Pillar",
       "block.le_mwd_smp.realityspace_arrow_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.slaize_90": "Slaize 9 0",
@@ -3070,6 +3690,7 @@
       "block.le_mwd_smp.slaize_100": "Slaize 1 0 0",
       "biome.le_mwd_smp.hub_biome": "Hub Biome",
       "block.le_mwd_smp.dbg_cross": "DBG Cross",
+      "block.le_mwd_smp.empty_reinforced_bookshelf": "Reinforced Bookshelf",
       "item.le_mwd_smp.obisidian_sword": "Obisidian Sword",
       "item.le_mwd_smp.fryshroom": "Fryshroom",
       "block.le_mwd_smp.star_block": "✺ Block",
@@ -3077,6 +3698,7 @@
       "block.le_mwd_smp.key_hole": "Anahtar Deliği",
       "block.le_mwd_smp.black_light": "Black Light",
       "block.le_mwd_smp.laugh_block": "Gülme Bloku",
+      "block.le_mwd_smp.gem_door": "Gem Door",
       "block.le_mwd_smp.slaize_80": "Slaize 8 0",
       "item.le_mwd_smp.obsidian_hoe": "Obsidian Hoe",
       "key.le_mwd_smp.dismantler_dash_key": "Dismantler Dash Key",
@@ -3090,6 +3712,7 @@
       "block.le_mwd_smp.drumptoil_2": "Drumptoil 2",
       "block.le_mwd_smp.arg_fans": "Arg Fans",
       "block.le_mwd_smp.blue_dandelion": "Blue Dandelion",
+      "block.le_mwd_smp.green_glass_lamp": "Cyan Glass Lamp",
       "block.le_mwd_smp.black_pillar_2": "Black Pillar 2",
       "block.le_mwd_smp.thing": "Bir Şey",
       "item.le_mwd_smp.flameberge": "Ateşlerin Kılıcı",
@@ -3101,6 +3724,7 @@
       "block.le_mwd_smp.dbg_block": "DBG Block",
       "block.le_mwd_smp.purpur_bricks": "Purpur Bricks",
       "item.le_mwd_smp.jumpgrade": "Jumpgrade",
+      "block.le_mwd_smp.dj_pisschan_fumo": "DJ Pi55chan Fumo",
       "block.le_mwd_smp.server_rack": "Server Rack",
       "block.le_mwd_smp.blue_mojang_block": "Blue Mojang Block",
       "block.le_mwd_smp.mine_watch_camera": "Mine Watch Camera",
@@ -3108,13 +3732,16 @@
       "block.le_mwd_smp.salt_brick_wall": "Salt Brick Stairs",
       "itemGroup.tabcat_cube": "Küp Kedi",
       "block.le_mwd_smp.salt_tile_slab": "Salt Tiles",
+      "block.le_mwd_smp.low_river_stone_tiles": "Low River Stone Tiles",
       "block.le_mwd_smp.blue_tile": "Blue Tile",
       "block.le_mwd_smp.noise_ore": "Gürültü Cevheri",
       "item.le_mwd_smp.obsidian_armor_leggings": "Obsidian Leggings",
       "item.le_mwd_smp.void_key": "Boşluk Anahtarı",
       "block.le_mwd_smp.black_prismarine": "Black Prismarine",
+      "block.le_mwd_smp.cyan_glass_lamp": "Cyan Glass Lamp",
       "itemGroup.tabthe_bottom_of_the_void": "The Bottom Of The Void",
       "block.le_mwd_smp.fake_dirt": "Sahte Toprak",
+      "block.le_mwd_smp.low_river_lilypad": "Infused Flower",
       "item.le_mwd_smp.server_drive": "Sunucu Sürücüsü",
       "block.le_mwd_smp.slaize_60": "Slaize 6 0",
       "block.le_mwd_smp.obsidian_infused_flower": "Obsidian Infused Flower",
@@ -3149,6 +3776,7 @@
       "block.le_mwd_smp.cat_cube_you": "Küp Kedi Sen",
       "item.le_mwd_smp.assetstilesdeny": "assets_tiles_deny",
       "block.le_mwd_smp.realityspace_tile_block": "Realityspace Pattern Block",
+      "block.le_mwd_smp.purple_glass_lamp": "Green Glass Lamp",
       "block.le_mwd_smp.cat_cube_original": "Küp Kedi Orijinal",
       "itemGroup.tabjohn": "John",
       "block.le_mwd_smp.lc_black_window": "Black Window",
@@ -3185,10 +3813,13 @@
       "block.le_mwd_smp.hallowed_bricks": "Hallowed Bricks",
       "block.le_mwd_smp.multicolor_tile": "Multicolor Tile",
       "item.le_mwd_smp.noise": "Gürültü Mücevheri",
+      "block.le_mwd_smp.gem_planks": "Gem Planks",
+      "block.le_mwd_smp.gem_leaves": "Gem Leaves",
       "block.le_mwd_smp.fake_grass": "Sahte Çim",
       "item.le_mwd_smp.dbg_spawn_egg": "Dbg Spawn Egg",
       "block.le_mwd_smp.stair_ladder": "Stair Ladder",
       "item.le_mwd_smp.bugnation_spawn_egg": "Bugnation Spawn Egg",
+      "block.le_mwd_smp.structure_wall": "Structure Wall",
       "item.le_mwd_smp.obsidian_ingot": "Obsidian Ingot",
       "block.le_mwd_smp.launcher_block": "Launcher Block",
       "block.le_mwd_smp.cube_of_heaven": "Cube Of Heaven",
@@ -3197,6 +3828,7 @@
       "block.le_mwd_smp.cat_cube_me": "Küp Kedi Ben",
       "block.le_mwd_smp.black_tile": "Siyah Fayans",
       "block.le_mwd_smp.salt_brick_slab": "Salt Bricks",
+      "block.le_mwd_smp.low_river_stone": "Low River Stone",
       "block.le_mwd_smp.realityspace_ms_pacman_block": "Realityspace Arrow Block",
       "block.le_mwd_smp.red_console": "Kırmızı Konsol",
       "block.le_mwd_smp.tiles": "Fayans",
@@ -3213,9 +3845,12 @@
       "block.le_mwd_smp.wall_4": "Duvar 4",
       "block.le_mwd_smp.wall_3": "Duvar 3",
       "item.le_mwd_smp.steel_rod": "Steel Rod",
+      "block.le_mwd_smp.hub_bricks": "Hub Bricks",
+      "block.le_mwd_smp.gem_log": "Gem Log",
       "block.le_mwd_smp.black_window": "Siyah Pencere",
       "block.le_mwd_smp.fake_stone_bricks": "Fake Stone Bricks",
       "block.le_mwd_smp.salt_tiles": "Salt Tiles",
+      "block.le_mwd_smp.reinforced_bookshelf": "Reinforced Bookshelf",
       "item.le_mwd_smp.disc_negative_7": "Disk Negatif 7",
       "block.le_mwd_smp.tile_with_vertical_line": "Tile With Vertical Line",
       "block.le_mwd_smp.realityspace_pattern_block": "Realityspac Ms. Pacman Block",
@@ -3303,12 +3938,21 @@
           {
             "name": "Procedures",
             "children": []
+          },
+          {
+            "name": "Paintings",
+            "children": []
           }
         ]
       },
       {
         "name": "Lavacrusader",
-        "children": []
+        "children": [
+          {
+            "name": "Misc",
+            "children": []
+          }
+        ]
       },
       {
         "name": "RAVD",
@@ -3318,6 +3962,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Paintings",
+        "children": []
       }
     ]
   },

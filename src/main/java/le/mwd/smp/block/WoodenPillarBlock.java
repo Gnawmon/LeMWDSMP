@@ -80,6 +80,16 @@ public class WoodenPillarBlock extends LeMwdSmpModElements.ModElement {
 		}
 
 		@Override
+		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 10;
+		}
+
+		@Override
+		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
+			return 20;
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())

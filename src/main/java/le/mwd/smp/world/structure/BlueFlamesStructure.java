@@ -67,8 +67,8 @@ public class BlueFlamesStructure {
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
-							Rotation rotation = Rotation.values()[random.nextInt(3)];
-							Mirror mirror = Mirror.values()[random.nextInt(2)];
+							Rotation rotation = Rotation.NONE;
+							Mirror mirror = Mirror.NONE;
 							BlockPos spawnTo = new BlockPos(i + 0, j + 13, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();

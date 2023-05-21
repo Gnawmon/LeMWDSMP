@@ -3,9 +3,9 @@
   "_type": "structure",
   "definition": {
     "structure": "laughroom",
-    "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First block",
-    "spawnProbability": 25,
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Underground",
