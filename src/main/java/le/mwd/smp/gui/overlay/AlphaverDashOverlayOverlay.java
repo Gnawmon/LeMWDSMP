@@ -9,7 +9,6 @@ import net.minecraftforge.client.event.RenderGameOverlayEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.world.World;
@@ -19,6 +18,8 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.Minecraft;
 
 import com.mojang.blaze3d.systems.RenderSystem;
+
+import le.mwd.smp.LeMwdSmpModVariables;
 
 import org.apache.commons.lang3.ObjectUtils.Null;
 import org.lwjgl.opengl.GL11;
@@ -53,20 +54,23 @@ public class AlphaverDashOverlayOverlay {
 			double z = _z;
 			RenderSystem.disableDepthTest();
 			RenderSystem.depthMask(false);
-			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
+			RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA,
+					GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA,
 					GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 			RenderSystem.disableAlphaTest();
 			if (true) {
-				 Matrix4f matrix = new Matrix4f();
-		
-				 int i6 = 1920;
-				 int i7 = 1080;
-				GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(),2,i6 / 2 - 50 - 1, i7 - 90 - 1, i6 / 2 - 50 + 100 + 1, i7 - 90 + 5 + 1, -14671840, 0xFF000000);
-				
-				//Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("le_mwd_smp:textures/screens/dashbar.png"));
-			//	Minecraft.getInstance().ingameGUI.blit(event.getMatrixStack(), posX + -49, posY + 28, 0, 0, 102, 7, 102, 7);
 
+			
+				int dashTimer = (int) (world.getWorldInfo().getDayTime()
+						- LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime);
+				System.out.println(dashTimer);
+				if (dashTimer < 60) {
+					GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(), 1, w / 2 - 50 - 1,
+							h - 90 - 1, w / 2 - 50 + 100 + 1, h - 90 + 5 + 1, -14671840, 0xFF000000);
+					GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(), 2, w / 2 - 50, h - 90,
+							w / 2 - 50 + (int) (100.0F * (1.0F - dashTimer / 60.0F)), h - 90 + 5, -3584, -13893888);
+				}
 			}
 			RenderSystem.depthMask(true);
 			RenderSystem.enableDepthTest();
@@ -74,6 +78,5 @@ public class AlphaverDashOverlayOverlay {
 			RenderSystem.color4f(1.0F, 1.0F, 1.0F, 1.0F);
 		}
 	}
-	
 
 }
