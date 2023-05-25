@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:obsidian"
+  },
+  "result": {
+    "item": "le_mwd_smp:obsidian_ingot"
+  }
+}

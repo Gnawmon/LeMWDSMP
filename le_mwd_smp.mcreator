@@ -3225,6 +3225,15 @@
       "locked_code": false,
       "registry_name": "andrews_house",
       "path": "~/General"
+    },
+    {
+      "name": "ObsidianIngotRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_ingot_recipe",
+      "path": "~/Alphaver/Recipes"
     }
   ],
   "variable_elements": [
