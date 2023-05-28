@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "le_mwd_smp:block/hallowed_bricks_slab"
+    },
+    "type=top": {
+      "model": "le_mwd_smp:block/hallowed_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "le_mwd_smp:block/hallowed_bricks_slab_full"
+    }
+  }
+}

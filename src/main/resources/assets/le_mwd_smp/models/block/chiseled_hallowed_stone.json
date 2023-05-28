@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "le_mwd_smp:blocks/chiseled_hallowed_stone_top",
+    "up": "le_mwd_smp:blocks/chiseled_hallowed_stone_top",
+    "north": "le_mwd_smp:blocks/chiseled_hallowed_stone",
+    "east": "le_mwd_smp:blocks/chiseled_hallowed_stone",
+    "south": "le_mwd_smp:blocks/chiseled_hallowed_stone",
+    "west": "le_mwd_smp:blocks/chiseled_hallowed_stone",
+    "particle": "le_mwd_smp:blocks/chiseled_hallowed_stone_top"
+  }
+}

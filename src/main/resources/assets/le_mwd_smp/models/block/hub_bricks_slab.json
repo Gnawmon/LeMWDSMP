@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "le_mwd_smp:blocks/hub_bricks",
+    "top": "le_mwd_smp:blocks/hub_bricks",
+    "side": "le_mwd_smp:blocks/hub_bricks"
+  }
+}

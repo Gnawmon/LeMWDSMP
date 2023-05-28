@@ -36,12 +36,12 @@
     ],
     "name": "Gem Door",
     "specialInfo": [],
-    "hardness": 3.3,
+    "hardness": 1.8,
     "resistance": 3.7,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:TheBottomOfTheVoid"
+      "value": "CUSTOM:Alphaver"
     },
     "destroyTool": "Not specified",
     "customDrop": {

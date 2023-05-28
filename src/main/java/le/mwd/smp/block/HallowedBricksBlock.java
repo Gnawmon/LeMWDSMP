@@ -39,7 +39,7 @@ public class HallowedBricksBlock extends LeMwdSmpModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.2f, 17.5f).setLightLevel(s -> 0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.2f, 17.5f).setLightLevel(s -> 4)
 					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("hallowed_bricks");
 		}

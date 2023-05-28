@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Blocks.PLANKS#1"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpruceScaffold"
+    },
+    "name": "spruce_scaffold_recipe",
+    "namespace": "mod"
+  }
+}

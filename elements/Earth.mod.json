@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "painting",
+  "definition": {
+    "texture": "earth.png",
+    "width": 32,
+    "height": 32
+  }
+}

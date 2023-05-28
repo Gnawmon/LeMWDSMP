@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HallowedStone"
+      },
+      {
+        "value": "CUSTOM:HallowedStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HallowedStone"
+      },
+      {
+        "value": "CUSTOM:HallowedStone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HallowedBricks"
+    },
+    "name": "hallowed_bricks_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/oak_planks",
+    "up": "minecraft:block/oak_planks",
+    "north": "le_mwd_smp:blocks/empty_bookshelf",
+    "east": "le_mwd_smp:blocks/empty_bookshelf",
+    "south": "le_mwd_smp:blocks/empty_bookshelf",
+    "west": "le_mwd_smp:blocks/empty_bookshelf",
+    "particle": "le_mwd_smp:blocks/empty_bookshelf"
+  }
+}

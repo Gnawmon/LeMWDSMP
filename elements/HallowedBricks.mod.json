@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "quartz_bricks",
+    "texture": "hallowed_bricks",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 4,
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "spawnParticles": false,

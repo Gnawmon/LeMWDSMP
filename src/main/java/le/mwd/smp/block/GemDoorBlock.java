@@ -20,7 +20,7 @@ import net.minecraft.block.DoorBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import le.mwd.smp.itemgroup.TheBottomOfTheVoidItemGroup;
+import le.mwd.smp.itemgroup.AlphaverItemGroup;
 import le.mwd.smp.LeMwdSmpModElements;
 
 import java.util.List;
@@ -38,8 +38,7 @@ public class GemDoorBlock extends LeMwdSmpModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(
-				() -> new BlockItem(block, new Item.Properties().group(TheBottomOfTheVoidItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(AlphaverItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
@@ -50,7 +49,7 @@ public class GemDoorBlock extends LeMwdSmpModElements.ModElement {
 
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(3.3f, 3.7f).setLightLevel(s -> 0).notSolid()
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1.8f, 3.7f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("gem_door");
 		}
