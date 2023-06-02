@@ -61,16 +61,21 @@ public class AlphaverDashOverlayOverlay {
 			RenderSystem.disableAlphaTest();
 			if (true) {
 
-			
 				int dashTimer = (int) (world.getWorldInfo().getDayTime()
 						- LeMwdSmpModVariables.MapVariables.get(world).AlphaverDashKeyLastPressTime);
 				System.out.println(dashTimer);
 				if (dashTimer < 60) {
 					GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(), 1, w / 2 - 50 - 1,
 							h - 90 - 1, w / 2 - 50 + 100 + 1, h - 90 + 5 + 1, -14671840, 0xFF000000);
-					GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(), 2, w / 2 - 50, h - 90,
-							w / 2 - 50 + (int) (100.0F * (1.0F - dashTimer / 60.0F)), h - 90 + 5, -3584, -13893888);
+					if (dashTimer < 30) {
+						GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(), 2, w / 2 - 50, h - 90,
+								w / 2 - 50 + (int) (100.0F * (1.0F - dashTimer / 60.0F)), h - 90 + 5, -3584, -13893888);
+					} else{
+						GuiUtils.drawGradientRect(event.getMatrixStack().getLast().getMatrix(), 2, w / 2 - 50, h - 90,
+								w / 2 - 50 + (int) (100.0F * (1.0F - dashTimer / 60.0F)), h - 90 + 5, 0x2396D600, 0x1353A400);
+					}
 				}
+
 			}
 			RenderSystem.depthMask(true);
 			RenderSystem.enableDepthTest();

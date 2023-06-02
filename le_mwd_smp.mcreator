@@ -266,7 +266,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bugnation",
-      "path": "~/Alphaver/Blocks/Mobs"
+      "path": "~/Alphaver/Mobs"
     },
     {
       "name": "AdminOnlyItemsDisplayOverlayIngame",
@@ -3654,6 +3654,15 @@
       "locked_code": false,
       "registry_name": "terrain_block_generation",
       "path": "~/TBOTV/Misc"
+    },
+    {
+      "name": "AlphaverGiant",
+      "type": "livingentity",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alphaver_giant",
+      "path": "~/Alphaver/Mobs"
     }
   ],
   "variable_elements": [
@@ -4403,12 +4412,7 @@
         "children": [
           {
             "name": "Blocks",
-            "children": [
-              {
-                "name": "Mobs",
-                "children": []
-              }
-            ]
+            "children": []
           },
           {
             "name": "Recipes",
@@ -4432,6 +4436,10 @@
           },
           {
             "name": "Paintings",
+            "children": []
+          },
+          {
+            "name": "Mobs",
             "children": []
           }
         ]
