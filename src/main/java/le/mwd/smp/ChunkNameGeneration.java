@@ -2,12 +2,12 @@ package le.mwd.smp;
 
 public class ChunkNameGeneration{
     private static final String[] syllab = new String[]{"SIE", "LOH", "KII", "HUR", "MIS", "RUU", "VY", "KA", "TAV", "OLE", "PAH", "MUI", "MAT", "JA", "SAU", "NIN", "UD", "MU", "NGI", "BAR", "LUG", "MAH", "GIR", "AK", "USU", "ESE", "IRU", "UUN", "AMTU", "AGAS", "HI", "TOOI", "YORU", "NEN", "PON", "ONNA", "TSU", "YA", "AO", "ONI", "AN", "KO", "SHI", "YUME", "YARI", "TEST"};
-    public static String GenerateChunkName(double d, double e) {
-		long xchunk_butcooler = (long)(d + 392214);
-		long zchunk_butcooler = (long)(e + 392214);
+    public String GenerateChunkName(double chunkX, double chunkZ) {
+		long xchunk_butcooler = (long)(chunkX + 392214);
+		long zchunk_butcooler = (long)(chunkZ + 392214);
 		long thirdnumber = zchunk_butcooler * 784428L + xchunk_butcooler;
 
-		int i12 = (int)Math.sqrt((double)(d * d + e * e));
+		int i12 = (int)Math.sqrt((double)(chunkX * chunkX + chunkZ * chunkZ));
 		int i13 = 0;
 		int i14 = 3;
 

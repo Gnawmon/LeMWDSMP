@@ -1,6 +1,11 @@
 
 package le.mwd.smp.entity;
 
+import le.mwd.smp.ChunkNameGeneration;
+import net.minecraft.util.IReorderingProcessor;
+import net.minecraft.util.text.IFormattableTextComponent;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.Style;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
@@ -45,7 +50,7 @@ import net.minecraft.entity.CreatureAttribute;
 import le.mwd.smp.item.FlamebergeShardItem;
 import le.mwd.smp.entity.renderer.AlphaverGiantRenderer;
 import le.mwd.smp.LeMwdSmpModElements;
-import le.mwd.smp.ChunkNameGeneration;
+
 
 @LeMwdSmpModElements.ModElement.Tag
 public class AlphaverGiantEntity extends LeMwdSmpModElements.ModElement {
@@ -148,7 +153,12 @@ public class AlphaverGiantEntity extends LeMwdSmpModElements.ModElement {
 		public boolean isNonBoss() {
 			return false;
 		}
-        String bossBarString = this.getDisplayName() + " of " + "blah blah" ;
+
+
+
+
+
+
 		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.RED, BossInfo.Overlay.PROGRESS);
 
 		@Override
