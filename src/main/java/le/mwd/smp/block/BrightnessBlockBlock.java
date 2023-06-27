@@ -1,6 +1,9 @@
 
 package le.mwd.smp.block;
 
+import net.minecraft.block.RedstoneTorchBlock;
+import net.minecraft.state.BooleanProperty;
+import net.minecraft.world.World;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
@@ -38,10 +41,25 @@ public class BrightnessBlockBlock extends LeMwdSmpModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block {
+		public static final BooleanProperty LIT = RedstoneTorchBlock.LIT;
 		public CustomBlock() {
 			super(Block.Properties.create(Material.REDSTONE_LIGHT).sound(SoundType.GLASS).hardnessAndResistance(5f, 10f).setLightLevel(s -> 15)
 					.harvestLevel(2).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("brightness_block");
+		}
+
+		public void neighborChanged(BlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos, boolean isMoving) {
+			if (!worldIn.isRemote) {
+				boolean flag = state.get(LIT);
+				if (flag != worldIn.isBlockPowered(pos)) {
+					if (flag) {
+						worldIn.getPendingBlockTicks().scheduleTick(pos, this, 4);
+					} else {
+						worldIn.setBlockState(pos, state.func_235896_a_(LIT), 2);
+					}
+				}
+
+			}
 		}
 
 		@Override

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "le_mwd_smp:blocks/noise_gem_tile",
+    "top": "le_mwd_smp:blocks/noise_gem_tile",
+    "side": "le_mwd_smp:blocks/noise_gem_tile"
+  }
+}

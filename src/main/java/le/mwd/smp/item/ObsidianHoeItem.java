@@ -25,7 +25,7 @@ public class ObsidianHoeItem extends LeMwdSmpModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new HoeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1796;
 			}
 
 			public float getEfficiency() {

@@ -12,11 +12,11 @@
     },
     "toolType": "Axe",
     "harvestLevel": 1,
-    "efficiency": 4.0,
+    "efficiency": 8.5,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "enchantability": 15,
+    "damageVsEntity": 9.5,
+    "usageCount": 1796,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -24,7 +24,7 @@
         "value": "CUSTOM:ObsidianIngot"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

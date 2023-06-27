@@ -25,15 +25,15 @@ public class ObsidianAxeItem extends LeMwdSmpModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1796;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 8.5f;
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 7.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -41,13 +41,13 @@ public class ObsidianAxeItem extends LeMwdSmpModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(ObsidianIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(AlphaverItemGroup.tab)) {
+		}, 1, -3f, new Item.Properties().group(AlphaverItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("obsidian_axe"));
 	}
 }

@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Black Window",
+    "name": "Admin Space Glass",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -48,7 +48,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,

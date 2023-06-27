@@ -2,20 +2,21 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "botom2",
-    "textureTop": "blacktile",
-    "textureLeft": "admin_collumn_top",
-    "textureFront": "admin_collumn_top",
-    "textureRight": "admin_collumn_top",
-    "textureBack": "admin_collumn_top",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "noise_gem_tile",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,9 +34,9 @@
         "subtract": false
       }
     ],
-    "name": "Tile With Cross",
+    "name": "Noise Gem Stairs",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -52,9 +53,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +80,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "ANVIL"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +99,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

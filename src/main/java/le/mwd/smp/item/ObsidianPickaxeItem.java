@@ -33,7 +33,7 @@ public class ObsidianPickaxeItem extends LeMwdSmpModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 1796;
 			}
 
 			public float getEfficiency() {
@@ -41,7 +41,7 @@ public class ObsidianPickaxeItem extends LeMwdSmpModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 3.5f;
 			}
 
 			public int getHarvestLevel() {
@@ -49,13 +49,13 @@ public class ObsidianPickaxeItem extends LeMwdSmpModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(ObsidianIngotItem.block));
 			}
-		}, 1, -3f, new Item.Properties().group(AlphaverItemGroup.tab)) {
+		}, 1, -2.8f, new Item.Properties().group(AlphaverItemGroup.tab)) {
 			@Override
 			public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
 				boolean retval = super.onEntitySwing(itemstack, entity);

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "le_mwd_smp:block/noise_gem_tile_slab"
+    },
+    "type=top": {
+      "model": "le_mwd_smp:block/noise_gem_tile_slab_top"
+    },
+    "type=double": {
+      "model": "le_mwd_smp:block/noise_gem_tile_slab_full"
+    }
+  }
+}
